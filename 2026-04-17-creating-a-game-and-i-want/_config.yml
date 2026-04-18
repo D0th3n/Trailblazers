@@ -1,0 +1,14 @@
+title: "Trailblazers"
+description: "Lore, worldbuilding, dev updates, and art from the Trailblazers universe."
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: /updates/:title/
+collections:
+  pages:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
