@@ -13,8 +13,8 @@
 ### Task 1: Build and test the pure movement model
 
 **Files:**
-- Create: `trailblazers_trials_renpy/game/exploration_model.py`
-- Create: `trailblazers_trials_renpy/tests/test_exploration_model.py`
+- Create: `trailblazers_trials/game/exploration_model.py`
+- Create: `trailblazers_trials/tests/test_exploration_model.py`
 
 - [ ] Write failing tests for movement, collision, event lookup, and tile-to-pixel conversion.
 - [ ] Run the tests and confirm they fail for the missing module/functions.
@@ -24,10 +24,10 @@
 ### Task 2: Import placeholder public assets and compose the map
 
 **Files:**
-- Create: `trailblazers_trials_renpy/game/images/exploration/anozira_square_map.png`
-- Create: `trailblazers_trials_renpy/game/images/exploration/oren_map_token.png`
-- Modify: `trailblazers_trials_renpy/docs/ASSET_IMPORT_MAP.md`
-- Modify: `trailblazers_trials_renpy/game/data/asset_manifest.md`
+- Create: `trailblazers_trials/game/images/exploration/anozira_square_map.png`
+- Create: `trailblazers_trials/game/images/exploration/oren_map_token.png`
+- Modify: `trailblazers_trials/docs/ASSET_IMPORT_MAP.md`
+- Modify: `trailblazers_trials/game/data/asset_manifest.md`
 
 - [ ] Extract the Kenney Tiny Town pack into references for provenance.
 - [ ] Compose one 20x11 tile village map image for the prototype.
@@ -37,9 +37,9 @@
 ### Task 3: Add the Ren'Py exploration system
 
 **Files:**
-- Create: `trailblazers_trials_renpy/game/systems/exploration.rpy`
-- Modify: `trailblazers_trials_renpy/game/images.rpy`
-- Modify: `trailblazers_trials_renpy/game/variables.rpy`
+- Create: `trailblazers_trials/game/systems/exploration.rpy`
+- Modify: `trailblazers_trials/game/images.rpy`
+- Modify: `trailblazers_trials/game/variables.rpy`
 
 - [ ] Define map metadata, blocked tiles, optional event tiles, and HUD copy.
 - [ ] Add a modal exploration screen with keyboard movement and interaction prompts.
@@ -50,7 +50,7 @@
 ### Task 4: Integrate chapter 1
 
 **Files:**
-- Modify: `trailblazers_trials_renpy/game/chapters/chapter_01.rpy`
+- Modify: `trailblazers_trials/game/chapters/chapter_01.rpy`
 
 - [ ] Replace the immediate jump to the mayor scene with a short exploration label call.
 - [ ] Add one optional steaming-well interaction and one optional villager interaction.
@@ -62,5 +62,5 @@
 - No new files
 
 - [ ] Run `pytest` for the exploration model tests.
-- [ ] Run Ren'Py lint with `/Users/murks/Web-Projects/renpy-8.5.2-sdk/renpy.sh trailblazers_trials_renpy lint`.
+- [ ] Run Ren'Py lint with `/Users/murks/Web-Projects/renpy-8.5.2-sdk/renpy.sh trailblazers_trials lint`.
 - [ ] Fix any issues surfaced by either verification step before claiming completion.

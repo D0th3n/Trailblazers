@@ -15,7 +15,7 @@ This is a starter Ren'Py project for the Trailblazers universe. It is set up as 
 
 1. Download and open Ren'Py.
 2. In the Ren'Py launcher, choose the project directory:
-   `trailblazers_trials_renpy`
+   `trailblazers_trials`
 3. Launch the project.
 
 If Ren'Py does not detect it automatically, create a new Ren'Py project through the launcher, then copy this project's `game/` folder over the generated `game/` folder.
