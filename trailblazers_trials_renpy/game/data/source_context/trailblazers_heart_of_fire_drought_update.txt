@@ -1,0 +1,36 @@
+TRAILBLAZERS — HEART OF FIRE DROUGHT CAUSE UPDATE
+Timestamp: April 22, 2026 (America/New_York)
+
+PURPOSE:
+This file overrides the earlier Heart of Fire assumption that Ruzen is leaking fire-Qana or acting as a fire-Qana vent.
+
+LOCKED DROUGHT CAUSE:
+- Severence places a Titan-class fire golem deep within the Ruzen mines.
+- The Titan charges itself by feeding on fire energy from Ruzen deposits and lava heat deep inside the mountain.
+- While charging, the Titan superheats the surrounding mountain and ground.
+- This heat reaches underground water reservoirs connected to Anozira's wells.
+- The reservoirs evaporate or become steam-heavy, causing wells to run dry or release steam instead of usable water.
+- The hot ground prevents young srag, nairn, and sinu from surviving because the soil is outside their environmental temperature range.
+
+IMPORTANT CORRECTION:
+- The drought is not caused by fire-Qana leaking into the fields.
+- The mine is not "breathing" because it is alive.
+- The practical visible clues should be hot earth, steam, dry wells, scalding buckets, overheated tools, and crops failing from soil heat.
+- Ruzen mines remain the practical lead because they sit above/near the Titan's charging location.
+
+EARLY CHARACTER UNDERSTANDING:
+- Villagers do not know the Titan or Severence exist.
+- Villagers should describe symptoms in grounded terms: steam from wells, warm water, cracked hot soil, tools too hot to hold, and mine heat increasing after shutdown.
+- Embrum should suspect a deep geothermal/Qana heat source under Ruzen, not a named Titan or conspiracy.
+- Oren/Jötunn can sense that something is consuming power below, but Oren distrusts that insight.
+
+EMBRUM AND OREN UPDATE:
+- Embrum does not know much about Oren's true situation.
+- The kingdom assigned Oren to Embrum after Dravrah.
+- Embrum was told Oren is a Qana-unstable young man from Dravrah College.
+- Embrum knows Oren defeated a large creature at Dravrah while also destroying parts of the school.
+- Embrum interprets Oren's danger as loss of control over Qana output/power, especially under anger or emotional pressure.
+- Embrum does not interpret Oren's power as an unknown inner entity or mysterious anger.
+- Embrum warns Oren that if he loses control again and endangers kingdom citizens, Embrum will take him down to protect them.
+
+END OF FILE

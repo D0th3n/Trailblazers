@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "project": "Trailblazers",
+    "generated_at": "2026-04-21 America/New_York",
+    "purpose": "Machine-readable worldbuilding and story context for game/system coding"
+  },
+  "magic_system": {
+    "core_principle": "Magic is the fundamental building block of all matter and energy.",
+    "rules": {
+      "conservation": "Magic cannot be created or destroyed, only changed in form.",
+      "composition": "All matter is composed of quantum-like magic atoms.",
+      "environmental_interaction": "Climate determines biome type; mana density determines biome intensity and instability."
+    },
+    "states": [
+      {
+        "name": "elemental",
+        "description": "Common magic influenced by environment or intent into forms like fire, water, wind, and earth."
+      },
+      {
+        "name": "pure_white",
+        "description": "Pre-elemental raw magic with higher potency and harder control."
+      },
+      {
+        "name": "quantum",
+        "description": "Foundational state of magic governing reality consistency and timeline stability."
+      }
+    ],
+    "time_magic": {
+      "requirements": [
+        "Access to pure white magic",
+        "Specific activation method (poem, rune, circle, or equivalent key)",
+        "Knowledge held by Time Dragon"
+      ],
+      "rules": [
+        "Does not create alternate timelines",
+        "Only the user and directly affected targets are displaced",
+        "Reality re-merges after disturbance"
+      ]
+    },
+    "mana_system": {
+      "pools": [
+        "head",
+        "heart",
+        "stomach"
+      ],
+      "depletion_effect": "Magic fatigue when all three pools are depleted.",
+      "overuse_effect": "Body absorbs environmental magic, causing burning, aging, and possible death."
+    },
+    "race_magic_styles": {
+      "humans": {
+        "method": "Tool-based magic using Ether Resin and spell circles",
+        "notes": [
+          "Blood circles are archaic and illegal",
+          "Non-mages can use inscribed circles on weapons/armor"
+        ]
+      },
+      "elves": {
+        "method": "Language-based magic through poems, phrases, and structured words"
+      },
+      "orcs": {
+        "method": "Rune-based magic through fixed combinations and magical instructions"
+      },
+      "beastmen": {
+        "method": "Emotion-based magic used for self-enhancement and body augmentation"
+      },
+      "dragons": {
+        "method": "Natural use of pure white magic as an extension of pure mana souls"
+      }
+    },
+    "environmental_effects": {
+      "rule": "Natural weather + sufficient mana density = amplified biome-specific phenomena",
+      "examples": {
+        "desert": [
+          "fire tornadoes",
+          "mana mirages",
+          "surface ignition zones"
+        ],
+        "forest": [
+          "overgrowth surges",
+          "root shifts",
+          "spore clouds"
+        ],
+        "frost": [
+          "mana crystallization",
+          "frozen energy pockets",
+          "blizzard amplification"
+        ],
+        "jungle": [
+          "vine expansion events",
+          "mana saturation fog",
+          "water surges"
+        ],
+        "mountain": [
+          "mana fractures",
+          "avalanche amplification",
+          "air distortion currents"
+        ]
+      }
+    },
+    "human_magic_infrastructure": {
+      "ether_resin": "Manufactured magical substance used in wands and staffs to draw spell circles.",
+      "magic_recyclers": {
+        "function": "Absorb excess ambient mana and condense it into Mana Water.",
+        "purpose": "Prevent urban magical instability and convert ambient mana into usable potions.",
+        "failure_condition": "If overloaded, unstable magical phenomena can occur even in cities."
+      },
+      "device_regulation": {
+        "authority": "Crown Artifice Council (CAC)",
+        "rules": [
+          "Magical devices must be approved, licensed, and registered",
+          "Illegal experimentation is common among students and underground artificers"
+        ]
+      }
+    }
+  },
+  "biology": {
+    "core_principle": "All living organisms are composed of magic atoms; biology and magic are inseparable.",
+    "adaptation": {
+      "rule": "Creatures adapt rapidly to environment and mana exposure, creating subspecies rather than random mutation.",
+      "example": "A normal Brumel can become a desert Brumel within about one month in desert conditions."
+    },
+    "reproduction": {
+      "cross_race": true,
+      "hybrids_exist": false,
+      "rule": "The child becomes one full race based on gene dominance rather than a mixed hybrid.",
+      "gene_dominance_order": [
+        "human",
+        "elf",
+        "orc",
+        "beastman",
+        "drysk",
+        "dragon"
+      ],
+      "dragon_note": "Dragons can reproduce in humanoid form if strong enough to maintain it."
+    },
+    "lifespans": {
+      "human": {
+        "natural_max_years": 170,
+        "magic_extended_years": 500
+      },
+      "elf": {
+        "natural_max_years": 480,
+        "magic_extended_years": 800
+      },
+      "drysk": {
+        "natural_max_years": 480,
+        "magic_extended_years": 800
+      },
+      "orc": {
+        "natural_max_years": 320,
+        "magic_extended_years": 600
+      },
+      "beastman": {
+        "natural_max_years": 320,
+        "magic_extended_years": 600
+      },
+      "dragon": {
+        "natural_max_years": 1600,
+        "elder_max_years": 5000
+      }
+    },
+    "physical_traits": {
+      "human": {
+        "average_height_ft": 6.0,
+        "average_weight_lb": 200,
+        "build": "balanced"
+      },
+      "elf": {
+        "average_height_range_ft": [
+          6.4,
+          8.0
+        ],
+        "build": "slender, often tall"
+      },
+      "orc": {
+        "minimum_height_ft": 6.8,
+        "common_max_ft": 10.0,
+        "legendary_max_ft": 20.0,
+        "build": "massive"
+      },
+      "beastman": {
+        "average_height_range_ft": [
+          4.8,
+          5.8
+        ],
+        "rare_max_ft": 7.0,
+        "build": "small, fierce"
+      },
+      "drysk": {
+        "build": "reptilian humanoid",
+        "traits": [
+          "horns optional",
+          "wings optional",
+          "scale variation"
+        ]
+      },
+      "dragon": {
+        "build": "mana-dense divine creature",
+        "trait": "temporary humanoid transformation possible"
+      }
+    },
+    "intelligence": {
+      "rule": "Intelligence is not determined by race or magical ability.",
+      "note": "All races produce brilliant individuals, foolish individuals, gifted mages, and gifted scientists."
+    },
+    "magic_vs_body_limits": {
+      "limb_regrowth": {
+        "possible": true,
+        "requirements": "High skill healing/cleric magic with strong focus and precise matter reshaping",
+        "risk": "Malformed reconstruction if done poorly"
+      },
+      "permanent_species_change": {
+        "general": false,
+        "dragon_exception": "Dragons can temporarily shift between reptilian and humanoid forms while actively maintaining shape."
+      },
+      "become_dragon": {
+        "possible": false,
+        "exception": "Only possible by direct divine intervention from the Highest Order in the throne room."
+      },
+      "natural_immortality": {
+        "possible_for_regular_races": false,
+        "exceptions": "Requires external help such as Death Dragon or soul-transfer systems"
+      },
+      "create_life": {
+        "living_constructs": true,
+        "true_consciousness": false,
+        "note": "Golems and familiars may be created, but they act as extensions of a caster’s intent/emotion rather than true self-aware beings."
+      }
+    },
+    "soul_body_relationship": {
+      "rule": "Soul is stronger than body; stronger souls dominate weaker ones.",
+      "special_case_oren": "Jötunn's stronger dragon soul is constrained by a Severance curse that binds him to Oren's heart and enforces human limits and stable human control while Oren is awake."
+    },
+    "creature_intelligence_tiers": {
+      "H": {
+        "name": "Hiccup",
+        "description": "Low intelligence, low threat, instinct-driven"
+      },
+      "M": {
+        "name": "Misfortune",
+        "description": "Moderate intelligence, reactive strategy, pack behavior"
+      },
+      "D": {
+        "name": "Disaster",
+        "description": "High intelligence, capable of planning and territorial strategy"
+      },
+      "C": {
+        "name": "Calamity",
+        "description": "Highest non-divine threat tier; dragon level. No sublevels above this."
+      }
+    }
+  },
+  "flora": {
+    "core_rule": "Plants form the base of all ecosystems and are shaped first by climate, then amplified by mana density.",
+    "foundational_crops": {
+      "srag": {
+        "type": "ground cover / srag-field foundation",
+        "function": [
+          "stabilizes ground",
+          "spreads easily",
+          "grazing base"
+        ]
+      },
+      "nairn": {
+        "type": "grain equivalent",
+        "function": [
+          "staple food",
+          "processed into flour",
+            "creature feed"
+        ]
+      },
+      "sinu": {
+        "type": "leaf crop",
+        "function": [
+          "nutrient-rich everyday food",
+          "stable low magical effect"
+        ]
+      }
+    },
+    "other_plants": {
+      "lurien": {
+        "type": "fruit",
+        "function": [
+          "refreshment",
+          "minor energy restoration"
+        ]
+      },
+      "emberroot": {
+        "type": "root/heat crop",
+        "function": [
+          "stores heat energy",
+          "fuel or energy use"
+        ]
+      },
+      "glowcap": {
+        "type": "fungus",
+        "function": [
+          "natural light source",
+          "low-light ecology"
+        ]
+      }
+    },
+    "biome_behavior": {
+      "forest": [
+        "large scale growth",
+        "deep roots",
+        "fast absorption of mana"
+      ],
+      "plains": [
+        "stable growth",
+        "even mana dispersion",
+        "predictable ecosystem"
+      ],
+      "frost": [
+        "slow growth",
+        "mana storage",
+        "cold resistance"
+      ],
+      "desert": [
+        "minimal water use",
+        "volatile reactions to heat + mana"
+      ],
+      "jungle": [
+        "fast growth",
+        "extreme density",
+        "mana overload tendency"
+      ],
+      "mountain": [
+        "sparse growth",
+        "resilient isolated clusters",
+        "terrain-fragmented development"
+      ]
+    }
+  },
+  "fauna": {
+    "domesticated": {
+      "brumel": {
+        "role": "baseline stable livestock",
+        "outputs": [
+          "stable milk",
+          "dense meat",
+          "thick mana-resistant hide"
+        ]
+      },
+      "kethra": {
+        "role": "reactive livestock",
+        "outputs": [
+          "variable mana vapor",
+          "reactive meat",
+          "flexible energy-holding skin"
+        ]
+      },
+      "rethka": {
+        "role": "hardy survival grazer",
+        "outputs": [
+          "durable fiber",
+          "lean meat",
+          "thick rugged hide"
+        ]
+      },
+      "velka": {
+        "role": "emotionally resonant herd creature",
+        "outputs": [
+          "calming breath/gas",
+          "soft fiber",
+          "thin stretchable hide"
+        ]
+      }
+    },
+    "insects": {
+      "cindrel": {
+        "lifecycle": "colony/queen system",
+        "outputs": [
+          "strong mana-conductive thread",
+          "resin clumps"
+        ]
+      },
+      "moln": {
+        "lifecycle": "larva-dominant subterranean lifecycle",
+        "outputs": [
+          "soil-enriching cast",
+          "rare moln core"
+        ]
+      },
+      "velis": {
+        "lifecycle": "egg-larva-cocoon-adult metamorphosis",
+        "outputs": [
+          "wing dust catalyst",
+          "fine cocoon silk"
+        ]
+      }
+    },
+    "predators": {
+      "karva": {
+        "domain": "land",
+        "type": "pressure-bodied ambush predator",
+        "trait": "statue-still waiting followed by explosive pressure pounce"
+      },
+      "veyrith": {
+        "domain": "air",
+        "type": "membrane-sailed aerial predator",
+        "trait": "air-shear dive through thermals and mana-rich wind"
+      },
+      "thalgrim": {
+        "domain": "sea",
+        "type": "flow predator",
+        "trait": "moves with minimal wake via current silence"
+      }
+    },
+    "general_intelligence": {
+      "low_tier_creatures": "Low consciousness, easy to trick, mostly instinctive",
+      "high_tier_creatures": "Some high-tier creatures may have child-level or higher strategic intelligence"
+    }
+  },
+  "geography": {
+    "global_structure": {
+      "major_landmasses": [
+        "southern continent",
+        "northern continent",
+        "central isolated region",
+        "eastern continent"
+      ],
+      "additional_structures": [
+        "island chains",
+        "isolated zones",
+        "subcontinents/split regions"
+      ]
+    },
+    "biome_distribution_rule": "Biome placement is determined by climate and terrain elevation, while mana density amplifies biome behavior.",
+    "primary_biomes": [
+      "forest",
+      "plains/srag fields",
+      "snow/frost",
+      "desert",
+      "jungle/dense growth",
+      "mountain"
+    ],
+    "oceans": {
+      "function": [
+        "separate ecosystems",
+        "limit easy movement",
+        "encourage isolated biome development"
+      ]
+    },
+    "instability_zones": {
+      "description": "High mana density disrupts natural environmental balance, creating volatile or dangerous terrain."
+    },
+    "accerima_high_level": {
+      "type": "large structured human kingdom landmass",
+      "features": [
+        "safe numbered provinces",
+        "wild unclaimed dangerous orange belts",
+        "northern choke toward the elves",
+        "teleport towers in safe regions",
+        "checkpoints in dangerous routes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+TRAILBLAZERS — ACERIMA POLITICS AND CULTURE
+Timestamp: May 4, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the current political structure, social identity, naming logic, military framework, religious life, and provincial culture of the Human Kingdom of Acerima.
+
+=====================================
+CORE HUMAN IDENTITY
+=====================================
+
+- Acerima formed after the Dragon Age Revolt from scattered freed peoples rather than one preexisting unified state.
+- Modern humans believe they survived by organizing chaos into law.
+- Human public culture is shaped by:
+  - liberation from dragons
+  - devotion to the Highest Order
+  - reverence for the royal line of Jyra Acerima
+  - old Chainless tribal roots
+  - military academies and knights
+  - provincial identity
+  - burial law
+  - fear of uncontrolled Qana
+  - pride in human institutions
+
+=====================================
+NAMING CULTURE
+=====================================
+
+- Modern Aceriman names descend from old Chainless naming systems.
+- Commoner naming often follows:
+  - given name + of + birth location
+- Noble naming uses formal house surnames.
+- Chainless people preserve the most sacred and culturally loaded forms of human naming.
+
+=====================================
+KINGDOM GOVERNMENT
+=====================================
+
+- Acerima is ruled by the royal family descended from Jyra and Arthur.
+- Publicly, Jyra is remembered as the first prophet blessed by the Highest Order.
+- The public does not know Jyra is the daughter of the Highest Order.
+- The current queen is Jyana.
+- Acerima is not ruled by the monarch alone. The kingdom is divided into sectors and administrative branches.
+
+Major sectors:
+- Crown Seat / Royal Family
+- Queen Jyana's Council
+- Aceriman War Table
+- Information Sector
+- Religious priesthood and gravewarden network
+- Crown Artifice Council (CAC)
+- Provincial governors
+- Highguard
+
+=====================================
+QUEEN AND COUNCIL
+=====================================
+
+- Queen Jyana rules from the capital.
+- Her council filters most political and administrative matters before they reach her.
+- The most sensitive matters may bypass the council entirely.
+
+Council-level matters:
+- provincial disputes
+- border concerns
+- noble complaints
+- military budget issues
+- CAC reports
+- diplomacy
+
+Direct-to-queen matters:
+- threats to the royal bloodline
+- classified Highguard missions
+- dragon-related danger
+- major Lunacron outbreaks
+- Severence activity
+- Divine Qana threats
+
+=====================================
+PROVINCES
+=====================================
+
+- Acerima is divided into provinces that function somewhat like states.
+- Each province has:
+  - 1 main city
+  - 2 villages
+  - 2 forts
+- Each province is overseen by a noble governor who also holds a council seat.
+
+Example province:
+- Northreach
+  - main city: Ainigriv
+  - villages: Cask and Fen
+  - governor: Tessouat / Governor Tesso
+  - roles: northern defense, diplomacy, military academy presence, teleportation tower protection
+
+=====================================
+MILITARY FRAMEWORK
+=====================================
+
+- Each province maintains roughly 40,000 active military personnel.
+- Forts function as large mixed-branch military settlements.
+- Acerima is not commanded by one supreme general.
+- It is governed militarily by the Aceriman War Table.
+
+War Table seats:
+- Marshal of the Crown Army: Aponi Tall-Elk
+- Admiral of the Tide Fleet: Takoda Blue-Reed
+- Archmarshal of the Sky Corps: Halona Storm-Eye
+- Warden-General of the Province Guard: Makya Stone-River
+- Highguard Guildmaster: Quanah
+- War Table Secretary: Winona Red-Quill
+
+Major branches:
+- Crown Army
+- Tide Fleet
+- Sky Corps
+- Province Guard
+- Highguard
+
+=====================================
+KNIGHT ACCESS AND PROGRESSION
+=====================================
+
+- Knighthood is not legally restricted to nobles.
+- In practice, nobles have overwhelming advantages in training, tutoring, equipment, and academy access.
+- Commoners can become knights, but the system is materially unequal.
+
+Knight progression:
+1. Cadet
+2. Field Apprentice
+3. Prospect Knight
+4. Knight
+5. Senior Knight
+6. Squad Leader
+7. Squadron Leader
+8. Captain
+9. Commander
+10. Branch Marshal / Admiral / Archmarshal / Warden-General
+
+=====================================
+PRIVATE GUARDS
+=====================================
+
+- Private guards are common among nobles and wealthy humans.
+- They require licensing for armed public operation in sensitive areas.
+- They are loyal to the family paying them, not the kingdom.
+- They cannot legally obstruct an active kingdom investigation.
+
+=====================================
+CHAINLESS TRIBES
+=====================================
+
+- The Chainless Tribes are Aceriman citizens who refused full modernization.
+- They preserve:
+  - old names
+  - oral history
+  - old spiritual practices
+  - border survival rites
+  - anti-centralized-government instincts
+- They are not foreign to Acerima; they are one of its oldest living roots.
+
+=====================================
+RELIGION
+=====================================
+
+- Humans worship the Highest Order.
+- Public belief centers on:
+  - Jyra as a blessed prophet
+  - the royal line as sacred
+  - the sun as a sign of closeness to the Highest Order
+  - burial under strong sunlight as spiritually prestigious
+- The hidden truth is deeper:
+  - Jyra is the daughter of the Highest Order
+  - the royal bloodline is directly divine
+  - Arthur is a dragon hidden beneath the capital
+
+=====================================
+PRIESTS AND GRAVEWARDENS
+=====================================
+
+Priests handle:
+- healing
+- blessings
+- weddings
+- prayers
+- ordinary funeral comfort
+
+Gravewardens handle:
+- body retrieval
+- death blessings
+- dangerous corpse-Qana sites
+- battlefield cleanup
+- curse management tied to death
+- Lunacron risks
+
+Rule:
+- priests handle life-facing faith
+- gravewardens handle death-facing faith
+
+=====================================
+KINGDOM-PAID BURIALS
+=====================================
+
+- Acerima pays for baseline burials.
+- Nobles and wealthy families can buy additional prestige:
+  - private tombs
+  - mausoleums
+  - extra rites
+  - family crypts
+  - luxury sun-shrines
+
+=====================================
+REGIONAL EXAMPLES
+=====================================
+
+Cask:
+- wealthy desert retirement and burial village
+- sun-focused death culture
+- rich with nobles, merchants, guards, priestly offices, gravewarden stations, and funeral commerce
+
+Anozira:
+- vulnerable rural village
+- tied to Ruzen mining and drought conditions
+- represents the precarious survival side of Acerima rather than its luxury side
+
+=====================================
+DRAGON RUINS LAW
+=====================================
+
+- Claimed or monitored dragon ruins require permits.
+- Newly discovered unclaimed ruins can be explored before the government arrives.
+- Legal claim is possible if the explorer reports the discovery properly.
+
+=====================================
+END OF FILE

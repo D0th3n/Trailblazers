@@ -1,0 +1,341 @@
+TRAILBLAZERS — QANA HUNTING SYSTEM
+Timestamp: April 22, 2026 (America/New_York)
+
+PURPOSE:
+This file defines Qana hunting as the structured human interaction with Qana creatures for combat, capture, harvesting, research, and environmental control.
+
+=====================================
+CORE CONCEPT
+=====================================
+
+Qana hunting is not just combat.
+
+It includes:
+- combat
+- capture
+- material harvesting
+- field documentation
+- environmental control
+- guild verification
+- official knowledge updates
+
+Hunting is a profession, a survival practice, an economic system, and a knowledge pipeline.
+
+=====================================
+COMBAT STRUCTURE
+=====================================
+
+Combat is hybrid and role-dependent.
+
+1. QANA CASTERS / WIZARDS
+
+- strong spell output
+- weak physical combat
+- rely on distance, control, and elemental pressure
+- often poor sword fighters
+
+2. SWORDSMEN / NON-QANA TRAINED FIGHTERS
+
+- strong physical combat
+- limited Qana education
+- may only know basic spells such as tiny ember creation or push pulse
+- often cannot maintain advanced spell structures
+
+3. KINGDOM KNIGHTS
+
+- trained in both swordsmanship and Qana
+- mandatory sword school
+- mandatory Qana school
+- highly disciplined
+- limited by kingdom orders and jurisdiction
+- cannot take every job freely
+
+4. MERCENARIES
+
+- mixed skill sets
+- flexible job acceptance
+- may be physical specialists, Qana specialists, scouts, harvesters, or mixed fighters
+- can take jobs for payment if their guild master allows it
+- often operate in teams because no single mercenary type covers every need
+
+=====================================
+TEAM DYNAMIC
+=====================================
+
+Most serious hunts require multiple roles and coordinated strategy.
+
+Example:
+- swordsman distracts or anchors the creature
+- Qana caster attacks the elemental weakness
+- knight controls the flow if kingdom authority is involved
+- support mercenaries scout, trap, harvest, or evacuate civilians
+
+This makes Qana hunting a team profession rather than a single universal hero job.
+
+=====================================
+FUTURE GAMEPLAY LOOP
+=====================================
+
+Use this loop for future Qana hunting games, school missions, guild jobs, and creature-focused RPG systems.
+
+1. BRIEFING
+
+A teacher, guild representative, knight officer, CAC contact, or local authority explains the mission.
+
+The briefing may provide:
+- creature type
+- known habitat
+- known behavior
+- known weaknesses
+- expected threat tier
+- capture, kill, harvest, escort, or investigation objective
+
+Important:
+Briefing information may be incomplete, outdated, biased, or wrong.
+Known weaknesses can be wrong if the creature adapted, if records are old, or if another region's Book entry is being trusted too much.
+
+2. PREPARATION
+
+The player chooses how to approach the mission.
+
+Preparation can include:
+- spells
+- weapons
+- tools
+- traps
+- team members
+- combat role
+- support role
+- harvest tools
+- capture equipment
+- environmental protection
+
+Preparation should matter because no single role can handle every hunt perfectly.
+
+3. ENCOUNTER
+
+The creature's real behavior is revealed in the field.
+
+The encounter may not match expectations.
+The creature may:
+- behave differently than the Book entry suggested
+- use an unexpected raw Qana effect
+- have a different temperament than expected
+- be protecting territory, young, food, or a Qana source
+- be stronger or weaker because of the biome
+- expose a new adaptation that needs documentation
+
+4. LIVE ADAPTATION
+
+This is the most important gameplay phase.
+
+The player must react to:
+- environment
+- creature behavior
+- team weaknesses
+- elemental mismatch
+- failed preparation
+- unreliable briefing information
+- changing battlefield conditions
+
+This is player adaptation, not creature evolution.
+Creatures do not evolve mid-fight, but players must adjust their strategy in real time.
+
+5. OUTCOME
+
+Possible outcomes include:
+- kill
+- capture
+- retreat
+- drive away
+- stabilize the environment
+- harvest materials
+- fail the mission but survive
+- discover new information and withdraw
+
+6. REPORT
+
+The mission report contributes to:
+- Book of Qana Creatures updates
+- guild reputation
+- team reputation
+- school grades or field certification
+- CAC research
+- kingdom records
+- regional creature knowledge
+- future briefing accuracy
+
+Reports close the hunt loop.
+The player's field experience can become future world knowledge.
+
+=====================================
+WEAKNESS SYSTEM
+=====================================
+
+All Qana creatures have elemental weaknesses.
+
+Core rule:
+- creatures resist their own element
+- creatures are vulnerable to opposing elements
+
+Important:
+- weaknesses are stable
+- creatures cannot change weaknesses instantly
+- creatures cannot turn weaknesses off at will
+- adaptation takes weeks to months
+- forced adaptation requires harsh and sustained environmental pressure
+
+Because Qana creatures adapt to environments over time, their elemental profile can change, but not in a single battle.
+
+=====================================
+ADAPTATION RULE
+=====================================
+
+Creatures do not evolve.
+They adapt.
+
+Time range:
+- fastest known adaptation window: about 28 days
+- slowest common adaptation window: about 6 months
+
+Triggers:
+- environmental pressure
+- repeated exposure
+- survival stress
+- severe biome conditions
+- sustained elemental pressure
+
+Results:
+- resistance changes
+- behavior shifts
+- physical changes become possible
+- aggression level may shift
+- habitat preference may shift
+
+Adaptation is not instant and should never be written as mid-fight evolution.
+
+=====================================
+HUNT OUTCOMES
+=====================================
+
+All outcomes are valid:
+
+- kill
+- capture
+- harvest
+- drive away
+- relocate
+- document and withdraw
+- stabilize the environment instead of fighting
+
+Killing is common, but not the only outcome.
+Capture is rare and difficult.
+Harvesting almost always happens if a body remains.
+
+Rule:
+Almost no body goes unused.
+
+Creature materials are valuable to:
+- poor communities
+- guilds
+- CAC researchers
+- smiths
+- healers
+- Qana technicians
+- spell-tool makers
+- food suppliers when safe
+
+=====================================
+KNOWLEDGE SYSTEM
+=====================================
+
+The Book of Qana Creatures is shared knowledge across the kingdom.
+It is used by multiple sectors of society, including schools, guilds, knights, CAC researchers, and local authorities.
+
+HOW IT UPDATES:
+
+1. Discovery
+- hunter, mercenary, knight, student, traveler, or civilian encounters new information
+- this can involve a new creature or new behavior from a known creature
+
+2. Report to guild
+- the witness reports to the nearest guild desk
+- informal rumor is not enough for official records
+
+3. Guild verification mission
+- the guild sends mercenaries or approved field teams to confirm the information
+- verification may involve observation, tracks, combat, capture, harvested parts, or repeated sightings
+
+4. Confirmed documentation
+- verified findings are written into an official guild report
+
+5. Submission to kingdom information department
+- the guild sends the official report to the kingdom's information department
+
+6. Official record update
+- the kingdom reviews the report and updates the Book of Qana Creatures if accepted
+
+Rule:
+The kingdom only accepts verified information from official sources.
+Unverified information is ignored or treated as rumor.
+
+=====================================
+INFORMATION GAP
+=====================================
+
+Not all nations share creature knowledge.
+
+Result:
+- some regions know more than others
+- the same creature may have different threat records across borders
+- a creature can be common knowledge in one nation and an unknown threat in another
+- guilds, schools, and kingdoms may keep valuable records private
+
+Knowledge is power.
+
+=====================================
+CREATURE ABILITIES
+=====================================
+
+Qana creatures can naturally perform spell-like effects.
+
+Mechanism:
+- emotional impulse
+- instinctual intent
+- direct Qana-field manipulation
+
+This resembles Beastmen casting style.
+
+Important:
+- not structured like human spells
+- not usually based on formal circles, chants, or trained spell geometry
+- raw and instinctive
+- often unpredictable
+- shaped by desire, fear, aggression, hunger, territory, or survival instinct
+
+=====================================
+LIMITATIONS
+=====================================
+
+Qana creatures cannot:
+- evolve mid-fight
+- instantly change elemental nature
+- instantly erase weaknesses
+- bypass adaptation time
+
+They can use Qana instinctively, but they cannot rewrite their biology in a single encounter.
+
+=====================================
+WORLD IMPACT
+=====================================
+
+1. Qana hunting is a real profession.
+2. Guilds are essential because they organize jobs, teams, reports, and verification.
+3. CAC depends on hunters for materials and data.
+4. Poor communities rely on creature parts and rarely leave bodies unharvested.
+5. The Book of Qana Creatures makes verified knowledge a strategic resource.
+6. Mixed parties matter because no single training path covers every hunt.
+7. Kingdom knights are versatile but politically limited; mercenaries are flexible but less standardized.
+
+=====================================
+END OF FILE

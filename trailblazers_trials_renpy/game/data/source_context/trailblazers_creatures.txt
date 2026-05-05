@@ -1,0 +1,150 @@
+TRAILBLAZERS CREATURE NAMING SYSTEM FILE
+Timestamp: April 21, 2026 (America/New_York)
+
+PURPOSE:
+This file enforces all creature naming conventions in the Trailblazers world.
+AI systems (Codex) MUST NOT use real-world animal names.
+
+=====================================
+CORE RULE
+=====================================
+
+NO EARTH ANIMAL TERMS ARE ALLOWED.
+
+All creatures must be referenced using in-universe names.
+
+=====================================
+INVALID TERMS (DO NOT USE)
+=====================================
+
+- cow
+- sheep
+- goat
+- pig
+- horse
+- bird
+- fish
+- insect
+- monster (generic usage)
+
+=====================================
+VALID CREATURE TERMS (MANDATORY)
+=====================================
+
+BRUMEL
+- Base livestock creature
+- Equivalent to cow
+- Produces:
+  - dense meat
+  - stable milk
+  - thick hide
+
+KETHRA
+- Reactive livestock
+- Produces:
+  - mana vapor
+  - reactive meat
+  - energy-sensitive hide
+
+RETHKA
+- Fiber creature
+- Equivalent to sheep
+- Produces:
+  - durable fibers
+  - lean meat
+
+VELKA
+- Lightweight livestock
+- Produces:
+  - calming gas
+  - soft fibers
+
+=====================================
+INSECTS (MANDATORY TERMS)
+=====================================
+
+CINDREL
+- Thread-producing colony insect
+
+MOLN
+- Subterranean larva-based insect
+
+VELIS
+- Metamorphosis insect (cocoon-based)
+
+=====================================
+PREDATORS
+=====================================
+
+KARVA
+- Land predator
+- Ambush hunter
+
+VEYRITH
+- Air predator
+- Thermal glider/diver
+
+THALGRIM
+- Sea predator
+- Current-based stealth hunter
+
+=====================================
+CREATURE LANGUAGE RULE
+=====================================
+
+WRONG:
+"The cow runs through the grass."
+
+CORRECT:
+"The Brumel charges across the srag."
+
+WRONG:
+"A sheep is grazing."
+
+CORRECT:
+"A Rethka feeds on the srag."
+
+=====================================
+TIER LANGUAGE (OPTIONAL BUT RECOMMENDED)
+=====================================
+
+Use threat tier when relevant:
+
+HICcup Tier → low threat
+MISFORTUNE Tier → mid threat
+DISASTER Tier → high threat
+CALAMITY Tier → extreme threat
+
+Example:
+"A Misfortune-tier Karva stalks the srag fields."
+
+=====================================
+BEHAVIOR RULES
+=====================================
+
+Low-tier creatures:
+- instinct-driven
+- simple reactions
+
+Mid-tier creatures:
+- pack behavior
+- basic tactics
+
+High-tier creatures:
+- strategic
+- adaptive
+
+=====================================
+IMPLEMENTATION RULES (FOR CODEX)
+=====================================
+
+1. NEVER fallback to real-world animal names.
+2. ALWAYS replace generic creatures with defined species.
+3. Combine ecology terms when possible:
+   Example:
+   "A Karva moves silently through dense srag."
+
+4. Maintain naming consistency across ALL outputs.
+
+=====================================
+END OF FILE

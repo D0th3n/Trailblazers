@@ -1,0 +1,159 @@
+TRAILBLAZERS ECOLOGY SYSTEM FILE
+Timestamp: April 21, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the ecological naming, logic, and rules of the Trailblazers world.
+All references to generic Earth terms (e.g., "grass") must be replaced with in-universe terminology.
+
+=====================================
+CORE ECOLOGY RULE
+=====================================
+
+All plant life is influenced by:
+1. Climate (base form)
+2. Mana Density (enhancement/amplification)
+
+Plants are the foundation of all ecosystems.
+NO EARTH PLANT NAMES SHOULD BE USED.
+
+=====================================
+FOUNDATIONAL PLANT TYPES (MANDATORY TERMS)
+=====================================
+
+SRAG (s-rag)
+- Ground cover plant
+- Equivalent to grass
+- Covers most plains and open land
+- Function:
+  - Stabilizes terrain
+  - Base food source for herbivores
+  - Absorbs ambient mana
+- Visual:
+  - Slight glow in high mana zones
+  - Can ripple subtly with mana flow
+
+NAIRN (n-air-n)
+- Grain-based crop
+- Combination of wheat + grain
+- Used for:
+  - Food production
+  - Animal feed
+- Grown in farm regions
+
+SINU (si-nu)
+- Leafy crop
+- Replaces spinach/kale type foods
+- Stable, low magic influence
+- Used in daily meals
+
+=====================================
+ECOLOGICAL LANGUAGE RULE
+=====================================
+
+INVALID TERMS:
+- grass
+- wheat
+- plants
+- crops (generic usage)
+
+VALID TERMS:
+- srag
+- nairn
+- sinu
+- flora (only when generalizing)
+
+EXAMPLE CONVERSION:
+
+WRONG:
+"The slime bursts across the grass."
+
+CORRECT:
+"The slime bursts across the srag."
+
+=====================================
+MAGICAL ECOLOGY INTERACTION
+=====================================
+
+Plants react to mana density in real-time.
+
+LOW MANA:
+- Normal growth
+- Stable ecosystems
+
+MEDIUM MANA:
+- Enhanced growth
+- Slight glow or visual distortion
+
+HIGH MANA:
+- Rapid overgrowth
+- Subspecies adaptation
+- Environmental instability
+
+=====================================
+BIOME-SPECIFIC PLANT BEHAVIOR
+=====================================
+
+PLAINS (SRAG FIELDS):
+- Dominated by srag
+- Stable terrain
+- Low threat
+
+FORESTS:
+- Large tree systems
+- Dense root networks
+- High mana absorption
+
+DESERTS:
+- Sparse flora
+- Heat-reactive plant structures
+- Mana + heat = ignition risk
+
+FROST REGIONS:
+- Slow growth flora
+- Mana stored as crystal-like structures
+
+JUNGLES:
+- Extreme plant density
+- Rapid growth cycles
+- High mana saturation
+
+MOUNTAINS:
+- Sparse but resilient flora
+- Adapted to terrain fragmentation
+
+=====================================
+CREATURE INTERACTION WITH ECOLOGY
+=====================================
+
+Herbivores:
+- Consume srag and processed nairn
+
+Predators:
+- Use terrain (srag, roots, elevation) for ambush
+
+Low-tier creatures:
+- Minimal ecological awareness
+
+High-tier creatures:
+- Use environment strategically
+
+=====================================
+IMPORTANT IMPLEMENTATION RULES (FOR CODEX)
+=====================================
+
+1. NEVER use Earth terminology for plant life.
+2. Always replace:
+   grass → srag
+   wheat/grain → nairn
+   leafy greens → sinu
+
+3. Environmental descriptions must reflect mana influence:
+   Example:
+   "wet splash of unstable mana across the srag"
+
+4. Ecology should reinforce immersion:
+   - Naming consistency is REQUIRED
+   - No fallback to generic language
+
+=====================================
+END OF FILE

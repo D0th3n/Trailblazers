@@ -1,0 +1,99 @@
+TRAILBLAZERS — QANA SYSTEM
+Timestamp: April 22, 2026 (America/New_York)
+
+PURPOSE:
+This file replaces the older "mana/magic" framing with Qana, a more scientific quantum-energy model for the Trailblazers world.
+
+TERMINOLOGY LOCK:
+- Qana is the universal quantum-energy field/substrate underlying matter, energy, biology, thought-linked spell expression, and elemental behavior.
+- Spells are shaped outputs, programmed expressions, or local collapses of Qana.
+- Qana quanta are the particle-like packets or excitations of the Qana field.
+- Older words like "mana" and "magic" should be treated as deprecated, regional slang, religious language, or legacy terminology unless intentionally used.
+- Standard narration and game systems should use Qana.
+
+REAL QUANTUM INSPIRATION, WORLD VERSION:
+- Real particles are better understood as excitations of fields, not tiny hard marbles.
+- Qana follows the same feel: the Qana field fills reality, while Qana quanta appear where the field is excited, bound, shaped, or collapsed.
+- Wave-like Qana is diffuse, ambient, and possibility-rich.
+- Particle-like Qana is localized, measurable, and able to interact physically.
+- A spell works by forcing nearby Qana from possibility into one stable expression.
+
+QANA STATES:
+1. Field state:
+   - Diffuse, ambient, uncommitted Qana.
+   - Exists in air, matter, living bodies, weather, ore, soil, and tools.
+
+2. Bound state:
+   - Qana stabilized into matter, biology, ore, plants, flesh, relics, or devices.
+
+3. Expressed state:
+   - Active spell output such as heat, water, lightning, pressure, motion, growth, light, or healing.
+
+4. Collapsed state:
+   - A resolved spell result that has become stable enough to behave as physical reality.
+
+CORE RULES:
+- Qana cannot be created or destroyed; it changes state, pattern, density, and expression.
+- Qana prefers stable patterns and falls into the strongest nearby influence.
+- Dominant influences include heat, pressure, water, emotion, memory, language, runes, tool geometry, light, death, and environmental conditions.
+- Living minds act as patterning engines that impose structure on Qana.
+- Spells fail when intent, structure, and available Qana do not collapse into the same stable expression.
+- Skilled spellcasters can hold unresolved Qana longer and collapse it more precisely.
+
+ELEMENTS:
+- Elements are not separate supernatural types.
+- Elements are common stable attractor states of Qana.
+- Fire is heat-dominant Qana collapse.
+- Water is cohesion/flow-dominant Qana collapse.
+- Earth is pressure/binding-dominant Qana collapse.
+- Lightning is discharge/voltage-dominant Qana collapse.
+- Flora is growth-pattern-dominant Qana collapse.
+
+THREE QANA POOLS:
+- Stomach pool: biological Qana reserve, fed by food, digestion, rest, and bodily health.
+- Heart pool: emotional Qana reserve, fed by feeling, memory, motivation, grief, love, fear, and resolve.
+- Head pool: cognitive Qana reserve, fed by meditation, stillness, focus, and deliberate mental structuring.
+
+QANA ECOLOGY:
+- Qana can be both an energy field and a biological requirement depending on the organism.
+- Humans rely primarily on oxygen respiration and replenish Qana indirectly through the stomach, heart, and head pools.
+- Qana creatures are pure field-dependent lifeforms that absorb ambient Qana directly through their bodies instead of breathing oxygen.
+- Qana recyclers reduce ambient Qana density, stabilize weather, and make areas uninhabitable for Qana-dependent creatures.
+- Human settlements are engineered safe zones maintained by recycler infrastructure.
+- Wild zones are high-Qana environments where Qana creatures, elemental instability, and Cron risk are more common.
+- A failed or sabotaged recycler can turn a safe zone back into creature-habitable territory.
+
+SPELLCASTING LADDER:
+- Beginner: needs tools, Ether Resin, full spell circles, chants, poems, or runes to hold Qana stable.
+- Intermediate: can exude and shape Qana briefly without full external structure.
+- Advanced: can complete partial spell structures because intent fills missing geometry.
+- Master: can collapse a full spell expression with minimal gesture, phrase, or thought.
+
+DRAGONS:
+- Dragons are biological beings whose bodies and souls are natively stabilized around Pure Qana.
+- They are not simply "made of old-style magic"; they are living Pure Qana biology.
+
+CRONS:
+- Crons are corpse-vessels where Qana collapses into one dominant elemental mode after exposure to extreme density and environmental influence.
+- Crons are not conscious like dragons.
+
+COMMON TERMS:
+- Qana density
+- Qana convergence
+- Qana field
+- Qana quanta
+- Qana reservoir
+- Qana recycler
+- Qana distillate
+- Qana crystal
+- Qana depletion
+- Qana recoil
+- Pure Qana
+- bound Qana
+- ambient Qana load
+- field instability
+- elemental resolution
+- collapsed fire-state
+- overcollapsed spell structure
+
+END OF FILE

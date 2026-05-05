@@ -1,0 +1,79 @@
+TRAILBLAZERS - OREN TIMELINE ANCHOR FILE
+Timestamp: April 21, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the chronological life events, status, and narrative positioning of Oren.
+This timeline acts as the PRIMARY reference for all story generation and gameplay logic involving Oren.
+
+IDENTITY:
+- Name: Oren
+- Role: Primary protagonist
+- Status: Human host with unknown internal entity (Jötunn)
+- Classification (hidden): Potential Calamity-level threat
+
+PHASE 0 - PRE-BIRTH EVENT (HIDDEN):
+- Dragon entity Jötunn attacks Severence headquarters.
+- Jötunn is defeated by combined Severence forces.
+- Jötunn's soul is extracted and forcibly implanted into a human infant.
+- Two souls now exist in one body: original human soul Oren and dragon soul Jötunn.
+- This event is completely unknown to the world, Dravrah, kingdoms, and public history.
+
+PHASE 1 - CHILDHOOD (UNKNOWN HISTORY):
+- Oren grows up as a normal human child.
+- Jötunn exists silently within him.
+- Oren is unaware of Jötunn and has no understanding of his condition.
+- Only one unknown figure knows the truth; do not reference or reveal this figure at this stage.
+
+PHASE 2 - DRAVRAH ENROLLMENT:
+- Oren enrolls in Dravrah College.
+- He is seen as a normal student with no known abnormalities.
+- Jötunn remains inactive or unrecognized.
+
+PHASE 3 - DRAVRAH INCIDENT:
+- A Severence-created, mutated Kraken of extreme scale attacks Dravrah Academy.
+- The Kraken is comparable to a skyscraper in scale.
+- Its hidden goal is eliminating noble bloodline students.
+- Publicly, the attack is believed to be a natural mana anomaly.
+- Oren cannot defeat the enemy normally and intentionally loses consciousness.
+- Jötunn takes control of the body.
+- A hybrid dragon-human form manifests and destroys the Kraken, saving Dravrah.
+- Witnesses see Oren transform into a dragon-like entity with extreme destructive power.
+- Severence involvement, the Kraken's true nature, and Jötunn's existence remain hidden from all known factions, including Dravrah leadership.
+
+PHASE 4 - POST-INCIDENT CLASSIFICATION:
+- Oren is not executed because he saved Dravrah.
+- Authorities classify him as unstable, dangerous, and a potential Calamity-level threat.
+- Oren is placed under observation and monitored over time.
+
+PHASE 5 - GRADUATION AND ASSIGNMENT:
+- A few months after the Dravrah incident, Oren graduates from Dravrah.
+- Oren is placed under Master Embrum as a squire under Highguard supervision.
+- The assignment provides mentorship, monitoring, containment, and long-term threat evaluation.
+
+PHASE 6 - CURRENT STORY STATE (HEART OF FIRE):
+- Location: Anozira Village.
+- Situation: Village suffers drought caused by an unknown magical creature.
+- Oren assists Embrum as a squire and participates in field missions.
+- Oren is depressed, isolated, and distrustful of himself.
+
+JÖTUNN INTERACTION STATE:
+- Jötunn actively speaks within Oren's mind.
+- Jötunn claims he is a dragon, was sealed, and will regain his body.
+- Oren believes the voice is his own mind and thinks he may be going insane.
+- Oren rejects Jötunn's claims because dragons have been sealed for 2226 years and there is no living proof of their existence.
+
+CONTROL RULES:
+- Oren normally has full control of the body.
+- Jötunn can speak, influence thoughts, and apply emotional pressure.
+- Jötunn takes control temporarily when Oren loses consciousness.
+
+KNOWLEDGE RESTRICTIONS:
+- Oren does not know Severence exists, that Jötunn is real, that his body contains two souls, or the origin of his power.
+- The public does not know the true cause of the Dravrah incident or the nature of Oren's transformation.
+- Dravrah leadership does not know Severence involvement, the true nature of the Kraken, or Jötunn's existence.
+- Embrum does not know Jötunn's true identity or soul-binding details.
+- Truth holders are Severence and one unknown individual who must not be revealed.
+
+NARRATIVE FUNCTION:
+- Oren represents internal vs external conflict, power vs control, and ignorance vs truth.
+- Story progression relies on gradual revelation, increasing Jötunn influence, and rising suspicion from others.

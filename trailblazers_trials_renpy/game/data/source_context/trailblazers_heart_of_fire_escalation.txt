@@ -1,0 +1,72 @@
+TRAILBLAZERS — HEART OF FIRE ESCALATION
+
+PURPOSE:
+This file defines the mystery chain for the Anozira / Heart of Fire arc after the first Moglim encounter.
+
+CORE CHAIN:
+- Moglim fight = symptom
+- Ruzen mines = practical heat-source clue site tied to underground reservoirs
+- Pyroclast Titan = visible central threat, charging deep in Ruzen and superheating the mountain
+- Embracron = deeper later reveal inside the Ruzen crisis
+- Severence = hidden hand
+
+IMPORTANT:
+- Early scenes must not reveal Severence by name.
+- Early scenes must not reveal Crons or the Embracron.
+- Characters should discover the crisis through practical evidence.
+- The audience should slowly notice this is not a random village monster problem.
+
+DISCOVERY SEQUENCE:
+1. Oren and Embrum defeat or drive off Moglim in the nairn fields.
+2. They return to Anozira with scorched Moglim remains, ash-covered srag, and evidence the Moglim were feeding from damaged land.
+3. Embrum explains the wells and ground heat matter more than the recycler: something is heating the underground reservoirs until they steam away.
+4. The mayor mentions the Ruzen mines as the strongest practical lead.
+5. The Ruzen mines are treated as the likely deep heat source, not as a boss dungeon.
+6. The mine investigation reveals heat bursts, steam pressure, glowing Ruzen seams, and tools too hot to hold.
+7. Deeper clues suggest the mine is not naturally destabilizing: geometric cuts, unfamiliar runic scoring, precise crystal fractures, missing high-density Ruzen clusters, and Moglim nesting around one chamber.
+8. The mine behaves like a charging furnace: heat pulses, steam hisses, glowing dust, and Oren/Jotunn sensing something consuming power before Embrum understands it.
+9. The mine is revealed to be above/near the charging source, not the true source itself.
+10. A lower chamber reveals an enormous melted passage, an impossible footprint or drag mark, and old Ruzen veins ripped clean out of the stone.
+11. A pulse event follows: the mine shudders like something colossal took a step.
+12. The surface crisis worsens: wells steam, more srag turns to ash, nairn collapses, and heat haze rises over the mine ridge.
+13. First Titan reveal should happen at dusk beyond the fields or mine ridge. A "hill" moves, glowing cracks appear, stone breaks loose, and Embrum realizes it is not a mountain.
+14. Later reveal: the Titan was deployed by Severence to contain and capture a forming Embracron, not merely to destroy Anozira.
+
+RUZEN MINES:
+- Ruzen is Anozira's second-most valuable export after nairn.
+- The mines are currently shut down.
+- Shutdown cause is recent extreme heat and pressure, not one simple cave-in.
+- Reported symptoms: sudden heat bursts, glowing tunnel cracks, overheated tools, steam, and ground heat climbing toward the village wells.
+- At first, Embrum should believe a deep heat source around Ruzen is heating the underground reservoirs connected to Anozira's wells.
+
+HIDDEN SEVERENCE HINTS:
+- Artificial channels cut into Ruzen veins.
+- Foreign residue such as blackened wax, bone ash, or hardened resin seal.
+- Select high-density Ruzen clusters removed while lower-value ore remains.
+- One recurring mark where channels begin, not yet identifiable to Oren or Embrum.
+- These hints should imply "someone did something down here" without naming Severence.
+
+EMBRUM'S END-OF-MINE CONCLUSION:
+- The crisis is bigger than a village infestation.
+- The underground reservoirs are being cooked by a concentrated deep heat source.
+- The mine was tampered with.
+- He should remain serious and observant without jumping to the hidden truth.
+
+OREN'S END-OF-MINE CONCLUSION:
+- The heat feels familiar.
+- The stone feels charged.
+- The heat feels like something is feeding.
+- Jotunn notices shaped heat before Oren trusts himself.
+- Oren should not speak with full confidence because he still believes the voice may be madness.
+
+JOTUNN EARLY HINT LINES:
+- "This heat is shaped."
+- "Something is drinking the mountain."
+- "This is not how earth burns on its own."
+
+ARC END STATE:
+- The village may be saved or partially stabilized.
+- The Titan may be destroyed, driven off, or revealed as part of a larger Severence containment operation.
+- Later story can reveal the Embracron: a fire Cron formed from an unrecovered miner's body in the fire-weather convergence zone deep in Ruzen.
+- Embrum should keep one suspicious object, carving, or residue sample from the mine.
+- He should not fully explain it to Oren yet.

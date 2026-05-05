@@ -1,0 +1,202 @@
+TRAILBLAZERS WORLDBUILDING MASTER FILE
+Timestamp: April 21, 2026 (America/New_York)
+
+=====================================
+SECTION 1: MAGIC SYSTEM
+=====================================
+
+Magic is the fundamental building block of all matter and energy.
+- Cannot be created or destroyed
+- Exists as quantum-like "magic atoms"
+- Can take any form depending on influence
+
+States of Magic:
+1. Elemental Magic (common)
+2. Pure White Magic (rare, pre-elemental)
+3. Quantum Magic (foundational, governs reality)
+
+Time Magic:
+- Requires pure white magic + specific activation (poems/runes)
+- Does NOT create timelines
+- Only affects user + touched objects
+
+Mana System:
+- 3 pools: Head, Heart, Stomach
+- Exhaustion leads to environmental absorption
+- Overuse causes damage/aging
+
+Environmental Interaction:
+- Weather + mana = amplified effects
+Example:
+Heat + mana → fire tornadoes
+Rain + mana → geysers
+
+=====================================
+SECTION 2: BIOLOGY
+=====================================
+
+All life is composed of magic atoms.
+
+Reproduction:
+- All races can reproduce together
+- No hybrids
+- Stronger gene dominates
+
+Gene hierarchy:
+Human < Elf < Orc < Beastman < Drysk < Dragon
+
+Lifespans:
+Humans: 170 (500+ magic)
+Elves/Drysk: 480 (800+ magic)
+Orcs/Beastmen: 320 (600+ magic)
+Dragons: 1600–5000
+
+Physical Traits:
+Humans: balanced
+Elves: tall/slender
+Orcs: large/strong
+Beastmen: small/aggressive
+Drysk: reptilian
+Dragons: pure mana beings
+
+Limits:
+- Limb regrowth possible (skill dependent)
+- No permanent species change (except dragons temporarily)
+- No natural immortality
+- Magic can create life but not consciousness
+
+Soul System:
+- Soul > Body
+- Stronger soul dominates
+- Oren = dual soul (special case)
+
+Creature Tiers:
+Hiccup → Misfortune → Disaster → Calamity
+
+=====================================
+SECTION 3: ECOLOGY (PLANTS)
+=====================================
+
+Plants form ecosystem foundation.
+
+Core Plants:
+- Srag (ground cover)
+- Nairn (grain)
+- Sinu (leaf crop)
+
+Enhanced Flora:
+- Lurien (energy fruit)
+- Emberroot (heat storage)
+- Glowcap (light fungus)
+
+Biome Behavior:
+Forest → overgrowth
+Plains → stable
+Frost → mana storage
+Desert → volatile
+Jungle → overflow
+Mountain → fragmented
+
+=====================================
+SECTION 4: GEOGRAPHY
+=====================================
+
+World Structure:
+- Large continents + islands
+
+Biome System:
+- Climate defines type
+- Mana defines intensity
+
+Examples:
+Forest → growth surges
+Desert → fire tornadoes
+Frost → mana crystallization
+Jungle → saturation fog
+
+=====================================
+SECTION 5: RELIGION
+=====================================
+
+3 Major Religions:
+
+1. Highest Order
+- Centralized human religion
+- Cathedrals
+- Royal family = divine descendants
+- Doctrine: balance (good returns good)
+
+2. Mother Mana (Magic Worship)
+- Magic is a living consciousness
+- Souls return to it
+
+3. Dragon Worship
+- Dragons are divine rulers
+- Belief in rebirth into dragons
+
+Scientific Groups:
+- Dravrah + Dwarves reject religion
+
+=====================================
+SECTION 6: DEATH SYSTEM
+=====================================
+
+True System:
+- Soul → afterrealm → memory loss → rebirth
+
+Public Beliefs:
+- Common: Endless sleep (nothingness)
+- Highest Order: heaven (incorrect)
+- Mana: merge into Mother Mana
+- Dragon: rebirth by willpower
+
+=====================================
+SECTION 7: SPECIAL CHARACTERS
+=====================================
+
+Oren:
+- Dragon soul + human soul
+- Bound by heart curse
+- Both die if body dies
+
+Time Dragon:
+- Controls time magic
+- Exists across timeline
+
+Death Dragon:
+- Controls afterrealm
+- Can preserve memory
+
+Death Mage:
+- Soul transfer ability
+- Possesses bodies
+- Avoids death cycle artificially
+
+=====================================
+SECTION 8: SOCIETY SYSTEMS
+=====================================
+
+Human Kingdom: Acerima
+- Federal structure (like USA)
+- Capital: Cal Wyshten
+- Provinces act like states
+
+Infrastructure:
+- Magic recyclers → mana potions
+- Teleportation towers
+
+=====================================
+SECTION 9: GLOBAL EVENT SYSTEM
+=====================================
+
+Fantasia:
+- Island tournament
+- Wizard Games
+- Global gathering point
+- Rewards:
+  - money
+  - land
+  - spells
+
+=====================================
+END OF FILE

@@ -1,0 +1,798 @@
+{
+  "metadata": {
+    "project": "Trailblazers",
+    "generated_at": "2026-04-21 America/New_York",
+    "purpose": "Machine-readable worldbuilding and story context for game/system coding"
+  },
+  "world": {
+    "magic_system": {
+      "core_principle": "Magic is the fundamental building block of all matter and energy.",
+      "rules": {
+        "conservation": "Magic cannot be created or destroyed, only changed in form.",
+        "composition": "All matter is composed of quantum-like magic atoms.",
+        "environmental_interaction": "Climate determines biome type; mana density determines biome intensity and instability."
+      },
+      "states": [
+        {
+          "name": "elemental",
+          "description": "Common magic influenced by environment or intent into forms like fire, water, wind, and earth."
+        },
+        {
+          "name": "pure_white",
+          "description": "Pre-elemental raw magic with higher potency and harder control."
+        },
+        {
+          "name": "quantum",
+          "description": "Foundational state of magic governing reality consistency and timeline stability."
+        }
+      ],
+      "time_magic": {
+        "requirements": [
+          "Access to pure white magic",
+          "Specific activation method (poem, rune, circle, or equivalent key)",
+          "Knowledge held by Time Dragon"
+        ],
+        "rules": [
+          "Does not create alternate timelines",
+          "Only the user and directly affected targets are displaced",
+          "Reality re-merges after disturbance"
+        ]
+      },
+      "mana_system": {
+        "pools": [
+          "head",
+          "heart",
+          "stomach"
+        ],
+        "depletion_effect": "Magic fatigue when all three pools are depleted.",
+        "overuse_effect": "Body absorbs environmental magic, causing burning, aging, and possible death."
+      },
+      "race_magic_styles": {
+        "humans": {
+          "method": "Tool-based magic using Ether Resin and spell circles",
+          "notes": [
+            "Blood circles are archaic and illegal",
+            "Non-mages can use inscribed circles on weapons/armor"
+          ]
+        },
+        "elves": {
+          "method": "Language-based magic through poems, phrases, and structured words"
+        },
+        "orcs": {
+          "method": "Rune-based magic through fixed combinations and magical instructions"
+        },
+        "beastmen": {
+          "method": "Emotion-based magic used for self-enhancement and body augmentation"
+        },
+        "dragons": {
+          "method": "Natural use of pure white magic as an extension of pure mana souls"
+        }
+      },
+      "environmental_effects": {
+        "rule": "Natural weather + sufficient mana density = amplified biome-specific phenomena",
+        "examples": {
+          "desert": [
+            "fire tornadoes",
+            "mana mirages",
+            "surface ignition zones"
+          ],
+          "forest": [
+            "overgrowth surges",
+            "root shifts",
+            "spore clouds"
+          ],
+          "frost": [
+            "mana crystallization",
+            "frozen energy pockets",
+            "blizzard amplification"
+          ],
+          "jungle": [
+            "vine expansion events",
+            "mana saturation fog",
+            "water surges"
+          ],
+          "mountain": [
+            "mana fractures",
+            "avalanche amplification",
+            "air distortion currents"
+          ]
+        }
+      },
+      "human_magic_infrastructure": {
+        "ether_resin": "Manufactured magical substance used in wands and staffs to draw spell circles.",
+        "magic_recyclers": {
+          "function": "Absorb excess ambient mana and condense it into Mana Water.",
+          "purpose": "Prevent urban magical instability and convert ambient mana into usable potions.",
+          "failure_condition": "If overloaded, unstable magical phenomena can occur even in cities."
+        },
+        "device_regulation": {
+          "authority": "Crown Artifice Council (CAC)",
+          "rules": [
+            "Magical devices must be approved, licensed, and registered",
+            "Illegal experimentation is common among students and underground artificers"
+          ]
+        }
+      }
+    },
+    "biology": {
+      "core_principle": "All living organisms are composed of magic atoms; biology and magic are inseparable.",
+      "adaptation": {
+        "rule": "Creatures adapt rapidly to environment and mana exposure, creating subspecies rather than random mutation.",
+        "example": "A normal Brumel can become a desert Brumel within about one month in desert conditions."
+      },
+      "reproduction": {
+        "cross_race": true,
+        "hybrids_exist": false,
+        "rule": "The child becomes one full race based on gene dominance rather than a mixed hybrid.",
+        "gene_dominance_order": [
+          "human",
+          "elf",
+          "orc",
+          "beastman",
+          "drysk",
+          "dragon"
+        ],
+        "dragon_note": "Dragons can reproduce in humanoid form if strong enough to maintain it."
+      },
+      "lifespans": {
+        "human": {
+          "natural_max_years": 170,
+          "magic_extended_years": 500
+        },
+        "elf": {
+          "natural_max_years": 480,
+          "magic_extended_years": 800
+        },
+        "drysk": {
+          "natural_max_years": 480,
+          "magic_extended_years": 800
+        },
+        "orc": {
+          "natural_max_years": 320,
+          "magic_extended_years": 600
+        },
+        "beastman": {
+          "natural_max_years": 320,
+          "magic_extended_years": 600
+        },
+        "dragon": {
+          "natural_max_years": 1600,
+          "elder_max_years": 5000
+        }
+      },
+      "physical_traits": {
+        "human": {
+          "average_height_ft": 6.0,
+          "average_weight_lb": 200,
+          "build": "balanced"
+        },
+        "elf": {
+          "average_height_range_ft": [
+            6.4,
+            8.0
+          ],
+          "build": "slender, often tall"
+        },
+        "orc": {
+          "minimum_height_ft": 6.8,
+          "common_max_ft": 10.0,
+          "legendary_max_ft": 20.0,
+          "build": "massive"
+        },
+        "beastman": {
+          "average_height_range_ft": [
+            4.8,
+            5.8
+          ],
+          "rare_max_ft": 7.0,
+          "build": "small, fierce"
+        },
+        "drysk": {
+          "build": "reptilian humanoid",
+          "traits": [
+            "horns optional",
+            "wings optional",
+            "scale variation"
+          ]
+        },
+        "dragon": {
+          "build": "mana-dense divine creature",
+          "trait": "temporary humanoid transformation possible"
+        }
+      },
+      "intelligence": {
+        "rule": "Intelligence is not determined by race or magical ability.",
+        "note": "All races produce brilliant individuals, foolish individuals, gifted mages, and gifted scientists."
+      },
+      "magic_vs_body_limits": {
+        "limb_regrowth": {
+          "possible": true,
+          "requirements": "High skill healing/cleric magic with strong focus and precise matter reshaping",
+          "risk": "Malformed reconstruction if done poorly"
+        },
+        "permanent_species_change": {
+          "general": false,
+          "dragon_exception": "Dragons can temporarily shift between reptilian and humanoid forms while actively maintaining shape."
+        },
+        "become_dragon": {
+          "possible": false,
+          "exception": "Only possible by direct divine intervention from the Highest Order in the throne room."
+        },
+        "natural_immortality": {
+          "possible_for_regular_races": false,
+          "exceptions": "Requires external help such as Death Dragon or soul-transfer systems"
+        },
+        "create_life": {
+          "living_constructs": true,
+          "true_consciousness": false,
+          "note": "Golems and familiars may be created, but they act as extensions of a caster’s intent/emotion rather than true self-aware beings."
+        }
+      },
+      "soul_body_relationship": {
+        "rule": "Soul is stronger than body; stronger souls dominate weaker ones.",
+        "special_case_oren": "Jötunn's stronger dragon soul is constrained by a Severance curse that binds him to Oren's heart and enforces human limits and stable human control while Oren is awake."
+      },
+      "creature_intelligence_tiers": {
+        "H": {
+          "name": "Hiccup",
+          "description": "Low intelligence, low threat, instinct-driven"
+        },
+        "M": {
+          "name": "Misfortune",
+          "description": "Moderate intelligence, reactive strategy, pack behavior"
+        },
+        "D": {
+          "name": "Disaster",
+          "description": "High intelligence, capable of planning and territorial strategy"
+        },
+        "C": {
+          "name": "Calamity",
+          "description": "Highest non-divine threat tier; dragon level. No sublevels above this."
+        }
+      }
+    },
+    "flora": {
+      "core_rule": "Plants form the base of all ecosystems and are shaped first by climate, then amplified by mana density.",
+      "foundational_crops": {
+        "srag": {
+          "type": "ground cover / srag-field foundation",
+          "function": [
+            "stabilizes ground",
+            "spreads easily",
+            "grazing base"
+          ]
+        },
+        "nairn": {
+          "type": "grain equivalent",
+          "function": [
+            "staple food",
+            "processed into flour",
+              "creature feed"
+          ]
+        },
+        "sinu": {
+          "type": "leaf crop",
+          "function": [
+            "nutrient-rich everyday food",
+            "stable low magical effect"
+          ]
+        }
+      },
+      "other_plants": {
+        "lurien": {
+          "type": "fruit",
+          "function": [
+            "refreshment",
+            "minor energy restoration"
+          ]
+        },
+        "emberroot": {
+          "type": "root/heat crop",
+          "function": [
+            "stores heat energy",
+            "fuel or energy use"
+          ]
+        },
+        "glowcap": {
+          "type": "fungus",
+          "function": [
+            "natural light source",
+            "low-light ecology"
+          ]
+        }
+      },
+      "biome_behavior": {
+        "forest": [
+          "large scale growth",
+          "deep roots",
+          "fast absorption of mana"
+        ],
+        "plains": [
+          "stable growth",
+          "even mana dispersion",
+          "predictable ecosystem"
+        ],
+        "frost": [
+          "slow growth",
+          "mana storage",
+          "cold resistance"
+        ],
+        "desert": [
+          "minimal water use",
+          "volatile reactions to heat + mana"
+        ],
+        "jungle": [
+          "fast growth",
+          "extreme density",
+          "mana overload tendency"
+        ],
+        "mountain": [
+          "sparse growth",
+          "resilient isolated clusters",
+          "terrain-fragmented development"
+        ]
+      }
+    },
+    "fauna": {
+      "domesticated": {
+        "brumel": {
+          "role": "baseline stable livestock",
+          "outputs": [
+            "stable milk",
+            "dense meat",
+            "thick mana-resistant hide"
+          ]
+        },
+        "kethra": {
+          "role": "reactive livestock",
+          "outputs": [
+            "variable mana vapor",
+            "reactive meat",
+            "flexible energy-holding skin"
+          ]
+        },
+        "rethka": {
+          "role": "hardy survival grazer",
+          "outputs": [
+            "durable fiber",
+            "lean meat",
+            "thick rugged hide"
+          ]
+        },
+        "velka": {
+          "role": "emotionally resonant herd creature",
+          "outputs": [
+            "calming breath/gas",
+            "soft fiber",
+            "thin stretchable hide"
+          ]
+        }
+      },
+      "insects": {
+        "cindrel": {
+          "lifecycle": "colony/queen system",
+          "outputs": [
+            "strong mana-conductive thread",
+            "resin clumps"
+          ]
+        },
+        "moln": {
+          "lifecycle": "larva-dominant subterranean lifecycle",
+          "outputs": [
+            "soil-enriching cast",
+            "rare moln core"
+          ]
+        },
+        "velis": {
+          "lifecycle": "egg-larva-cocoon-adult metamorphosis",
+          "outputs": [
+            "wing dust catalyst",
+            "fine cocoon silk"
+          ]
+        }
+      },
+      "predators": {
+        "karva": {
+          "domain": "land",
+          "type": "pressure-bodied ambush predator",
+          "trait": "statue-still waiting followed by explosive pressure pounce"
+        },
+        "veyrith": {
+          "domain": "air",
+          "type": "membrane-sailed aerial predator",
+          "trait": "air-shear dive through thermals and mana-rich wind"
+        },
+        "thalgrim": {
+          "domain": "sea",
+          "type": "flow predator",
+          "trait": "moves with minimal wake via current silence"
+        }
+      },
+      "general_intelligence": {
+        "low_tier_creatures": "Low consciousness, easy to trick, mostly instinctive",
+        "high_tier_creatures": "Some high-tier creatures may have child-level or higher strategic intelligence"
+      }
+    },
+    "geography": {
+      "global_structure": {
+        "major_landmasses": [
+          "southern continent",
+          "northern continent",
+          "central isolated region",
+          "eastern continent"
+        ],
+        "additional_structures": [
+          "island chains",
+          "isolated zones",
+          "subcontinents/split regions"
+        ]
+      },
+      "biome_distribution_rule": "Biome placement is determined by climate and terrain elevation, while mana density amplifies biome behavior.",
+      "primary_biomes": [
+        "forest",
+        "plains/srag fields",
+        "snow/frost",
+        "desert",
+        "jungle/dense growth",
+        "mountain"
+      ],
+      "oceans": {
+        "function": [
+          "separate ecosystems",
+          "limit easy movement",
+          "encourage isolated biome development"
+        ]
+      },
+      "instability_zones": {
+        "description": "High mana density disrupts natural environmental balance, creating volatile or dangerous terrain."
+      },
+      "accerima_high_level": {
+        "type": "large structured human kingdom landmass",
+        "features": [
+          "safe numbered provinces",
+          "wild unclaimed dangerous orange belts",
+          "northern choke toward the elves",
+          "teleport towers in safe regions",
+          "checkpoints in dangerous routes"
+        ]
+      }
+    },
+    "religion_and_afterlife": {
+      "major_religions": {
+        "highest_order": {
+          "summary": "Dominant organized human faith centered on a single supreme balancer.",
+          "institutions": {
+            "worship_sites": "cathedrals",
+            "leadership": "royal family above the church; bishops and clergy beneath them",
+            "visual_identity": "light-oriented, angelic, radiant architecture"
+          },
+          "origin": {
+            "jyra": "A living rib-fragment of the Highest Order sent to aid humanity during dragon oppression.",
+            "founding": "Jyra led the revolt, became first queen, and established the religion."
+          },
+          "royal_line": {
+            "arthur": "Dragon of Healing Light, husband of Jyra, still alive and hidden beneath the throne room.",
+            "descendants": "Human royal family descends from Jyra and Arthur."
+          },
+          "doctrine": [
+            "The Highest Order is a balancer",
+            "Good returns good; evil invites punishment"
+          ],
+          "public_afterlife_belief": "The honorable become astrals and dwell in the Highest Order’s heavenly realm."
+        },
+        "mother_mana": {
+          "summary": "Animist faith treating all magic as a shared living consciousness.",
+          "beliefs": [
+            "All magic is one living consciousness called Mother Mana",
+            "Souls return to Mother Mana after death",
+            "Strong enough communion can reach past loved ones"
+          ],
+          "hidden_truth": "Such contact is actually a temporary emotional link to souls in the afterrealm."
+        },
+        "dragon_worship": {
+          "summary": "Faith that dragons are the highest order and the old world under them was closest to heaven and earth united.",
+          "beliefs": [
+            "Devotion and willpower can shape rebirth",
+            "Followers may be reborn into dragons or higher forms",
+            "The past dragon age was a golden age"
+          ]
+        }
+      },
+      "scientific_view": {
+        "dravrah": "Neutral to religion and studies mana as a purely scientific/quantum system.",
+        "dwarves": "Similar to Dravrah; practical, scientific, non-spiritual view of magic"
+      },
+      "public_afterlife_beliefs": {
+        "common_endless_sleep": "Many ordinary people believe death is simply blackness, nothingness, and unawareness.",
+        "highest_order_belief": "Ascension to a heavenly plane with the Highest Order",
+        "mother_mana_belief": "Return to a universal magical consciousness",
+        "dragon_belief": "Reformation through will and mana field into a higher next life"
+      },
+      "heresy": {
+        "rule": "Each religion considers belief in the others heretical; the world is broadly xenophobic in religion.",
+        "exception": "The Severance is the major organized exception outside orthodox faith"
+      },
+      "known_holy_sites": {
+        "crater_of_jyra": "Holy site marking where Jyra descended to the world"
+      }
+    },
+    "afterlife_system": {
+      "true_process": [
+        "Soul leaves the body",
+        "Soul enters the afterrealm",
+        "Memory and identity begin to fade",
+        "Soul prepares for rebirth"
+      ],
+      "core_rules": {
+        "souls_in_overworld": "Ghosts are projections from the afterrealm and cannot be physically or magically touched from the overworld.",
+        "same_realm_interaction": "Souls can be interacted with by beings in the afterrealm.",
+        "memory_decay": "Memory fades quickly unless preserved"
+      },
+      "death_dragon": {
+        "role": "Ruler of the afterrealm and manager of soul flow/rebirth",
+        "traits": [
+          "silent",
+          "grumpy",
+          "soft-hearted",
+          "above worldly politics"
+        ],
+        "abilities": [
+          "preserve memory and identity with magical coating",
+          "allow living beings to survive temporarily in the afterrealm",
+          "astral project into the overworld"
+        ],
+        "preservation_deals": {
+          "nature": "Loose personal judgment rather than formal contracts",
+          "criteria": [
+            "lived a life with little to no murder",
+            "strong emotional desire to remain oneself",
+            "actions that reduced death or suffering"
+          ],
+          "costs": [
+            "cannot return to same body",
+            "cannot return to same time period",
+            "world moves on while soul is in the afterrealm"
+          ]
+        }
+      },
+      "time_dilation": {
+        "rule": "Time in the afterrealm runs much faster than in the overworld.",
+        "example": "About 10 minutes in the afterrealm can equal about 1 year in the overworld."
+      },
+      "legendary_returned_mage": {
+        "description": "Ancient human elder of Dravrah with memory-preserved rebirth cycle granted by Death Dragon.",
+        "rebirth_loop": [
+          "dies",
+          "skips the line to Death Dragon",
+          "is reborn roughly one year later in the overworld"
+        ],
+        "limits": [
+          "returns as a natural baby",
+          "must age and physically redevelop power",
+          "retains full memory but not full body capability"
+        ]
+      }
+    },
+    "factions_and_society": {
+      "acerima": {
+        "type": "Human kingdom with fantasy US-like federal structure",
+        "capital": "Cal Wyshten",
+        "governance": [
+          "capital controls strategic law and resources",
+          "provinces act like states controlling local land and towns"
+        ],
+        "economy": {
+          "style": "capitalism under central regulation",
+          "strategic_controls": [
+            "magical devices",
+            "mana recyclers",
+            "major infrastructure"
+          ]
+        },
+        "cac": {
+          "name": "Crown Artifice Council",
+          "functions": [
+            "approve magical device designs",
+            "license magical tools",
+            "regulate dangerous experiments"
+          ],
+          "student_conflict": "College and school students often build illegal devices due to slow approvals."
+        }
+      },
+      "dravrah_and_taa": {
+        "dravrah": "Neutral academic center focused on magic as science",
+        "taa": {
+          "name": "Tower Access Authority",
+          "control": "Overseen by the Elder Council of Dravrah",
+          "function": [
+            "maintain teleportation towers and checkpoints",
+            "manage diplomacy of route systems",
+            "issue Trailblazer requests to restore failed paths"
+          ]
+        }
+      },
+      "trailblazers": {
+        "definition": "Requests/contracts to restore broken route checkpoints by manual dangerous travel and repair.",
+        "risks": [
+          "creature attacks",
+          "checkpoint failure",
+          "caravan deaths"
+        ],
+        "rewards": [
+          "wealth",
+          "recognition",
+          "Dravrah rewards"
+        ]
+      },
+      "severance": {
+        "type": "Hidden organization seeking reality-shaping ends through forbidden magic",
+        "public_layer": "Believers and operatives",
+        "hidden_core": "Drysk loyalists and restorationists",
+        "tools": [
+          "soul extraction",
+          "soul transference",
+          "curse creation",
+          "political and religious manipulation"
+        ]
+      },
+      "drysk": {
+        "description": "Reptilian humanoid race once acting as dragon-adjacent nobility and intermediaries.",
+        "history": [
+          "served dragons as nobles and enforcers before the revolt",
+          "many chose to be sealed with dragons",
+          "survivors became outcasts and shadow manipulators"
+        ],
+        "current_role": "Hidden backbone of dragon restorationist influence within the Severance"
+      }
+    },
+    "tower_system": {
+      "type": "Continuous mana beam transport network",
+      "process": [
+        "identity scan",
+        "authorization and payment",
+        "entry into mana beam",
+        "body physically carried through stabilized magical current",
+        "exit at destination"
+      ],
+      "rules": [
+        "Travelers remain conscious during transit",
+        "Physical bodies remain intact",
+        "Frequent travel causes mana burn through skin pores and overload of mana pools"
+      ],
+      "checkpoints": "Required to stabilize the beam across long distances and dangerous terrain."
+    },
+    "story": {
+      "ancient_history": {
+        "dragon_age": "Dragons ruled as divine beings; Drysk acted as noble intermediaries over lower races.",
+        "revolt": "Lower races revolted with Jyra and Arthur’s help, leading to the sealing of dragons.",
+        "seal_note": "Early seal was immature; dragons could sometimes escape thousands of years ago."
+      },
+      "jyra": {
+        "origin": "Rib-fragment daughter of the Highest Order",
+        "role": "Led the human revolt and became first queen of Acerima",
+        "later": "Returned to the Highest Order’s realm"
+      },
+      "arthur": {
+        "title": "Dragon of Healing Light",
+        "role": "Helped the revolt, married Jyra, remains alive in secret beneath the throne"
+      },
+      "oren": {
+        "original_form": "Human Oren carrying Jötunn, a dragon soul originally searching for an artifact stolen by Severence",
+        "defeat_event": [
+          "Jötunn attacked Severence headquarters to retrieve artifact",
+          "Jötunn was defeated by combined Severence forces"
+        ],
+        "curse": {
+          "intent": "Assassination via soul displacement into a vulnerable human infant",
+          "method": [
+            "Jötunn's dragon soul ripped from regenerative dragon body",
+            "forcibly placed into the heart of a human baby boy named Oren",
+            "bound to Oren's heart with a curse tattoo"
+          ],
+          "plan": "Kill Oren's body to kill both Oren and Jötunn permanently",
+          "result": "Oren escaped as a baby by unknown means"
+        },
+        "current_state": {
+          "souls": [
+            "Human Oren (original soul of the baby)",
+            "Jötunn (bound dragon soul)"
+          ],
+          "body_rule": "If Oren's body dies, both souls die because Jötunn is bound to Oren's heartbeat.",
+          "curse_functions": [
+            "soul anchor",
+            "power suppression",
+            "memory split/seal"
+          ],
+          "control_rule": "Oren normally controls the body; Jötunn may surface when Oren is unconscious."
+        },
+        "goals": {
+          "human_oren": "Wants freedom, answers, and eventually revenge",
+          "jotunn": "Wants freedom from Oren's heart and return to his dragon body",
+          "death_mage": "Wants to find Oren and finish the failed kill against Jötunn"
+        }
+      },
+      "major_characters": {
+        "time_dragon": {
+          "role": "Brother of Death Dragon; only true master of time magic",
+          "traits": [
+            "lighthearted",
+            "peaceful",
+            "slightly egotistical",
+            "sees lesser dragons as lizards"
+          ],
+          "abilities": [
+            "moves freely across eras",
+            "does not age",
+            "body-only temporal displacement",
+            "holds knowledge of all temporal keys"
+          ]
+        },
+        "death_dragon": {
+          "role": "Sister of Time Dragon; ruler of the afterrealm",
+          "traits": [
+            "silent",
+            "grumpy",
+            "soft-hearted",
+            "above worldly politics"
+          ],
+          "abilities": [
+            "preservation coating",
+            "astral projection",
+            "control over rebirth flow",
+            "allows rare memory-preserved rebirth"
+          ]
+        },
+        "death_mage": {
+          "role": "Severance soul mage obsessed with Death Dragon",
+          "traits": [
+            "death-obsessed",
+            "rejects natural cycle",
+            "body-hopping immortal through forbidden ritual"
+          ],
+          "abilities": [
+            "observe the afterrealm by reverse-ghost-like projection",
+            "soul transference into living hosts",
+            "host suppression or host soul severance",
+            "blood-cost curse casting"
+          ],
+          "limits": [
+            "does not control the afterrealm",
+            "relies on hosts and anchoring",
+            "soul coherence degrades over transfers"
+          ]
+        },
+        "returned_legend_mage": {
+          "role": "Dravrah elder, friend of Time Dragon and Death Dragon, future second teacher of Oren",
+          "traits": [
+            "ancient",
+            "joking",
+            "burdened by memory",
+            "sometimes missing",
+            "rumored to use pure white magic"
+          ],
+          "abilities": [
+            "memory-preserved rebirth loop",
+            "passage in and out of Death Dragon’s realm",
+            "extreme magical talent even in human lineage"
+          ]
+        }
+      },
+      "fantasia": {
+        "type": "Global entertainment and competition island near Dravrah",
+        "event": "Wizard Games",
+        "purpose": [
+          "gives people a reason to travel across kingdoms",
+          "allows poor but gifted competitors to rise in status",
+          "creates global magical competition and betting culture"
+        ],
+        "rewards": [
+          "land",
+          "gold/silver",
+          "rare spells",
+          "reputation"
+        ],
+        "entry_rule": "No entry fee; only need a way to reach Fantasia"
+      }
+    }
+  }
+}

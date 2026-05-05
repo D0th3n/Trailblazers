@@ -1,0 +1,179 @@
+TRAILBLAZERS STORY UPDATE FILE — HEART OF FIRE ARC
+Timestamp: April 21, 2026 (America/New_York)
+
+PURPOSE:
+This file updates Codex with critical hidden-knowledge rules, story context, and character awareness limitations for the "Heart of Fire" arc.
+
+=====================================
+GLOBAL KNOWLEDGE RESTRICTIONS
+=====================================
+
+SEVERENCE:
+- Status: Secret organization
+- Known ONLY by:
+  - Elder Council of Dravrah
+- Unknown to:
+  - General population
+  - Villagers
+  - Oren
+  - Embrum
+  - Most kingdoms
+
+PUBLIC BELIEF:
+- Threats are assumed to be:
+  - wandering creatures
+  - natural mana disturbances
+
+=====================================
+ANOZIRA VILLAGE CONTEXT
+=====================================
+
+Location: Human Kingdom (Acerima)
+
+Current Crisis:
+- Severe drought
+- Crops failing (including nairn and sinu)
+- Srag drying and becoming brittle
+
+CAUSE (TRUE):
+- Magical creature introduced by Severence
+
+CAUSE (PERCEIVED BY VILLAGERS):
+- Unknown wandering creature
+- Natural imbalance
+- Possibly divine punishment
+
+Villager Behavior:
+- Fearful
+- Religious references increasing
+- Turning to:
+  - royal family faith
+  - “Highest Order” beliefs
+
+=====================================
+ROYAL FAMILY DIVINITY (PUBLIC PERCEPTION)
+=====================================
+
+Villagers believe:
+- Royal family are descendants of Jyra (divine being)
+- They are chosen by the Highest Order
+
+Common Dialogue Themes:
+- “The royal blood would not allow this suffering.”
+- “The Highest Order must be testing us.”
+- “If word reaches the capital, we may yet be saved.”
+
+Reality:
+- Royal family has influence but does not directly intervene in small village crises
+- Faith is partially manipulated but widely believed
+
+=====================================
+OREN & JÖTUNN KNOWLEDGE STATE
+=====================================
+
+OREN:
+- Does NOT know:
+  - Severence exists
+  - Jötunn is real
+  - His curse origin
+
+- Believes:
+  - The voice is his own thoughts
+  - He may be going insane
+
+JÖTUNN:
+- Identifies himself as:
+  - a dragon
+  - named “Jötunn”
+
+OREN’S INTERPRETATION:
+- Rejects claim as delusion
+- Dragons sealed 2226 years ago
+- Considers thoughts irrational
+
+=====================================
+JÖTUNN VS SEVERENCE (HIDDEN HISTORY)
+=====================================
+
+Event:
+- Jötunn attacked Severence headquarters (NOT a random facility)
+
+Participants:
+- High-ranking Severence members
+
+Outcome:
+- Jötunn defeated through combined effort
+- Soul forcibly extracted
+- Bound into human infant (Oren)
+
+IMPORTANT:
+- This event is COMPLETELY SECRET
+- Not known by:
+  - Dravrah Council
+  - Kingdoms
+  - Public records
+
+=====================================
+OREN’S CURSE STATUS
+=====================================
+
+Curse Type:
+- Heart-bound soul seal
+
+Knowledge:
+- Known ONLY by:
+  - the unknown figure who helped Oren escape
+
+UNKNOWN TO:
+- Oren
+- Embrum
+- Villagers
+- Dravrah Council
+
+Narrative Rule:
+- Do NOT reveal this figure yet
+- Do NOT reference their existence in dialogue or narration
+
+=====================================
+HEART OF FIRE ARC RULES
+=====================================
+
+SETTING:
+- Entire arc takes place in Anozira Village
+
+CORE THEMES:
+- ignorance of true threat
+- misinterpretation of danger
+- internal vs external conflict (Oren vs Jötunn)
+
+ENEMY CONTEXT:
+- Creature causing drought is assumed random
+- True origin (Severence) remains hidden
+
+=====================================
+IMPLEMENTATION RULES (FOR CODEX)
+=====================================
+
+1. NEVER mention Severence unless explicitly revealed later.
+2. All threats must be framed as:
+   - unknown
+   - natural
+   - unexplained
+
+3. Oren must:
+   - doubt Jötunn
+   - treat voice as internal instability
+
+4. Villagers must:
+   - reference royal family divinity
+   - reference Highest Order belief system
+
+5. Dialogue should reflect:
+   - fear
+   - religious interpretation
+   - lack of real knowledge
+
+6. Do NOT break hidden knowledge rules.
+
+=====================================
+END OF FILE

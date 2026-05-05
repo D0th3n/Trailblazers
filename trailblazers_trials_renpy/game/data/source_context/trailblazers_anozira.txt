@@ -1,0 +1,155 @@
+TRAILBLAZERS — ANOZIRA VILLAGE CONTEXT FILE
+Timestamp: April 21, 2026 (America/New_York)
+
+PURPOSE:
+Defines the full ecological, economic, and narrative context of Anozira Village.
+This file acts as the primary reference for all systems, dialogue, and events occurring in Anozira.
+
+=====================================
+LOCATION & REGIONAL IMPORTANCE
+=====================================
+
+Name: Anozira Village
+Region: Human Kingdom (Acerima)
+Type: Agricultural village
+
+Nearest Major Hub:
+- The Port of Eldran
+
+PORT OF ELDRAN:
+- Coastal trade hub
+- Founded by Eldran (wealthy trade magnate)
+- Major export center for kingdom goods
+- Connects Acerima to overseas markets
+
+Primary Trade Route:
+Anozira → Port of Eldran → Overseas (Elven Kingdom)
+
+=====================================
+ECONOMIC ROLE
+=====================================
+
+Anozira is a high-quality nairn production village.
+
+PRIMARY EXPORT:
+- Nairn (grain/feed)
+
+Key Trait:
+- Anozira nairn is known to produce:
+  - faster livestock growth
+  - heavier Brumel mass gain
+
+This makes it highly valuable for:
+- livestock farmers
+- trade markets
+- export economies
+
+=====================================
+INTERNATIONAL TRADE CONNECTION
+=====================================
+
+Primary External Buyer:
+- Elven Kingdom (across the sea)
+
+Reason:
+- Redwood environments limit natural agriculture
+- Elves rely on imported feed for livestock
+
+Trade Flow:
+Anozira → Port of Eldran → Ships → Elven Kingdom
+
+Impact:
+- Anozira directly supports elven livestock survival
+- Port of Eldran profits heavily from this trade
+
+=====================================
+CURRENT CRISIS (HEART OF FIRE ARC)
+=====================================
+
+Condition:
+- Severe drought
+
+Effects:
+- Srag fields drying and dying
+- Nairn production collapsing
+- Livestock feed shortages increasing
+
+Economic Consequences:
+- Feed prices rising across the region
+- Trade disruption at Port of Eldran
+- Pressure from merchants and exporters
+
+=====================================
+CAUSE (TRUE VS PERCEIVED)
+=====================================
+
+TRUE CAUSE:
+- Magical creature introduced into the region
+- Origin tied to hidden external forces (Severence — NOT known publicly)
+
+PERCEIVED CAUSE (BY VILLAGERS):
+- Natural imbalance
+- Wandering magical creature
+- Possible divine punishment
+
+=====================================
+SOCIAL & CULTURAL RESPONSE
+=====================================
+
+Villager Behavior:
+- Fearful and uncertain
+- Increased reliance on religion
+- Frequent reference to:
+
+  - The Highest Order
+  - The royal family’s divine lineage
+
+Common Beliefs:
+- “The royal blood will not let us fall.”
+- “The Highest Order is testing us.”
+- “If the capital hears of this, help will come.”
+
+=====================================
+GOVERNMENT RESPONSE
+=====================================
+
+Authority Involved:
+- Highguard
+
+Assigned Agents:
+- Master Embrum (Highguard Knight)
+- Oren (Squire under supervision)
+
+Mission Objective:
+- Investigate drought
+- Eliminate suspected creature
+- Restore stability to nairn production
+
+Hidden Secondary Objective:
+- Monitor Oren as a potential Calamity threat
+
+=====================================
+NARRATIVE RULES (FOR CODEX)
+=====================================
+
+1. Villagers MUST NOT reference:
+   - Severence
+   - engineered threats
+   - hidden organizations
+
+2. All dialogue must reflect:
+   - ignorance of true cause
+   - reliance on belief systems
+   - economic concern
+
+3. Always reinforce:
+   - importance of nairn
+   - connection to Port of Eldran
+   - dependency of Elven Kingdom on exports
+
+4. Use correct ecological terms:
+   - srag (NOT grass)
+   - nairn (NOT wheat/grain)
+
+=====================================
+END OF FILE

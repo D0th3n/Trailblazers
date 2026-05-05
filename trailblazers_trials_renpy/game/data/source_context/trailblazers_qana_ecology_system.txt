@@ -1,0 +1,301 @@
+TRAILBLAZERS — QANA ECOLOGY SYSTEM
+Timestamp: April 23, 2026 (America/New_York)
+
+PURPOSE:
+This file defines how Qana functions as both an energy field and a biological requirement for different forms of life.
+It also locks the ecological role of Qana recyclers, safe zones, wild zones, and Qana-dependent creatures.
+
+=====================================
+CORE RULE
+=====================================
+
+Qana is both:
+- an energy field underlying matter, spell expression, and elemental behavior
+- a biological requirement for some organisms
+
+Not every organism depends on Qana the same way.
+
+=====================================
+TWO TYPES OF LIFE
+=====================================
+
+1. HUMANS — HYBRID SYSTEM
+
+Humans rely primarily on oxygen respiration.
+They breathe through lungs and are not harmed by low-Qana environments.
+
+Humans absorb and replenish Qana indirectly through:
+- food, digestion, rest, and bodily health feeding the stomach pool
+- emotion, memory, motivation, grief, love, fear, and resolve feeding the heart pool
+- meditation, focus, stillness, and mental structuring feeding the head pool
+
+Humans are dual-dependent organisms:
+- oxygen for life support
+- Qana for spell expression, Qana reserves, and advanced physical/spiritual function
+
+2. QANA CREATURES — PURE FIELD-DEPENDENT LIFE
+
+Qana creatures rely on ambient Qana rather than oxygen.
+They do not need lungs and do not require traditional organ layouts.
+
+They absorb Qana directly through:
+- skin
+- surface membranes
+- body field
+- non-traditional biological structures
+
+This allows extreme variation in body shape, organ structure, and life cycle.
+
+=====================================
+QANA BREATHING MECHANIC
+=====================================
+
+Qana creatures "breathe" by exchanging with the surrounding Qana field:
+
+1. Ambient Qana enters through the body's surface or field boundary.
+2. Internal structures convert the absorbed Qana state.
+3. The resolved Qana becomes usable biological energy.
+
+This replaces oxygen exchange.
+
+Qana creatures do not inhale air to survive.
+They convert surrounding Qana into an oxygen-equivalent life process.
+
+=====================================
+QANA RECYCLERS
+=====================================
+
+Qana recyclers regulate environmental Qana density.
+They are ecosystem regulators, not only weather stabilizers.
+
+Full function:
+
+1. Reduce Qana saturation
+- prevents dangerous Qana buildup
+- lowers ambient Qana density
+
+2. Stabilize the environment
+- keeps weather consistent
+- prevents elemental buildup
+- reduces field instability
+
+3. Deny Qana to Qana-dependent creatures
+- removes what those creatures "breathe"
+- makes the area uninhabitable for pure field-dependent life
+
+Result:
+Qana recyclers create Qana-depleted safe zones where humans can live with lower monster risk.
+
+=====================================
+SAFE ZONES AND WILD ZONES
+=====================================
+
+SAFE ZONES — HUMAN TERRITORY
+
+Safe zones are artificially stabilized areas.
+They usually have:
+- low ambient Qana density
+- stable weather
+- reduced elemental buildup
+- working Qana recyclers
+- few or no Qana-dependent creatures
+
+Cities and villages are not naturally safe.
+They are engineered safe zones maintained by Qana technology and civic infrastructure.
+
+WILD ZONES — DANGER AREAS
+
+Wild zones usually have:
+- high ambient Qana density
+- unstable weather
+- creature-heavy ecosystems
+- higher Cron risk
+- more frequent elemental anomalies
+
+Qana creatures are not always "invading" human territory.
+In many cases, they are returning to environments that became habitable to them again after recycler failure or sabotage.
+
+=====================================
+QANA CREATURE TIERS AND DOCUMENTATION
+=====================================
+
+Creature strength is documented, not automatically known.
+Threat tiers are assigned after someone observes, survives, studies, captures, or defeats the creature.
+
+This creates a Monster Hunter-style knowledge model:
+- a creature's real strength may be unknown before documentation
+- different nations may hold different records
+- some nations, guilds, schools, and research bodies know more than others
+- not all creature information is shared openly between nations
+- threat classification can be wrong, outdated, or region-specific
+
+Use tier language when relevant, but treat it as a human knowledge system rather than a perfect natural law.
+
+Known broad threat language:
+- Hiccup Tier: low threat
+- Misfortune Tier: mid threat
+- Disaster Tier: high threat
+- Calamity Tier: extreme threat
+
+=====================================
+QANA CREATURE TEMPERAMENT
+=====================================
+
+Qana creatures are not all hostile.
+
+Current broad rule:
+- many are aggressive or dangerous on contact
+- about forty percent are kind-natured, neutral, or potentially helpful on first contact
+- even kind creatures can turn hostile if betrayed, wounded, trapped, or attacked
+- temperament can shift with Qana density, injury, fear, starvation, territorial pressure, or environmental stress
+
+Example kind-natured creature:
+
+AETHRUM
+- A Qana creature that can consciously aid in sustaining a person's life.
+- Its help is intentional, not accidental.
+- It should be treated as proof that Qana creatures can be benevolent, empathetic, or cooperative by nature.
+
+Do not write Qana creatures as automatically evil.
+Most dangerous encounters come from ecology, territory, hunger, fear, Qana stress, or human betrayal.
+
+=====================================
+QANA CREATURE HABITATS
+=====================================
+
+Qana creatures can live anywhere recycler coverage is absent, weak, failed, or overwhelmed.
+
+Threat level depends heavily on biome:
+
+OPEN PLAINS AND LOW-SEVERITY BIOMES
+- Qana is more dispersed.
+- Creatures tend to be lower threat and less aggressive.
+- Examples include slimes and Moglim.
+- These areas are commonly used for student training when conditions are controlled enough.
+
+HARSH HIGH-QANA BIOMES
+- Dense forests
+- Deep jungles
+- High frontier mountains
+- Severe-weather regions
+- Deep underground zones
+
+In these places, Qana creatures have the natural advantage.
+They tend to become stronger, more territorial, and more aggressive because the environment supports stronger field-dependent life.
+
+=====================================
+ADAPTATION
+=====================================
+
+Qana creatures do not evolve in the normal long-term species-change sense.
+They adapt.
+
+Adaptations are shaped by environmental pressure.
+The severity of adaptation depends on how intense the environment is and how strongly it forces the creature to change.
+
+Important distinction:
+- Evolution is not the default creature rule.
+- Adaptation is the default creature rule.
+- High-Qana or extreme-biome pressure can produce severe adaptations.
+
+=====================================
+CAC INVOLVEMENT WITH CREATURES
+=====================================
+
+CAC are inventors, scientists, regulators, and researchers.
+They do not normally go out to defeat Qana creatures themselves.
+
+CAC often need:
+- creature body parts
+- rare materials
+- biological samples
+- field data
+- Qana-reactive tissue
+- hazard reports
+
+How CAC obtains these:
+- job forms sent to guilds
+- contracts sent to mercenaries
+- requests sent to the capital
+- knight deployments when the crown accepts the request
+- purchased materials from licensed hunters, adventurers, or field teams
+
+CAC usually avoids risking its own researchers unless the mission requires direct scientific observation.
+
+=====================================
+IMPORTANT CONSEQUENCES
+=====================================
+
+1. Villages depend on recyclers.
+
+If a recycler fails or is overwhelmed:
+- Qana spikes
+- weather destabilizes
+- Qana creatures can enter or survive nearby
+- Cron risk increases in exposed-death conditions
+
+2. Removing or disabling a recycler can be weaponized.
+
+Saboteurs can:
+- flood an area with Qana
+- force creature movement
+- create Cron-prone zones
+- destabilize weather
+- make human safe zones collapse
+
+3. Cities are engineered ecosystems.
+
+Urban safety depends on:
+- recycler infrastructure
+- monitoring
+- maintenance
+- controlled Qana density
+
+4. Qana creatures follow ecology, not morality.
+
+They are often drawn by restored or increased ambient Qana rather than evil intent.
+
+=====================================
+ANOZIRA IMPLICATIONS
+=====================================
+
+The Anozira arc should use this logic:
+
+- The Qana recycler normally keeps Anozira stable enough for human settlement and farming.
+- The Pyroclast Titan's charging deep in Ruzen overwhelms the regional balance.
+- Underground reservoirs heat and evaporate, causing drought.
+- Environmental Qana instability and heat residue make the area more habitable to Moglim.
+- Moglim appear because conditions now support them, not because they are masterminds.
+- The visible village problem is drought and creature appearance.
+- The hidden structural problem is that the engineered safe zone is failing.
+
+=====================================
+SEVERENCE IMPLICATIONS
+=====================================
+
+Severence can exploit recycler logic by:
+
+- disabling Qana recyclers
+- overwhelming stable zones with Qana
+- manipulating creature movement
+- creating Cron-prone environments
+- hiding attacks behind "natural" Qana instability
+
+This lets Severence weaponize ecology without always appearing directly.
+
+=====================================
+CLEAN LORE VERSION
+=====================================
+
+Qana creatures are biological entities that rely on ambient Qana rather than oxygen.
+Instead of breathing through lungs, they absorb Qana directly through their bodies and convert it into usable energy.
+This allows extreme variation in form, including non-traditional biological structures.
+
+Qana recyclers regulate environmental Qana density.
+By reducing ambient Qana levels, they stabilize weather and prevent dangerous Qana buildup.
+This also makes the environment uninhabitable for Qana-dependent creatures, effectively creating safe zones for human settlement.
+
+Humans are not affected by low-Qana environments because they rely primarily on oxygen for respiration and obtain Qana indirectly through food, emotion, and mental processes.
+
+=====================================
+END OF FILE

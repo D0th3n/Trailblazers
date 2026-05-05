@@ -1,0 +1,197 @@
+TRAILBLAZERS — ELF NOBLE FAMILIES
+Timestamp: May 4, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the currently active noble-family structure of the Elven Kingdom, including the present ruling royal house, major elemental clan families, and key house-specific canon.
+
+IMPORTANT CANON NOTE:
+- This file overrides older elf-politics notes when there is a conflict about the current royal house, current Shogun family names, or named clan leaders.
+
+=====================================
+CORE CONCEPT
+=====================================
+
+- The Elven Kingdom is structured around elemental noble families and a female-led Shogunate.
+- Whoever holds the Shogun seat becomes the current royal family.
+- The current ruling royal house is House Ikazuchi.
+
+=====================================
+HOUSE IKAZUCHI — CURRENT ROYAL HOUSE
+=====================================
+
+Identity:
+- Electric High Elf royal family
+- tied to lightning discipline, elite movement, battlefield dominance, and Shogunate legitimacy
+
+Current royal parents:
+- Ikazuchi Tomoe
+  - current female Shogun
+  - co-creator of Raifu Step
+- Ikazuchi Hayate
+  - Wind Elf husband of Tomoe
+  - co-creator of Raifu Step
+
+Royal aunt:
+- Ikazuchi Masako
+  - older sister of Tomoe
+  - terrifying trainer and godmother to Rin and Ruther
+  - trusted by Queen Jyana
+
+Children of Tomoe and Hayate:
+- Ikazuchi Raika
+- Ikazuchi Raiga
+- Ikazuchi Nariko
+- Ikazuchi Arashi
+- Ikazuchi Sorae
+- Ikazuchi Raito
+
+Current role note:
+- Rin and Ruther train with the Elven royal family, and Masako is a major reason they remain there safely.
+
+=====================================
+RAIFU STEP
+=====================================
+
+Origin:
+- Created by Tomoe and Hayate
+
+Core formula:
+- electric Qana = acceleration
+- wind Qana = motion control
+- body Qana = survival
+
+True Raifu Step is restricted to:
+- Tomoe
+- Hayate
+- virgin male descendants of House Ikazuchi still under Mother Qana contract
+
+Female descendants and non-virgin male descendants may only use lesser unstable burst forms.
+
+It is movement through space, not teleportation.
+Leg and lower-body injuries can disable safe use.
+
+House saying:
+- Break the legs, stop the storm.
+
+=====================================
+HOUSE AKAGANE — FIRE ELF RULING CLAN
+=====================================
+
+Identity:
+- ruling Fire Elf clan family
+- associated with disciplined flame use, desert-edge military order, and preserving Fire Elf reputation
+
+Current ruling family:
+- Akagane Akari
+- Akagane Isamu
+- Akagane Kazuma
+- Akagane Rekka
+- Akagane Hinae
+- Akagane Kohana
+
+House view:
+- Fire without discipline becomes shame.
+
+=====================================
+KAGUTSUME BRANCH FAMILY
+=====================================
+
+- High-ranking Fire Elf branch family under the Akagane sphere
+- Has noble status and court access, but not enough power to overturn major clan rulings
+
+Known member:
+- Kagutsume Hinote
+  - noble Fire Elf
+  - childhood friend and secret lover of Enka
+
+=====================================
+HOUSE SUGIMORI — FLORA / WOOD FAMILY
+=====================================
+
+Identity:
+- main Flora Elf noble family
+- tied to groves, living architecture, forest roads, herbal medicine, and living-territory defense
+
+Current family:
+- Sugimori Sumire
+- Sugimori Takane
+- Sugimori Aoi
+- Sugimori Itsuki
+- Sugimori Wakana
+- Sugimori Ren
+- Sugimori Yuzuki
+
+House saying:
+- A forest does not rush. It surrounds.
+
+=====================================
+HOUSE YUKIKAWA — WATER / ICE FAMILY
+=====================================
+
+Identity:
+- main Water/Ice Elf noble family
+- tied to coastal defense, mountain routes, purification, ice barriers, mediation, and nonlethal capture
+
+Current family:
+- Yukikawa Shizuka
+- Yukikawa Minato
+- Yukikawa Setsuna
+- Yukikawa Kaito
+- Yukikawa Nami
+- Yukikawa Fuyuto
+
+House saying:
+- Still water remembers every blade.
+
+=====================================
+HOUSE SORYEONG — DARK ELF RULING CLAN
+=====================================
+
+Identity:
+- ruling Dark Elf clan family
+- center of Moon-Seal and deathcraft authority
+- follows Death Dragon teachings rather than Mother Qana river contract norms
+
+Leadership exception:
+- House Soryeong is led by a male clan head
+
+Current clan head:
+- Soryeong Mu-jin
+  - elderly male head
+  - former terrifying assassin-lord
+  - now gentle but deeply feared funeral-father figure
+
+Public rumor about Mu-jin's wife:
+- she disappeared after battle with Severence
+
+Secret truth:
+- she was captured by Severence while pregnant
+- the fetus was kept alive artificially
+- that fetus became Oren
+- later, Dragon Jotunn was forced into baby Oren
+
+Children of Mu-jin:
+- Soryeong Ji-hoon
+- Soryeong Hye-jin
+- Soryeong Eun-bi
+
+Dark Elf suborders:
+- Soryeong Paksu
+  - male death-workers and soul-rite specialists
+- Saja Blades
+  - female assassins, Lunacron hunters, and death-warrant enforcers
+
+Internal rule:
+- the men guide the dead
+- the women enforce death
+
+=====================================
+WIND ELF EXCEPTION
+=====================================
+
+- Wind Elves are not a standard noble house.
+- They are nomadic, pacifist, and tied to the Time Dragon.
+- Hayate is a Wind Elf who remained in the Elven Kingdom through love and marriage rather than ordinary clan structure.
+
+=====================================
+END OF FILE

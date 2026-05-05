@@ -1,0 +1,270 @@
+TRAILBLAZERS — ELVEN POLITICS AND CULTURE
+Timestamp: May 4, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the political structure, gendered social roles, religion, offices, death culture, and broad house relationships of the Elven Kingdom.
+
+IMPORTANT CANON NOTE:
+- Use this file for elf government, religion, social roles, and institutions.
+- For the current ruling royal house and named noble families, defer to `trailblazers_elf_noble_families.txt` when there is a conflict.
+
+=====================================
+CORE ELF IDENTITY
+=====================================
+
+- The Elven Kingdom is an Edo/Japanese-inspired fantasy society with sacred Latin spell language and Qana-centered religion.
+- Major identity traits:
+  - female Shogun rule
+  - royal family tied to the current Shogun
+  - elemental noble houses
+  - female frontline warriors
+  - male shamans
+  - brush-wand air calligraphy
+  - Mother Qana worship
+  - strict family hierarchy
+  - house loyalty
+  - death oversight by Dark Elves
+  - Wind Elves as a rare nomadic exception
+
+=====================================
+NAMING CULTURE
+=====================================
+
+- Elven names follow house/family name first, personal name second.
+- Formal address prioritizes:
+  - house first
+  - rank second
+  - personal name last or omitted in public formality
+
+=====================================
+SHOGUNATE STRUCTURE
+=====================================
+
+- The Elven Kingdom is ruled by a Shogun.
+- The Shogun is always female.
+- Her husband is always male.
+- The current royal family is the family of the current Shogun rather than one permanently fixed dynasty.
+
+=====================================
+MAJOR HOUSES AND TERRITORIES
+=====================================
+
+Major elemental identities:
+- High Elf / Electric
+- Dark Elf
+- Fire Elf
+- Water / Ice Elf
+- Flora Elf
+- Wind Elf as a nomadic exception
+
+Broad territory notes:
+- High Elves: heartland / royal authority
+- Dark Elves: death zones / Moon-Seal roles
+- Fire Elves: desert-edge pressure zones
+- Water/Ice Elves: mountain and coast
+- Flora Elves: living forest regions
+- Wind Elves: no fixed territory
+
+=====================================
+THREE GREAT OFFICES
+=====================================
+
+The Shogun directly oversees:
+
+1. Blade Court
+- female warriors
+- duels
+- military enforcement
+- defense of the Shogun
+
+2. Brush Court
+- male shamans
+- Latin spell poetry
+- Mother Qana rites
+- sacred archives
+- poem safety laws
+
+3. Moon-Seal Office
+- death handling
+- soul inspection
+- corpse control
+- Lunacron prevention
+- death-Qana containment
+
+=====================================
+BLADE COURT
+=====================================
+
+- Governs the female warrior class.
+- Female elves are the primary frontline combatants.
+- They rely on:
+  - sword skill
+  - bows
+  - armor
+  - prepared Qana items
+  - disciplined body movement
+- They are not usually the primary raw poem casters.
+
+=====================================
+BRUSH COURT
+=====================================
+
+- Governs male shamans and sacred spell language.
+- Male shamans use brush-shaped wands to write glowing Latin calligraphy in the air.
+- Spell scaling:
+  - 1 word = weak effect
+  - 2 words = quick usable spell
+  - phrase = stable combat spell
+  - full poem = powerful precise spell
+  - interrupted poem = partial release
+
+=====================================
+MOON-SEAL OFFICE
+=====================================
+
+- Led by Dark Elves.
+- Answers directly to the Shogun.
+- Handles:
+  - corpses
+  - death-heavy Qana
+  - soul checks
+  - battlefield recovery
+  - Lunacron prevention
+  - death-site quarantine
+  - funeral safety
+
+Dark Elves are feared by some but accepted as necessary.
+
+=====================================
+DARK ELF SOUL MAGIC
+=====================================
+
+- Dark Elves learned soul techniques through Death Dragon teachings.
+- Their magic targets the soul rather than the physical body.
+
+Example:
+- Soul Slash
+  - does not cut flesh
+  - severs the soul from the body
+  - kills instantly
+  - sends the soul onward
+
+Rule:
+- Private Dark Elf soul magic outside Moon-Seal authority is illegal and treated as murder or forbidden deathcraft.
+
+=====================================
+MALE ELF / SHAMAN SYSTEM
+=====================================
+
+- Male elves are born with social expectation to become shamans.
+- A shaman is a virgin male still under contract with Mother Qana through the River of Mother Qana blessing.
+- The contract:
+  - increases spiritual power
+  - strengthens head-pool connection
+  - weakens bodily rejuvenation and physical strength
+- When the contract breaks through sexual union/reproduction:
+  - raw Qana power decreases
+  - bodily rejuvenation and strength return
+  - martial ability becomes more viable
+
+Two broad male paths:
+- Shaman: high Qana, weaker body
+- Former shaman / ordinary adult male: lower Qana, stronger body
+
+=====================================
+FEMALE ELF WARRIOR SYSTEM
+=====================================
+
+- Female elves are expected to defend family, house, shrine, and nation.
+- They are trained in:
+  - sword combat
+  - bow combat
+  - flash-step movement
+  - armor use
+  - duel etiquette
+  - protecting shamans
+
+=====================================
+WANDERING BLADES
+=====================================
+
+- Wandering Blades are the elf equivalent of ronin-like free female warriors.
+- They do not belong to guilds and are judged by reputation.
+
+Reputation ladder:
+- Unmarked Blade
+- Road Blade
+- House-Tested Blade
+- Shrine-Tested Blade
+- Moon-Tested Blade
+- Banner-Worthy Blade
+
+=====================================
+WIND ELVES
+=====================================
+
+- Wind Elves are rare, global, pacifist, and legendary.
+- They can fly and remain airborne for long periods.
+- They are rarely seen inside the Elven Kingdom.
+- They usually fight only in self-defense.
+- They are associated with the Time Dragon.
+
+=====================================
+MOTHER QANA RELIGION
+=====================================
+
+- Modern elves worship Mother Qana.
+- This religion descended from the Children of Mother Qana, who rejected dragon-mediated magic.
+- Modern elf belief treats Mother Qana as sacred and spiritually central even though Qana itself is not literally conscious.
+- Every Mother Qana spell is culturally also a rejection of dragon authority.
+
+=====================================
+BLACK RIVER CRISIS
+=====================================
+
+- Mother Qana fanatics once dumped bodies into the River of Mother Qana, believing it would cleanse them.
+- Instead, the river weakened and death-Qana corruption worsened.
+- Consequences included:
+  - weaker shamans
+  - unstable blessings
+  - nightly Lunacron formation
+  - village panic
+- Dark Elves were brought back into authority to fix the disaster.
+- This crisis elevated Dark Elf legal status and helped create the Moon-Seal Office.
+
+=====================================
+ELVEN DEATH HANDLING
+=====================================
+
+Modern process:
+1. Family reports death
+2. Moon-Seal / Dark Elf handlers inspect the body
+3. Soul condition and death-Qana risk are checked
+4. Body is sealed and prepared
+5. Family chooses rite if safe
+6. Site is monitored if needed
+
+Typical house preferences:
+- High Elves: ceremonial burial
+- Fire Elves: cremation
+- Water/Ice Elves: sealed coastal or mountain rites
+- Flora Elves: forest return under Moon-Seal oversight
+- Dark Elves: dangerous-body direct handling
+
+=====================================
+DAILY ELF CULTURE
+=====================================
+
+- formal and house-oriented
+- bowing etiquette
+- sword practice for girls
+- brush practice for boys
+- Latin recitation
+- shrine visits
+- armor maintenance
+- kimono battle garb
+- seasonal rites
+- suspicion toward outsiders
+
+=====================================
+END OF FILE

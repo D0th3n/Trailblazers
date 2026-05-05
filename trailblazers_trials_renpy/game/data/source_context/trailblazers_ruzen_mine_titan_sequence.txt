@@ -1,0 +1,66 @@
+TRAILBLAZERS — RUZEN MINE TITAN SEQUENCE
+Timestamp: April 22, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the next Heart of Fire script sequence after Oren and Embrum reach the Ruzen mine entrance.
+
+MINER / FOREMAN TESTIMONY:
+- Ruzen mines have always been dangerous because of fire-Qana weather phenomena.
+- Miners are used to flame bursts, fire tornadoes, and watching Qana build before it becomes unsafe.
+- The danger changed two to three months ago.
+- The mine temperature began rising after a deep expedition to harvest larger Ruzen crystals before the next Eldran shipment.
+- The foreman pushed the expedition because he wanted to meet quota and make extra money.
+- During the expedition, Qana built too fast and caused flame tornadoes.
+- The miners were trapped briefly and escaped, but two men died in the flames.
+- One dead miner had a father waiting for him.
+- One dead miner had a mother and little sister waiting for him.
+- Their bodies were lost inside the mines.
+
+VILLAGE CONSEQUENCE:
+- After the deaths, villagers began seeing the crisis as punishment.
+- The wells began producing hot or boiling water directly from the ground.
+- Then the water burned away and left wells empty.
+- Emergency water-barrel shipments had to be requested from a nearby city.
+- The first shipment arrived roughly three months after the request.
+- No one knows when the next shipment will come.
+
+DESCENT:
+- Oren and Embrum enter the mine to find the cause.
+- Deeper inside, they encounter more Moglim.
+- A herd/group of Moglim is called a Mogul.
+- Example usage: "Careful. I saw Moglim nearby. I think it was a whole Mogul."
+- Fire-Qana weather becomes more volatile deeper in the mine.
+- Oren and Embrum are high-level fire-Qana users, so the heat is dangerous but also strangely refreshing.
+- Humans can refill Qana pools from dense atmospheric Qana.
+- Miners cannot breathe in the heat, while Oren and Embrum can function and even recover from it.
+- High-level Qana users can feel or almost smell dense Qana.
+- Oren and Embrum follow the strongest Qana density down the proper cave path.
+
+TITAN REVEAL:
+- Oren and Embrum discover a gigantic fire Titan golem.
+- Embrum identifies it as a tier 3 golem.
+- Tier 3 golems are weapons of war, used to knock down kingdom walls and enable invasions.
+- Summoning a Titan golem is difficult and illegal unless demanded by the kingdom for battle.
+- Embrum does not know Severence or the Embracron are involved.
+- Embrum concludes illegal mages/wizards may be interfering with the kingdom.
+
+PLAN:
+- Oren warns that fighting a Titan underground could collapse the mountain, destroy Ruzen resources, and trap them.
+- They plan to keep the Titan's movements contained while one person charges a decisive strike at its Qana core.
+- A Qana core is the crystal heart/battery that powers a golem.
+- Embrum is more skilled and takes the distraction role.
+- Oren charges the attack while listening to the voice inside him.
+- Oren's spear shot combines Pure Qana pressure from Jötunn with Oren's own fire-Qana output.
+- Oren destroys the Titan's Qana core with a twin spear strike.
+
+RESULT:
+- The Titan was causing the drought by eating lava/heat inside the mountain and emitting powerful pulses of fire-Qana.
+- Those pulses heated the ground and evaporated the underground reservoirs connected to Anozira's wells.
+- Destroying the Titan stops the pulse source.
+- The reservoirs should refill naturally over time with kingdom water shipments helping the village survive the recovery period.
+
+REVEAL CONTROL:
+- Do not reveal Severence or the Cron/Embracron truth in this sequence.
+- Oren and Embrum should leave believing the problem was an illegal war golem left under the mountain by malicious mages or wizards.
+
+END OF FILE

@@ -1,0 +1,267 @@
+TRAILBLAZERS — HUMAN NOBLE FAMILIES
+Timestamp: May 4, 2026 (America/New_York)
+
+PURPOSE:
+This file defines the major human noble houses, their revolt-era roots, public identities, government ties, and naming/class logic in Acerima.
+
+=====================================
+CORE CONCEPT
+=====================================
+
+- Human nobility in Acerima grew out of specialized survivor groups from the Dragon Revolt.
+- Over centuries these groups became noble houses, government branches, military traditions, and elite family networks.
+- Unlike the Elven Kingdom's clan structure, Aceriman nobility is closer to an English/U.S. hybrid:
+  - old surnames
+  - formal registry
+  - public service dynasties
+  - military/service houses
+  - wealthy houses
+  - new-money noble registration
+
+=====================================
+HOUSE ACERIMA
+=====================================
+
+- Royal house descended from Jyra Acerima.
+- Represents:
+  - crown authority
+  - divine legitimacy
+  - national unity
+  - public royal myth
+
+Known modern members:
+- Queen Jyana Acerima
+- Arthur II / Embrum
+- Rin Acerima
+- Ruther Acerima
+
+=====================================
+FOUNDING HOUSES AND GOVERNMENT ROOTS
+=====================================
+
+Major founding names:
+- Acerima
+- Vey
+- Ardwyn
+- Red-Quill
+- Blue-Reed
+
+Government-root relationships:
+- House Acerima -> Crown
+- House Vey -> Crown Army / Knight Corps
+- House Ardwyn -> Life & Death Ministry
+- House Red-Quill -> Information Sector / Sky Corps roots
+- House Blue-Reed -> Tide Fleet / Port Authority
+- Chainless Tribe -> Old-Ways advisory role, not a noble house
+
+=====================================
+HOUSE VEY
+=====================================
+
+Founder:
+- Brenic Vey, a major warrior ally of Jyra during the Dragon Revolt
+
+Modern identity:
+- knights
+- soldiers
+- officers
+- fort commanders
+- academy instructors
+- heavy-duty workers
+- guildmasters
+- elite guards
+
+Core associations:
+- strength
+- shield-bearing
+- land warfare
+- forts
+- road defense
+- monster suppression
+- military discipline
+
+House saying:
+- House Acerima wears the crown. House Vey carries the shield.
+
+=====================================
+HOUSE ARDWYN
+=====================================
+
+Founder:
+- Selene Ardwyn, healer and ecosystem expert during the Dragon Revolt
+
+Modern identity:
+- doctors
+- healers
+- potion makers
+- priests
+- gravewardens
+- judges
+- medical officials
+- death record keepers
+
+Core associations:
+- healing
+- knowledge
+- law
+- medicine
+- corpse safety
+- public health
+- battlefield recovery
+
+House saying:
+- House Vey wins the battle. House Ardwyn keeps the living alive and prevents the dead from becoming another war.
+
+=====================================
+HOUSE RED-QUILL
+=====================================
+
+Founder:
+- Winona Red-Quill, early Ash-Scribe and revolt record-keeper
+
+Modern identity:
+- wizards
+- archivists
+- signal casters
+- analysts
+- spies
+- law clerks
+- court historians
+- information officials
+
+Core associations:
+- records
+- intelligence
+- spell documentation
+- archives
+- classification
+- investigation
+
+House saying:
+- House Red-Quill made sure dragon crimes could not be buried.
+
+Red-Quill view of Blue-Reed:
+- slippery, under-documented, too comfortable with port rule-bending
+
+=====================================
+HOUSE BLUE-REED
+=====================================
+
+Founder:
+- Takoda Blue-Reed, water-route specialist and revolt smuggler
+
+Modern identity:
+- sailors
+- divers
+- traders
+- Tide Fleet officers
+- port officials
+- shipping magnates
+- salvage workers
+- underwater ruin specialists
+
+Core associations:
+- water transport
+- trade routes
+- rivers
+- ports
+- naval supply
+- privateering
+
+House saying:
+- When roads were watched, House Blue-Reed carried freedom by water.
+
+Blue-Reed view of Red-Quill:
+- nosy paper tyrants and landlocked spies
+
+=====================================
+THE CHAINLESS TRIBE
+=====================================
+
+- The Chainless are not a noble house.
+- They are an old tribal lineage descended from Acerima's earliest freed peoples.
+- They preserve:
+  - oral history
+  - old names
+  - tribal law
+  - anti-centralized-government instincts
+  - survival rites
+  - old human spirituality
+
+Warning line:
+- You built a kingdom to escape chains. Do not polish them and call them crowns.
+
+=====================================
+SURNAME AND CLASS LOGIC
+=====================================
+
+- A surname shows ancestral tradition.
+- A family line shows political status.
+- The House Registry determines legal nobility.
+
+Commoners:
+- usually do not carry formal house surnames
+- often identify as given name + of + birthplace
+
+Nobles:
+- carry a formal house surname
+
+=====================================
+FAMILY LINE STRUCTURE
+=====================================
+
+Human noble families have two broad line categories:
+1. main bloodline family
+2. lesser family lines
+
+- Lesser lines are still noble, but main bloodline descendants carry higher prestige and inheritance weight.
+
+=====================================
+NEW NOBILITY
+=====================================
+
+- Commoners do not casually become part of old noble houses.
+- Entry into an existing house normally requires:
+  - marriage
+  - birth
+- A commoner can found a new noble family through the registry, but it requires:
+  - proof of funds
+  - land/estate ownership
+  - stable income
+  - family records
+  - kingdom approval
+  - heavy paperwork
+
+=====================================
+ADOPTION
+=====================================
+
+- Adoption is not a major modernized legal institution.
+- Orphan care is usually handled through:
+  - churches
+  - priests
+  - local families
+  - village records
+- Raising an orphan does not automatically make them a legal noble heir.
+
+=====================================
+NOBLE EDUCATION
+=====================================
+
+Typical noble path:
+- private tutors
+- family instruction
+- house expectations
+- province/state academy
+- branch, ministry, guild, estate, or military role
+
+Noble children usually receive:
+- literacy
+- history
+- etiquette
+- combat basics where relevant
+- Qana theory
+- early exposure to specialists
+
+=====================================
+END OF FILE

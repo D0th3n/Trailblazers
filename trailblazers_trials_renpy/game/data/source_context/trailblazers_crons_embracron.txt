@@ -1,0 +1,72 @@
+TRAILBLAZERS — CRONS AND EMBRACRON CONTEXT
+
+PURPOSE:
+This file defines Crons as a later-story Qana biology concept and locks the Ruzen mines Embracron reveal.
+
+CRONS:
+- Crons are ancient elemental creatures formed when extreme Qana density and elemental environmental conditions converge around an exposed dead body.
+- Crons are born only from exposed dead bodies in areas of high Qana density and dominant elemental influence.
+- All Crons are corpse-born with no exceptions.
+- Crons are not like dragons.
+- Dragons are conscious biological beings stabilized around Pure Qana.
+- Crons are elemental force operating through corpse-shaped vessels.
+- Crons are not truly intelligent or fully conscious.
+- Cron behavior follows the dominant element that created them.
+
+FORMATION:
+- A Cron can form when a body is left unburied in a highly unstable elemental zone.
+- The surrounding Qana and dominant element overtake the corpse.
+- The body decomposes into the dominant element and reanimates as a Cron.
+- After roughly one hour of exposure and conversion, the original soul is gone.
+- Once that threshold passes, the body can no longer be reclaimed as the person it once was.
+- This is why burial, corpse recovery, and recovery of fallen workers/soldiers are taken seriously across the world.
+
+LEGENDARY CRONS:
+- Legendary Crons are not formed by a different rule.
+- They are legendary because the corpse they form from was powerful.
+- A Cron born from the husk of a dragon is vastly more dangerous than a Cron born from a human, animal, or soldier.
+
+NORMAL BEHAVIOR:
+- Most Crons are extremely unintelligent.
+- Most act almost entirely on instinct.
+- Most do not strategize, reason, or speak.
+- Most do not attack unless first provoked.
+- Normal Crons usually stand dormant, drift toward concentrated Qana, or react only when disturbed.
+
+KNOWN CRON TYPES:
+- Lunacron
+- Solacron
+- Embracron
+- Aquacron
+- Electricron
+- Floracron
+
+LUNACRONS:
+- Lunacrons are the primary exception to normal Cron behavior.
+- Lunacrons are hostile on sight.
+- Lunacrons consume the souls of living creatures.
+- Lunacrons are often born when battlefields are left uncleansed, with lingering war Qana in the air and dead bodies exposed beneath lunar energy.
+- In severe cases, entire Lunacron fields can form overnight and wipe out nearby settlements.
+- This is why battlefield recovery, burial rites, church oversight, and graveyard crews are treated as serious civic and religious obligations.
+
+ANOZIRA / RUZEN MINES EMBRACRON:
+- An Embracron formed in the Ruzen mines.
+- It began when a miner died deep within the mines and his body was never recovered.
+- The inner Ruzen cave system had already become a fire-weather convergence zone.
+- Underground fire tornadoes and unstable fire-element Qana remade the unrecovered body into a fire Cron.
+- The Embracron is a fire Cron, not a dragon and not a conscious person returned from death.
+
+SEVERENCE ROLE:
+- Severence deployed a fire Titan-class golem into the Ruzen mines.
+- Their goal was to contain and capture the forming Embracron.
+- Their operation destabilized the region.
+- The Titan charged itself by feeding on Ruzen fire energy and lava heat deep within the mountain.
+- While charging, the Titan superheated the mountain and the underground water reservoirs connected to Anozira's wells.
+- The drought was caused by reservoirs evaporating into steam and soil becoming too hot for young srag, nairn, and sinu.
+- The destabilization contributed directly to the drought, Moglim spread, and escalating heat around Anozira.
+
+REVEAL CONTROL:
+- Do not reveal Crons, Embracron, or Severence's true goal in the earliest Anozira scenes.
+- Early playable scenes should frame the crisis as drought, Moglim, Ruzen mine instability, and later the Titan-class threat.
+- The Embracron reveal should arrive after enough evidence exists that the Ruzen mines are not merely overloaded and the Titan is not merely a wild monster.
+- The emotional shape of the reveal should be: the village crisis was collateral damage from someone trying to capture something born from an unrecovered dead miner.
