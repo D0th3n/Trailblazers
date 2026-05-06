@@ -1,13 +1,20 @@
 from hotspot_scene_data import SCREEN_H, SCREEN_W
 
 
+def _flag_is_enabled(flags, flag_name):
+    if hasattr(flags, "get"):
+        return bool(flags.get(flag_name, False))
+
+    return bool(flag_name in flags)
+
+
 def available_hotspots(scene, flags):
     hotspots = scene.get("hotspots", [])
     visible_hotspots = []
 
     for hotspot in hotspots:
         required_flags = hotspot.get("requires", [])
-        if all(flag in flags for flag in required_flags):
+        if all(_flag_is_enabled(flags, flag) for flag in required_flags):
             visible_hotspots.append(hotspot)
 
     return visible_hotspots

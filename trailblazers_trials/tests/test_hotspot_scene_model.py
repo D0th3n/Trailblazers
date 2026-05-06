@@ -28,26 +28,67 @@ class HotspotSceneModelTests(unittest.TestCase):
             {"anozira_overview", "tavern_room"},
         )
 
-    def test_available_hotspots_filters_by_unlock_flags(self):
+    def test_shared_hotspot_registry_uses_expected_hotspot_shape(self):
+        required_fields = {"id", "marker", "short_label", "title", "x", "y", "target"}
+
+        for scene in HOTSPOT_SCENE_REGISTRY.values():
+            for hotspot in scene["hotspots"]:
+                self.assertTrue(required_fields.issubset(hotspot))
+
+    def test_available_hotspots_uses_truthy_flag_values(self):
         scene = HOTSPOT_SCENE_REGISTRY["anozira_overview"]
 
         self.assertEqual(
-            [hotspot["id"] for hotspot in available_hotspots(scene, set())],
+            [hotspot["id"] for hotspot in available_hotspots(scene, {})],
             ["well", "villager", "market_day"],
-        )
-        self.assertEqual(
-            [hotspot["id"] for hotspot in available_hotspots(scene, {"tavern_unlocked"})],
-            ["well", "villager", "market_day", "tavern"],
         )
         self.assertEqual(
             [
                 hotspot["id"]
                 for hotspot in available_hotspots(
                     scene,
-                    {"tavern_unlocked", "mine_unlocked"},
+                    {"tavern_unlocked": False, "mine_unlocked": True},
+                )
+            ],
+            ["well", "villager", "market_day", "mine_path"],
+        )
+        self.assertEqual(
+            [
+                hotspot["id"]
+                for hotspot in available_hotspots(
+                    scene,
+                    {"tavern_unlocked": True, "mine_unlocked": True},
                 )
             ],
             ["well", "villager", "market_day", "tavern", "mine_path"],
+        )
+
+    def test_available_hotspots_hides_hotspots_when_required_flag_is_false(self):
+        scene = HOTSPOT_SCENE_REGISTRY["tavern_room"]
+
+        self.assertEqual(
+            [hotspot["id"] for hotspot in available_hotspots(scene, {})],
+            ["drunk_father", "wounded_miner"],
+        )
+        self.assertEqual(
+            [
+                hotspot["id"]
+                for hotspot in available_hotspots(
+                    scene,
+                    {"heard_dead_miner_hint": False},
+                )
+            ],
+            ["drunk_father", "wounded_miner"],
+        )
+        self.assertEqual(
+            [
+                hotspot["id"]
+                for hotspot in available_hotspots(
+                    scene,
+                    {"heard_dead_miner_hint": True},
+                )
+            ],
+            ["drunk_father", "wounded_miner", "leave_tavern"],
         )
 
     def test_validate_hotspot_scene_accepts_shared_registry_scenes(self):
