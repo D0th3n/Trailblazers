@@ -31,6 +31,11 @@ fn install_latest(
         .app_data_dir()
         .map_err(|error| format!("Could not resolve app data directory: {error}"))?;
     let manifest = installer::fetch_manifest(&manifest_url)?;
+    let installed = install_state::read_state(&app_data, current_platform())?;
+    if !installer::update_is_needed(&installed, &manifest, force) {
+        return Ok(installed);
+    }
+
     let release = manifest::platform_release(&manifest, current_platform())?;
     let archive_bytes = installer::download_archive(&release.url)?;
     installer::install_latest_from_manifest(&app_data, &manifest, &archive_bytes, force)

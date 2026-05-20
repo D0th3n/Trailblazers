@@ -5,6 +5,7 @@ use std::cmp::Ordering;
 use std::fs;
 use std::io::Cursor;
 use std::path::{Component, Path, PathBuf};
+use std::time::{SystemTime, UNIX_EPOCH};
 use zip::ZipArchive;
 
 pub fn update_is_needed(installed: &InstallState, manifest: &ReleaseManifest, force: bool) -> bool {
@@ -58,6 +59,7 @@ pub fn extract_zip(bytes: &[u8], destination: &Path) -> Result<(), String> {
             .map_err(|error| format!("Could not extract build file: {error}"))?;
         std::io::copy(&mut file, &mut output)
             .map_err(|error| format!("Could not write build file: {error}"))?;
+        preserve_unix_mode(&output_path, file.unix_mode())?;
     }
 
     Ok(())
@@ -110,13 +112,6 @@ pub fn install_latest_from_manifest(
         .map_err(|error| format!("Could not create temporary install folder: {error}"))?;
     extract_zip(archive_bytes, temp_dir.path())?;
 
-    if current_dir.exists() {
-        fs::remove_dir_all(&current_dir)
-            .map_err(|error| format!("Could not replace installed build: {error}"))?;
-    }
-    fs::rename(temp_dir.path(), &current_dir)
-        .map_err(|error| format!("Could not move build into install folder: {error}"))?;
-
     let state = InstallState {
         installed_version: manifest.latest_version.clone(),
         platform: platform.to_string(),
@@ -124,7 +119,10 @@ pub fn install_latest_from_manifest(
         last_manual_update_check_at: installed.last_manual_update_check_at,
         executable_path: executable_path(&current_dir, platform),
     };
-    install_state::write_state(app_data_dir, &state)?;
+
+    replace_current_install(&current_dir, temp_dir.path(), || {
+        write_state_atomically(app_data_dir, &state)
+    })?;
 
     Ok(state)
 }
@@ -153,6 +151,113 @@ fn executable_path(current_dir: &Path, platform: &str) -> String {
     }
     .to_string_lossy()
     .to_string()
+}
+
+#[cfg(unix)]
+fn preserve_unix_mode(path: &Path, mode: Option<u32>) -> Result<(), String> {
+    use std::os::unix::fs::PermissionsExt;
+
+    if let Some(mode) = mode {
+        fs::set_permissions(path, fs::Permissions::from_mode(mode))
+            .map_err(|error| format!("Could not set build file permissions: {error}"))?;
+    }
+    Ok(())
+}
+
+#[cfg(not(unix))]
+fn preserve_unix_mode(_path: &Path, _mode: Option<u32>) -> Result<(), String> {
+    Ok(())
+}
+
+fn replace_current_install<F>(
+    current_dir: &Path,
+    staged_dir: &Path,
+    finalize: F,
+) -> Result<(), String>
+where
+    F: FnOnce() -> Result<(), String>,
+{
+    let parent_dir = current_dir
+        .parent()
+        .ok_or_else(|| "Could not resolve install folder.".to_string())?;
+    let backup_dir = if current_dir.exists() {
+        let backup_dir = unique_backup_path(parent_dir);
+        fs::rename(current_dir, &backup_dir)
+            .map_err(|error| format!("Could not back up installed build: {error}"))?;
+        Some(backup_dir)
+    } else {
+        None
+    };
+
+    if let Err(error) = fs::rename(staged_dir, current_dir) {
+        if let Some(backup_dir) = &backup_dir {
+            let _ = fs::rename(backup_dir, current_dir);
+        }
+        return Err(format!("Could not move build into install folder: {error}"));
+    }
+
+    if let Err(error) = finalize() {
+        rollback_current_install(current_dir, backup_dir.as_deref(), &error)?;
+        return Err(error);
+    }
+
+    if let Some(backup_dir) = backup_dir {
+        let _ = fs::remove_dir_all(&backup_dir);
+    }
+
+    Ok(())
+}
+
+fn rollback_current_install(
+    current_dir: &Path,
+    backup_dir: Option<&Path>,
+    original_error: &str,
+) -> Result<(), String> {
+    if current_dir.exists() {
+        fs::remove_dir_all(current_dir).map_err(|error| {
+            format!("{original_error}; could not roll back failed install: {error}")
+        })?;
+    }
+
+    if let Some(backup_dir) = backup_dir {
+        fs::rename(backup_dir, current_dir).map_err(|error| {
+            format!("{original_error}; could not restore previous install: {error}")
+        })?;
+    }
+
+    Ok(())
+}
+
+fn unique_backup_path(parent_dir: &Path) -> PathBuf {
+    let timestamp = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .map(|duration| duration.as_nanos())
+        .unwrap_or(0);
+    parent_dir.join(format!(
+        ".current-backup-{}-{timestamp}",
+        std::process::id()
+    ))
+}
+
+fn write_state_atomically(app_data_dir: &Path, state: &InstallState) -> Result<(), String> {
+    let path = install_state::state_path(app_data_dir);
+    let parent_dir = path
+        .parent()
+        .ok_or_else(|| "Could not resolve install state folder.".to_string())?;
+    fs::create_dir_all(parent_dir)
+        .map_err(|error| format!("Could not create install state folder: {error}"))?;
+
+    let contents = serde_json::to_string_pretty(state)
+        .map_err(|error| format!("Could not serialize install state: {error}"))?;
+    let temp_file = tempfile::NamedTempFile::new_in(parent_dir)
+        .map_err(|error| format!("Could not create temporary install state file: {error}"))?;
+    fs::write(temp_file.path(), contents)
+        .map_err(|error| format!("Could not write install state: {error}"))?;
+    temp_file
+        .persist(&path)
+        .map_err(|error| format!("Could not write install state: {}", error.error))?;
+
+    Ok(())
 }
 
 #[cfg(test)]
@@ -247,5 +352,55 @@ mod tests {
         let temp_dir = tempfile::tempdir().unwrap();
         let error = extract_zip(archive_bytes.get_ref(), temp_dir.path()).unwrap_err();
         assert!(error.contains("unsafe path"));
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn extract_zip_preserves_unix_executable_permissions() {
+        use std::os::unix::fs::PermissionsExt;
+
+        let mut archive_bytes = Cursor::new(Vec::new());
+        {
+            let mut zip = zip::ZipWriter::new(&mut archive_bytes);
+            zip.start_file(
+                "Trailblazers.sh",
+                SimpleFileOptions::default().unix_permissions(0o755),
+            )
+            .unwrap();
+            zip.write_all(b"#!/bin/sh\n").unwrap();
+            zip.finish().unwrap();
+        }
+
+        let temp_dir = tempfile::tempdir().unwrap();
+        extract_zip(archive_bytes.get_ref(), temp_dir.path()).unwrap();
+
+        let mode = fs::metadata(temp_dir.path().join("Trailblazers.sh"))
+            .unwrap()
+            .permissions()
+            .mode()
+            & 0o777;
+        assert_eq!(mode, 0o755);
+    }
+
+    #[test]
+    fn rollback_restores_previous_install_when_finalize_fails() {
+        let temp_dir = tempfile::tempdir().unwrap();
+        let current_dir = temp_dir.path().join("current");
+        let staged_dir = temp_dir.path().join("staged");
+        fs::create_dir_all(&current_dir).unwrap();
+        fs::write(current_dir.join("version.txt"), "old").unwrap();
+        fs::create_dir_all(&staged_dir).unwrap();
+        fs::write(staged_dir.join("version.txt"), "new").unwrap();
+
+        let error = replace_current_install(&current_dir, &staged_dir, || {
+            Err("state write failed".to_string())
+        })
+        .unwrap_err();
+
+        assert_eq!(error, "state write failed");
+        assert_eq!(
+            fs::read_to_string(current_dir.join("version.txt")).unwrap(),
+            "old"
+        );
     }
 }
