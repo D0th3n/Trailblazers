@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Trailblazers Launcher",
+  "version": "0.1.0",
+  "identifier": "com.d0th3n.trailblazers.launcher",
+  "build": {
+    "beforeDevCommand": "python3 -m http.server 1420 --directory ../ui",
+    "beforeBuildCommand": "",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Trailblazers Launcher",
+        "width": 980,
+        "height": 680,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}
