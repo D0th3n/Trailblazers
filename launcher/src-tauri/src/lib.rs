@@ -1,4 +1,5 @@
 mod install_state;
+mod installer;
 mod manifest;
 
 use install_state::InstallState;
@@ -16,10 +17,7 @@ fn read_install_state(app: tauri::AppHandle) -> Result<InstallState, String> {
 
 #[tauri::command]
 fn check_for_updates(manifest_url: String) -> Result<ReleaseManifest, String> {
-    reqwest::blocking::get(&manifest_url)
-        .map_err(|error| format!("Could not fetch release manifest: {error}"))?
-        .json::<ReleaseManifest>()
-        .map_err(|error| format!("Could not parse release manifest: {error}"))
+    installer::fetch_manifest(&manifest_url)
 }
 
 #[tauri::command]
@@ -28,13 +26,14 @@ fn install_latest(
     manifest_url: String,
     force: bool,
 ) -> Result<InstallState, String> {
-    let _ = force;
-    let _ = manifest_url;
     let app_data = app
         .path()
         .app_data_dir()
         .map_err(|error| format!("Could not resolve app data directory: {error}"))?;
-    install_state::read_state(&app_data, current_platform())
+    let manifest = installer::fetch_manifest(&manifest_url)?;
+    let release = manifest::platform_release(&manifest, current_platform())?;
+    let archive_bytes = installer::download_archive(&release.url)?;
+    installer::install_latest_from_manifest(&app_data, &manifest, &archive_bytes, force)
 }
 
 #[tauri::command]
