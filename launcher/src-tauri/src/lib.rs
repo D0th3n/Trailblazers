@@ -1,5 +1,6 @@
 mod install_state;
 mod installer;
+mod launcher;
 mod manifest;
 
 use install_state::InstallState;
@@ -42,8 +43,20 @@ fn install_latest(
 }
 
 #[tauri::command]
-fn launch_game() -> Result<(), String> {
-    Err("No installed Trailblazers build was found. Use Repair / Reinstall first.".to_string())
+fn launch_game(app: tauri::AppHandle) -> Result<(), String> {
+    let app_data = app
+        .path()
+        .app_data_dir()
+        .map_err(|error| format!("Could not resolve app data directory: {error}"))?;
+    let state = install_state::read_state(&app_data, current_platform())?;
+
+    if state.executable_path.trim().is_empty() {
+        return Err(
+            "No installed Trailblazers build was found. Use Repair / Reinstall first.".to_string(),
+        );
+    }
+
+    crate::launcher::launch_installed_game(&state.executable_path)
 }
 
 pub fn run() {
