@@ -5,6 +5,7 @@ REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 
 cd "$REPO_ROOT"
 node --test launcher/ui/launcher-state.test.mjs
+python3 launcher/scripts/prepare_release_test.py
 
 if ! command -v cargo >/dev/null 2>&1; then
   echo "cargo not found; Rust tests skipped until the Tauri toolchain is installed."

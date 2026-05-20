@@ -27,16 +27,27 @@ Build steps:
 
 ## Prepare Release Assets
 
-Create or update `release-manifest.json` so the launcher can discover version
-`0.1.1` and download the correct platform archive. The manifest should point to
-the uploaded GitHub Release asset URLs for:
+Create `release-manifest.json` so the launcher can discover version `0.1.1` and
+download the correct platform archive:
+
+```bash
+python3 launcher/scripts/prepare_release.py \
+  --version 0.1.1 \
+  --windows-archive dist/Trailblazers-0.1.1-win.zip \
+  --macos-archive dist/Trailblazers-0.1.1-mac.zip \
+  --note "Expanded Chapter 1 investigation flow." \
+  --note "Added updated Anozira assets." \
+  --output release-manifest.json
+```
+
+The manifest points to the GitHub Release asset URLs for:
 
 - `Trailblazers-0.1.1-win.zip`
 - `Trailblazers-0.1.1-mac.zip`
 
-Before publishing, confirm the manifest includes the expected game id, latest
-game version, release notes, minimum launcher version, platform archive URLs, and
-archive checksums.
+Before publishing, confirm the generated manifest includes the expected game id,
+latest game version, release notes, minimum launcher version, platform archive
+URLs, and archive checksums.
 
 ## Publish GitHub Release `v0.1.1`
 

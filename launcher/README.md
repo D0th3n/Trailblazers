@@ -3,15 +3,16 @@
 Trailblazers Launcher is a lightweight Windows/macOS launcher for installing,
 updating, repairing, and playing packaged Trailblazers Ren'Py builds.
 
-This first slice contains the static UI shell and pure JavaScript helper tests.
-The Rust/Tauri backend will provide filesystem, download, install-state, and
-game-launching commands in a later task.
+The current launcher includes a Tauri UI/backend shell, install-state handling,
+manifest download support, archive verification, install/repair commands, and
+game launching for local packaged builds.
 
 ## Development Requirements
 
 - Node.js 24 or newer for UI helper tests
-- Rust through rustup for future backend tests
-- Tauri CLI 2 through Cargo for future launcher development runs
+- Python 3 for release manifest generation tests
+- Rust through rustup for backend tests
+- Tauri CLI 2 through Cargo for launcher development runs
 
 ## Test
 
@@ -19,8 +20,8 @@ game-launching commands in a later task.
 ./launcher/scripts/test.sh
 ```
 
-The script runs the static UI helper tests. It also runs Rust tests when Cargo
-is available and `launcher/src-tauri` has been added.
+The script runs the UI helper tests, release manifest generator tests, and Rust
+backend tests when Cargo is available.
 
 ## Development Run
 
@@ -28,8 +29,8 @@ is available and `launcher/src-tauri` has been added.
 ./launcher/scripts/dev.sh
 ```
 
-The development run script will be added with the Tauri backend. Once present,
-it should start the launcher against the static UI in `launcher/ui/`.
+The development run script starts the Tauri launcher against the static UI in
+`launcher/ui/`.
 
 ## Release Model
 
@@ -40,3 +41,20 @@ repair/reinstall.
 
 The release manifest records the game id, latest game version, release notes,
 minimum launcher version, and platform-specific archive URL/checksum entries.
+
+## Prepare Release Manifest
+
+After building the Windows and macOS Ren'Py archives, generate the manifest with:
+
+```bash
+python3 launcher/scripts/prepare_release.py \
+  --version 0.1.1 \
+  --windows-archive dist/Trailblazers-0.1.1-win.zip \
+  --macos-archive dist/Trailblazers-0.1.1-mac.zip \
+  --note "Expanded Chapter 1 investigation flow." \
+  --note "Added updated Anozira assets." \
+  --output release-manifest.json
+```
+
+Upload the two archives and generated `release-manifest.json` to the matching
+GitHub Release, for example `v0.1.1`.
