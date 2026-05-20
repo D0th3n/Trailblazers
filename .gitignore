@@ -27,3 +27,8 @@ htmlcov/
 
 # Local implementation worktrees
 .worktrees/
+
+# Trailblazers launcher build/download output
+launcher/src-tauri/target/
+launcher/game/
+launcher/**/*.log

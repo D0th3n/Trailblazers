@@ -1,0 +1,21 @@
+{
+  "gameId": "trailblazers-trials",
+  "latestVersion": "0.1.1",
+  "releaseNotes": [
+    "Expanded Chapter 1 investigation flow.",
+    "Added updated Anozira assets."
+  ],
+  "minimumLauncherVersion": "0.1.0",
+  "platforms": {
+    "windows": {
+      "archive": "Trailblazers-0.1.1-win.zip",
+      "url": "https://github.com/D0th3n/Trailblazers/releases/download/v0.1.1/Trailblazers-0.1.1-win.zip",
+      "sha256": ""
+    },
+    "macos": {
+      "archive": "Trailblazers-0.1.1-mac.zip",
+      "url": "https://github.com/D0th3n/Trailblazers/releases/download/v0.1.1/Trailblazers-0.1.1-mac.zip",
+      "sha256": ""
+    }
+  }
+}
