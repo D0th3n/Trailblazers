@@ -10,9 +10,9 @@ Use the local Ren'Py SDK app:
 
 `/Users/murks/Web-Projects/renpy-8.5.2-sdk/renpy.app`
 
-Use this repository family as the Ren'Py projects directory:
+Use this repository as the Ren'Py projects directory:
 
-`/Users/murks/Library/Mobile Documents/.Trash/Codex/2026-04-20-writing-a-novel-game-universe-and`
+`/Users/murks/Documents/Documents - murks’s MacBook Pro/Codex/2026-05-20-trailblazers-launcher-workspace`
 
 Build steps:
 

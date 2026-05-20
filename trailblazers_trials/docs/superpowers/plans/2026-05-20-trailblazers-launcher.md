@@ -1608,7 +1608,7 @@ Open the Ren'Py SDK launcher from:
 Set the projects directory to:
 
 ```text
-/Users/murks/Documents/Codex/2026-04-20-writing-a-novel-game-universe-and
+/Users/murks/Documents/Documents - murks’s MacBook Pro/Codex/2026-05-20-trailblazers-launcher-workspace
 ```
 
 Select `trailblazers_trials`, then use the Ren'Py distribution screen to build
@@ -1699,7 +1699,7 @@ git commit -m "docs: document launcher release workflow"
 Run:
 
 ```bash
-/Users/murks/Web-Projects/renpy-8.5.2-sdk/renpy.sh /Users/murks/Documents/Codex/2026-04-20-writing-a-novel-game-universe-and/trailblazers_trials lint
+/Users/murks/Web-Projects/renpy-8.5.2-sdk/renpy.sh "/Users/murks/Documents/Documents - murks’s MacBook Pro/Codex/2026-05-20-trailblazers-launcher-workspace/trailblazers_trials" lint
 ```
 
 Expected:
