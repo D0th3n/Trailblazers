@@ -44,6 +44,26 @@ class ChapterRegistryTests(unittest.TestCase):
         self.assertIn("chapter_01_checkpoint_evening", playable_labels)
         self.assertIn("chapter_01_checkpoint_mine", playable_labels)
 
+    def test_chapter_two_is_registered_with_independent_routes(self):
+        chapter_registry = load_chapter_registry()
+
+        chapters = chapter_registry.chapter_card_entries()
+        chapter_two = next((chapter for chapter in chapters if chapter["id"] == "chapter_02"), None)
+
+        self.assertIsNotNone(chapter_two)
+        self.assertEqual(chapter_two["number"], "Chapter 2")
+        self.assertEqual(chapter_two["roman"], "Chapter II")
+        self.assertEqual(chapter_two["start_label"], "chapter_02")
+        self.assertNotEqual(chapters[0]["start_label"], chapter_two["start_label"])
+        self.assertEqual(
+            [checkpoint["label"] for checkpoint in chapter_two["checkpoints"]],
+            [
+                "chapter_02",
+                "chapter_02_checkpoint_evening",
+                "chapter_02_checkpoint_mine",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

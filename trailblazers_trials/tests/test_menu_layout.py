@@ -26,6 +26,14 @@ class MenuLayoutTests(unittest.TestCase):
         self.assertIn("TB_SURFACE_W =", screens_text)
         self.assertIn("TB_SURFACE_X =", screens_text)
 
+    def test_chapter_select_uses_scrollable_chapter_list(self):
+        screens_text = SCREENS_FILE.read_text()
+
+        self.assertIn("screen chapter_select_menu(", screens_text)
+        self.assertIn("viewport:", screens_text)
+        self.assertIn("id \"chapter_select_scroll\"", screens_text)
+        self.assertIn("scrollbars \"vertical\"", screens_text)
+
 
 if __name__ == "__main__":
     unittest.main()

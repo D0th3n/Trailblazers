@@ -287,32 +287,45 @@ screen chapter_select_menu(
                 color "#efe4d5"
                 size 18
 
-            for chapter in chapters:
-                $ chapter_action = Return(chapter["start_label"]) if startup_mode else Start(chapter["start_label"])
-                button:
-                    style "tb_chapter_card_button"
-                    action chapter_action
+            viewport:
+                id "chapter_select_scroll"
+                mousewheel True
+                draggable True
+                pagekeys True
+                scrollbars "vertical"
+                ymaximum 560
 
-                    fixed:
-                        add Transform(chapter["menu_background"], xysize=(760, 220))
-                        add Solid("#140d09a0")
+                side_yfill True
 
-                        vbox:
-                            xpos 28
-                            ypos 26
-                            spacing 6
+                vbox:
+                    spacing 24
 
-                            text "[chapter['number']]":
-                                style "tb_chapter_label"
+                    for chapter in chapters:
+                        $ chapter_action = Return(chapter["start_label"]) if startup_mode else Start(chapter["start_label"])
+                        button:
+                            style "tb_chapter_card_button"
+                            action chapter_action
 
-                            text "[chapter['title']]":
-                                style "tb_chapter_title"
+                            fixed:
+                                add Transform(chapter["menu_background"], xysize=(760, 220))
+                                add Solid("#140d09a0")
 
-                            text "[chapter['location']]":
-                                style "tb_chapter_location"
+                                vbox:
+                                    xpos 28
+                                    ypos 26
+                                    spacing 6
 
-                            text "[chapter['summary']]":
-                                style "tb_chapter_summary"
+                                    text "[chapter['number']]":
+                                        style "tb_chapter_label"
+
+                                    text "[chapter['title']]":
+                                        style "tb_chapter_title"
+
+                                    text "[chapter['location']]":
+                                        style "tb_chapter_location"
+
+                                    text "[chapter['summary']]":
+                                        style "tb_chapter_summary"
 
             text "More chapters will unlock here as Trailblazers Trials expands.":
                 color "#c8b8a4"

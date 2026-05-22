@@ -28,6 +28,35 @@ CHAPTERS = [
             },
         ],
     },
+    {
+        "id": "chapter_02",
+        "number": "Chapter 2",
+        "roman": "Chapter II",
+        "title": "Placeholder Trial",
+        "location": "Anozira Village",
+        "summary": "A playable placeholder copied from Chapter 1 while Chapter 2 scenes are drafted.",
+        "tagline": "A new trial is being shaped from the ashes of the first.",
+        "menu_background": "bg village square",
+        "start_label": "chapter_02",
+        "available": True,
+        "checkpoints": [
+            {
+                "label": "chapter_02",
+                "menu_label": "Opening",
+                "description": "Begin the Chapter 2 placeholder from the opening recap.",
+            },
+            {
+                "label": "chapter_02_checkpoint_evening",
+                "menu_label": "Evening Interlude",
+                "description": "Skip to the placeholder village night scenes and Ruzen setup.",
+            },
+            {
+                "label": "chapter_02_checkpoint_mine",
+                "menu_label": "Ruzen Mine Approach",
+                "description": "Jump to the placeholder mine lead-in and Titan route.",
+            },
+        ],
+    },
 ]
 
 
@@ -61,4 +90,3 @@ def playable_label_set():
         for checkpoint in chapter.get("checkpoints", []):
             labels.add(checkpoint["label"])
     return labels
-

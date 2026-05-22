@@ -10,6 +10,7 @@ default chose_to_hide_dragon = False
 default chose_to_trust_embrum = False
 
 default chapter_01_result = "unresolved"
+default chapter_02_result = "unresolved"
 default ruzen_lead_unlocked = False
 default visited_tavern = False
 default heard_dead_miner_hint = False
@@ -18,6 +19,19 @@ default mogul_encountered = False
 default titan_pressure_felt = False
 default titan_revealed = False
 default titan_destroyed = False
+
+default chapter_02_ruzen_lead_unlocked = False
+default chapter_02_visited_village_exploration = False
+default chapter_02_explored_village_well = False
+default chapter_02_explored_village_rumor = False
+default chapter_02_village_square_exploration_complete = False
+default chapter_02_visited_tavern = False
+default chapter_02_heard_dead_miner_hint = False
+default chapter_02_mine_tampering_suspected = False
+default chapter_02_mogul_encountered = False
+default chapter_02_titan_pressure_felt = False
+default chapter_02_titan_revealed = False
+default chapter_02_titan_destroyed = False
 
 default exploration_map_id = None
 default exploration_position = (0, 0)

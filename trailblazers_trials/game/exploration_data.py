@@ -151,3 +151,10 @@ EXPLORATION_MAPS = {
         "objective": "Prepared for future mine exploration: start with the foreman at the GO marker.",
     }
 }
+
+
+EXPLORATION_MAPS["chapter_02_anozira_square"] = dict(EXPLORATION_MAPS["anozira_square"])
+EXPLORATION_MAPS["chapter_02_anozira_square"]["completion_flags"] = {
+    "well": "chapter_02_explored_village_well",
+    "villager": "chapter_02_explored_village_rumor",
+}
