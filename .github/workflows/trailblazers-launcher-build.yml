@@ -1,0 +1,76 @@
+name: Build Trailblazers Launcher
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/trailblazers-launcher
+    paths:
+      - "launcher/**"
+      - ".github/workflows/trailblazers-launcher-build.yml"
+
+jobs:
+  build:
+    name: Build launcher (${{ matrix.name }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: macos
+            os: macos-latest
+            artifact: trailblazers-launcher-macos
+          - name: windows
+            os: windows-latest
+            artifact: trailblazers-launcher-windows
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: launcher/src-tauri
+
+      - name: Install Tauri CLI
+        run: cargo install tauri-cli --version "^2" --locked
+
+      - name: Test launcher UI and release tools
+        run: |
+          node --test launcher/ui/launcher-state.test.mjs
+          python launcher/scripts/prepare_release_test.py
+
+      - name: Test launcher backend
+        working-directory: launcher/src-tauri
+        run: cargo test
+
+      - name: Build launcher package
+        working-directory: launcher/src-tauri
+        run: cargo tauri build
+
+      - name: Upload launcher packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            launcher/src-tauri/target/release/bundle/**/*.dmg
+            launcher/src-tauri/target/release/bundle/**/*.app
+            launcher/src-tauri/target/release/bundle/**/*.msi
+            launcher/src-tauri/target/release/bundle/**/*.exe
+            launcher/src-tauri/target/release/bundle/**/*.app.tar.gz
+            launcher/src-tauri/target/release/bundle/**/*.app.tar.gz.sig
+          if-no-files-found: error
