@@ -46,9 +46,6 @@ jobs:
         with:
           workspaces: launcher/src-tauri
 
-      - name: Install Tauri CLI
-        run: cargo install tauri-cli --version "^2" --locked
-
       - name: Test launcher UI and release tools
         run: |
           node --test launcher/ui/launcher-state.test.mjs
@@ -60,7 +57,7 @@ jobs:
 
       - name: Build launcher package
         working-directory: launcher/src-tauri
-        run: cargo tauri build
+        run: npx --yes @tauri-apps/cli@^2 build
 
       - name: Upload launcher packages
         uses: actions/upload-artifact@v4
