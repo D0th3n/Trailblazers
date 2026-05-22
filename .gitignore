@@ -29,6 +29,7 @@ htmlcov/
 .worktrees/
 
 # Trailblazers launcher build/download output
+dist/
 launcher/src-tauri/target/
 launcher/src-tauri/gen/
 launcher/game/
