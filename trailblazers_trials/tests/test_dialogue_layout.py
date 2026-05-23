@@ -27,6 +27,30 @@ class DialogueLayoutTests(unittest.TestCase):
         self.assertIn('background Solid("#050506b8")', screens_text)
         self.assertIn("xfill True", screens_text)
         self.assertIn("xmaximum 1220", screens_text)
+        self.assertIn("use dialogue_controls", screens_text)
+
+    def test_dialogue_controls_match_reference_controls(self):
+        screens_text = SCREENS_FILE.read_text()
+
+        self.assertIn("screen dialogue_controls():", screens_text)
+
+        expected_controls = {
+            'textbutton _("Back")': "Rollback()",
+            'textbutton _("History")': 'ShowMenu("history")',
+            'textbutton _("Skip")': "Skip()",
+            'textbutton _("Auto")': 'Preference("auto-forward", "toggle")',
+            'textbutton _("Save")': 'ShowMenu("save")',
+            'textbutton _("Q.Save")': "QuickSave()",
+            'textbutton _("Q.Load")': "QuickLoad()",
+            'textbutton _("Prefs")': 'ShowMenu("preferences")',
+        }
+
+        for label, action in expected_controls.items():
+            self.assertIn(label, screens_text)
+            self.assertIn("action %s" % action, screens_text)
+
+        self.assertIn('style "dialogue_controls_hbox"', screens_text)
+        self.assertIn("style dialogue_control_button_text", screens_text)
 
     def test_oren_side_portraits_are_registered(self):
         images_text = IMAGES_FILE.read_text()

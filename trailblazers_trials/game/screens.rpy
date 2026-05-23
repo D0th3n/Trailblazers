@@ -775,6 +775,46 @@ screen say(who, what):
                     id "what"
                     style "say_dialogue"
 
+    use dialogue_controls
+
+
+screen dialogue_controls():
+
+    hbox:
+        style "dialogue_controls_hbox"
+
+        textbutton _("Back"):
+            style "dialogue_control_button"
+            action Rollback()
+
+        textbutton _("History"):
+            style "dialogue_control_button"
+            action ShowMenu("history")
+
+        textbutton _("Skip"):
+            style "dialogue_control_button"
+            action Skip()
+
+        textbutton _("Auto"):
+            style "dialogue_control_button"
+            action Preference("auto-forward", "toggle")
+
+        textbutton _("Save"):
+            style "dialogue_control_button"
+            action ShowMenu("save")
+
+        textbutton _("Q.Save"):
+            style "dialogue_control_button"
+            action QuickSave()
+
+        textbutton _("Q.Load"):
+            style "dialogue_control_button"
+            action QuickLoad()
+
+        textbutton _("Prefs"):
+            style "dialogue_control_button"
+            action ShowMenu("preferences")
+
 
 screen choice(items):
 
@@ -893,6 +933,9 @@ style say_side_image_frame is frame
 style say_text_vbox is vbox
 style say_label is text
 style say_dialogue is text
+style dialogue_controls_hbox is hbox
+style dialogue_control_button is button
+style dialogue_control_button_text is text
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is text
@@ -1114,6 +1157,26 @@ style say_dialogue:
     size 30
     line_spacing 5
     xmaximum 1220
+
+style dialogue_controls_hbox:
+    xalign 0.5
+    yalign 1.0
+    yoffset -8
+    spacing 26
+
+style dialogue_control_button:
+    background Solid("#00000000")
+    hover_background Solid("#f4b55a24")
+    left_padding 4
+    right_padding 4
+    top_padding 2
+    bottom_padding 2
+
+style dialogue_control_button_text:
+    color "#cfc8bd"
+    hover_color "#ffd68f"
+    insensitive_color "#70695f"
+    size 18
 
 style choice_vbox:
     spacing 10
