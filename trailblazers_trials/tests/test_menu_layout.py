@@ -32,6 +32,9 @@ class MenuLayoutTests(unittest.TestCase):
         self.assertIn("screen chapter_select_menu(", screens_text)
         self.assertIn("viewport:", screens_text)
         self.assertIn("id \"chapter_select_scroll\"", screens_text)
+        self.assertIn("xsize TB_CARD_W", screens_text)
+        self.assertIn("ysize 560", screens_text)
+        self.assertIn("child_size (TB_CARD_W, max(560, len(chapters) * (TB_CARD_H + 24)))", screens_text)
         self.assertIn("scrollbars \"vertical\"", screens_text)
 
 

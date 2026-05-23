@@ -293,11 +293,14 @@ screen chapter_select_menu(
                 draggable True
                 pagekeys True
                 scrollbars "vertical"
-                ymaximum 560
+                xsize TB_CARD_W
+                ysize 560
+                child_size (TB_CARD_W, max(560, len(chapters) * (TB_CARD_H + 24)))
 
                 side_yfill True
 
                 vbox:
+                    xsize TB_CARD_W
                     spacing 24
 
                     for chapter in chapters:
