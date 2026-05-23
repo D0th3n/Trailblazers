@@ -775,6 +775,9 @@ screen say(who, what):
                     id "what"
                     style "say_dialogue"
 
+    if tb_auto_advance:
+        timer 3.0 action Return()
+
     use dialogue_controls
 
 
@@ -793,11 +796,12 @@ screen dialogue_controls():
 
         textbutton _("Skip"):
             style "dialogue_control_button"
-            action Skip()
+            action Return()
 
         textbutton _("Auto"):
             style "dialogue_control_button"
-            action Preference("auto-forward", "toggle")
+            selected tb_auto_advance
+            action ToggleVariable("tb_auto_advance")
 
         textbutton _("Save"):
             style "dialogue_control_button"

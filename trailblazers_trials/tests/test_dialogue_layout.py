@@ -7,6 +7,7 @@ SCREENS_FILE = PROJECT_ROOT / "game" / "screens.rpy"
 IMAGES_FILE = PROJECT_ROOT / "game" / "images.rpy"
 CHARACTERS_FILE = PROJECT_ROOT / "game" / "characters.rpy"
 CHAPTER_TWO_FILE = PROJECT_ROOT / "game" / "chapters" / "chapter_02.rpy"
+VARIABLES_FILE = PROJECT_ROOT / "game" / "variables.rpy"
 
 
 class DialogueLayoutTests(unittest.TestCase):
@@ -37,8 +38,8 @@ class DialogueLayoutTests(unittest.TestCase):
         expected_controls = {
             'textbutton _("Back")': "Rollback()",
             'textbutton _("History")': 'ShowMenu("history")',
-            'textbutton _("Skip")': "Skip()",
-            'textbutton _("Auto")': 'Preference("auto-forward", "toggle")',
+            'textbutton _("Skip")': "Return()",
+            'textbutton _("Auto")': 'ToggleVariable("tb_auto_advance")',
             'textbutton _("Save")': 'ShowMenu("save")',
             'textbutton _("Q.Save")': "QuickSave()",
             'textbutton _("Q.Load")': "QuickLoad()",
@@ -51,6 +52,16 @@ class DialogueLayoutTests(unittest.TestCase):
 
         self.assertIn('style "dialogue_controls_hbox"', screens_text)
         self.assertIn("style dialogue_control_button_text", screens_text)
+
+    def test_auto_control_advances_dialogue_every_three_seconds(self):
+        screens_text = SCREENS_FILE.read_text()
+        variables_text = VARIABLES_FILE.read_text()
+
+        self.assertIn("default tb_auto_advance = False", variables_text)
+        self.assertIn("if tb_auto_advance:", screens_text)
+        self.assertIn("timer 3.0 action Return()", screens_text)
+        self.assertNotIn('action Preference("auto-forward", "toggle")', screens_text)
+        self.assertNotIn("action Skip()", screens_text)
 
     def test_oren_side_portraits_are_registered(self):
         images_text = IMAGES_FILE.read_text()

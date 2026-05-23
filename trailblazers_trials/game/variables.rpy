@@ -3,6 +3,7 @@ default dragon_pressure = 0
 default embrum_trust = 0
 default village_reputation = 0
 default qana_strain = 0
+default tb_auto_advance = False
 
 default saw_inner_dragon = False
 default heard_jotunn_claim = False
