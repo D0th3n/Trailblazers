@@ -8,6 +8,16 @@ IMAGES_FILE = PROJECT_ROOT / "game" / "images.rpy"
 CHARACTERS_FILE = PROJECT_ROOT / "game" / "characters.rpy"
 CHAPTER_TWO_FILE = PROJECT_ROOT / "game" / "chapters" / "chapter_02.rpy"
 VARIABLES_FILE = PROJECT_ROOT / "game" / "variables.rpy"
+SIDE_PORTRAIT_DIR = PROJECT_ROOT / "game" / "images" / "characters" / "side"
+
+
+def png_color_type(path):
+    data = path.read_bytes()
+    if data[:8] != b"\x89PNG\r\n\x1a\n":
+        raise ValueError("%s is not a PNG file" % path)
+    if data[12:16] != b"IHDR":
+        raise ValueError("%s does not start with an IHDR chunk" % path)
+    return data[25]
 
 
 class DialogueLayoutTests(unittest.TestCase):
@@ -74,6 +84,12 @@ class DialogueLayoutTests(unittest.TestCase):
                 'image side oren %s = "images/characters/side/oren_%s.png"' % (expression, expression),
                 images_text,
             )
+
+    def test_oren_side_portraits_use_transparent_pngs(self):
+        for expression in ("neutral", "focused", "annoyed", "uneasy", "confident"):
+            portrait_file = SIDE_PORTRAIT_DIR / ("oren_%s.png" % expression)
+
+            self.assertIn(png_color_type(portrait_file), (4, 6))
 
     def test_chapter_two_tags_oren_dialogue_with_emotions(self):
         chapter_two_text = CHAPTER_TWO_FILE.read_text()
