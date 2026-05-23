@@ -287,48 +287,43 @@ screen chapter_select_menu(
                 color "#efe4d5"
                 size 18
 
-            viewport:
-                id "chapter_select_scroll"
+            vpgrid:
+                id "chapter_select_grid"
+                cols 1
                 mousewheel True
                 draggable True
                 pagekeys True
                 scrollbars "vertical"
                 xsize TB_CARD_W
                 ysize 560
-                child_size (TB_CARD_W, max(560, len(chapters) * (TB_CARD_H + 24)))
+                spacing 24
 
-                side_yfill True
+                for chapter in chapters:
+                    $ chapter_action = Return(chapter["start_label"]) if startup_mode else Start(chapter["start_label"])
+                    button:
+                        style "tb_chapter_card_button"
+                        action chapter_action
 
-                vbox:
-                    xsize TB_CARD_W
-                    spacing 24
+                        fixed:
+                            add Transform(chapter["menu_background"], xysize=(760, 220))
+                            add Solid("#140d09a0")
 
-                    for chapter in chapters:
-                        $ chapter_action = Return(chapter["start_label"]) if startup_mode else Start(chapter["start_label"])
-                        button:
-                            style "tb_chapter_card_button"
-                            action chapter_action
+                            vbox:
+                                xpos 28
+                                ypos 26
+                                spacing 6
 
-                            fixed:
-                                add Transform(chapter["menu_background"], xysize=(760, 220))
-                                add Solid("#140d09a0")
+                                text "[chapter['number']]":
+                                    style "tb_chapter_label"
 
-                                vbox:
-                                    xpos 28
-                                    ypos 26
-                                    spacing 6
+                                text "[chapter['title']]":
+                                    style "tb_chapter_title"
 
-                                    text "[chapter['number']]":
-                                        style "tb_chapter_label"
+                                text "[chapter['location']]":
+                                    style "tb_chapter_location"
 
-                                    text "[chapter['title']]":
-                                        style "tb_chapter_title"
-
-                                    text "[chapter['location']]":
-                                        style "tb_chapter_location"
-
-                                    text "[chapter['summary']]":
-                                        style "tb_chapter_summary"
+                                text "[chapter['summary']]":
+                                    style "tb_chapter_summary"
 
             text "More chapters will unlock here as Trailblazers Trials expands.":
                 color "#c8b8a4"
