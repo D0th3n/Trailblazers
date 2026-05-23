@@ -1,7 +1,7 @@
 define story = Character(None)
 define system = Character("System", color="#c9d6ff")
 
-define oren = Character("Oren", color="#f0c36a")
+define oren = Character("Oren", color="#f0c36a", image="oren")
 define inner_voice = Character("Voice", color="#f4f0ff", what_italic=True)
 define jotunn = Character("Jötunn", color="#f4f0ff", what_italic=True)
 define embrum = Character("Embrum", color="#9ed0ff")

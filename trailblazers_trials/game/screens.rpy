@@ -753,17 +753,27 @@ screen say(who, what):
         id "window"
         style "say_window"
 
-        vbox:
-            spacing 4
-
+        fixed:
             if who is not None:
-                text who:
-                    id "who"
-                    style "say_label"
+                frame:
+                    style "say_side_image_frame"
+                    add SideImage():
+                        xalign 0.5
+                        yalign 0.5
+                        fit "contain"
+                        xysize (132, 150)
 
-            text what:
-                id "what"
-                style "say_dialogue"
+            vbox:
+                style "say_text_vbox"
+
+                if who is not None:
+                    text who:
+                        id "who"
+                        style "say_label"
+
+                text what:
+                    id "what"
+                    style "say_dialogue"
 
 
 screen choice(items):
@@ -846,7 +856,6 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
 
-
 style tb_nav_panel is empty
 style tb_nav_vbox is vbox
 style tb_nav_button is button
@@ -880,6 +889,8 @@ style tb_complete_title is text
 style tb_complete_location is text
 style tb_complete_summary is text
 style say_window is empty
+style say_side_image_frame is frame
+style say_text_vbox is vbox
 style say_label is text
 style say_dialogue is text
 style choice_vbox is vbox
@@ -1067,24 +1078,42 @@ style tb_complete_summary:
     xmaximum 740
 
 style say_window:
-    background Solid("#120a08d6")
-    xpos 20
-    ypos 18
-    xmaximum 1140
-    left_padding 18
-    right_padding 18
-    top_padding 10
-    bottom_padding 12
+    background Solid("#050506b8")
+    xfill True
+    ysize 220
+    yalign 1.0
+    yoffset -42
+    left_padding 0
+    right_padding 0
+    top_padding 0
+    bottom_padding 0
+
+style say_side_image_frame:
+    background Solid("#00000000")
+    xpos 24
+    yalign 0.5
+    xsize 154
+    ysize 170
+    left_padding 0
+    right_padding 0
+    top_padding 0
+    bottom_padding 0
+
+style say_text_vbox:
+    xpos 210
+    yalign 0.5
+    spacing 8
+    xmaximum 1220
 
 style say_label:
-    color "#d8c4a4"
-    size 24
+    color "#f0c36a"
+    size 22
 
 style say_dialogue:
     color "#fff7ee"
-    size 28
-    line_spacing 3
-    xmaximum 1080
+    size 30
+    line_spacing 5
+    xmaximum 1220
 
 style choice_vbox:
     spacing 10
