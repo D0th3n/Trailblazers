@@ -260,7 +260,8 @@ screen chapter_select_menu(
 
     tag menu
 
-    $ chapters = chapter_card_entries()
+    $ chapter_01_action = Return("chapter_01") if startup_mode else Start("chapter_01")
+    $ chapter_02_action = Return("chapter_02") if startup_mode else Start("chapter_02")
 
     use title_shell
     use navigation(
@@ -277,57 +278,78 @@ screen chapter_select_menu(
     frame:
         style "tb_content_panel"
 
-        vbox:
-            spacing 24
+        fixed:
 
             text "Chapters":
                 style "tb_content_title"
+                xpos 0
+                ypos 0
 
             text "Choose the chapter you want to begin playing right now.":
                 color "#efe4d5"
                 size 18
+                xpos 0
+                ypos 82
 
-            vpgrid:
-                id "chapter_select_grid"
-                cols 1
-                mousewheel True
-                draggable True
-                pagekeys True
-                scrollbars "vertical"
-                xsize TB_CARD_W
-                ysize 560
-                spacing 24
+            button:
+                style "tb_chapter_card_button"
+                xpos 0
+                ypos 126
+                action chapter_01_action
 
-                for chapter in chapters:
-                    $ chapter_action = Return(chapter["start_label"]) if startup_mode else Start(chapter["start_label"])
-                    button:
-                        style "tb_chapter_card_button"
-                        action chapter_action
+                fixed:
+                    add Transform("menu title background", xysize=(TB_CARD_W, TB_CARD_H))
+                    add Solid("#140d09ba")
 
-                        fixed:
-                            add Transform(chapter["menu_background"], xysize=(760, 220))
-                            add Solid("#140d09a0")
+                    vbox:
+                        xpos 28
+                        ypos 26
+                        spacing 6
 
-                            vbox:
-                                xpos 28
-                                ypos 26
-                                spacing 6
+                        text "Chapter 1":
+                            style "tb_chapter_label"
 
-                                text "[chapter['number']]":
-                                    style "tb_chapter_label"
+                        text "Heart of Fire":
+                            style "tb_chapter_title"
 
-                                text "[chapter['title']]":
-                                    style "tb_chapter_title"
+                        text "Anozira Village":
+                            style "tb_chapter_location"
 
-                                text "[chapter['location']]":
-                                    style "tb_chapter_location"
+                        text "Acerima's drought is only the beginning.":
+                            style "tb_chapter_summary"
 
-                                text "[chapter['summary']]":
-                                    style "tb_chapter_summary"
+            button:
+                style "tb_chapter_card_button"
+                xpos 0
+                ypos 420
+                action chapter_02_action
+
+                fixed:
+                    add Transform("menu title background", xysize=(TB_CARD_W, TB_CARD_H))
+                    add Solid("#140d09ba")
+
+                    vbox:
+                        xpos 28
+                        ypos 26
+                        spacing 6
+
+                        text "Chapter 2":
+                            style "tb_chapter_label"
+
+                        text "Placeholder Trial":
+                            style "tb_chapter_title"
+
+                        text "Chapter 2 Test Route":
+                            style "tb_chapter_location"
+
+                        text "A separate playable copy is ready for the next story pass.":
+                            style "tb_chapter_summary"
 
             text "More chapters will unlock here as Trailblazers Trials expands.":
                 color "#c8b8a4"
                 size 16
+                xpos 0
+                ypos 696
 
     textbutton _("Back"):
         style "tb_back_button"
