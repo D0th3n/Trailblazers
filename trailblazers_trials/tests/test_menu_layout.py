@@ -38,7 +38,7 @@ class MenuLayoutTests(unittest.TestCase):
         self.assertIn('text "Chapter 1":', chapter_select_text)
         self.assertIn('text "Chapter 2":', chapter_select_text)
         self.assertIn('text "Heart of Fire":', chapter_select_text)
-        self.assertIn('text "Placeholder Trial":', chapter_select_text)
+        self.assertIn('text "Oren Gets Ready":', chapter_select_text)
         self.assertIn("action chapter_01_action", chapter_select_text)
         self.assertIn("action chapter_02_action", chapter_select_text)
         self.assertNotIn("vpgrid:", chapter_select_text)

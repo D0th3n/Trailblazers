@@ -21,6 +21,9 @@ image bg memory white = Solid("#f7f4e8")
 image bg severance dark = Solid("#161421")
 
 image cg anozira thanks ending = "images/cg/anozira_thanks_ending.png"
+image cg chapter_02_oren_waking = "images/cg/chapter_02/oren_waking.png"
+image cg chapter_02_oren_armoring = "images/cg/chapter_02/oren_armoring.png"
+image cg chapter_02_oren_hallway = "images/cg/chapter_02/oren_hallway.png"
 
 image oren neutral = "images/characters/oren_squire.png"
 image oren action = "images/references/combat/oren_action_spear.png"

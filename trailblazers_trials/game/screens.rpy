@@ -336,13 +336,13 @@ screen chapter_select_menu(
                         text "Chapter 2":
                             style "tb_chapter_label"
 
-                        text "Placeholder Trial":
+                        text "Oren Gets Ready":
                             style "tb_chapter_title"
 
-                        text "Chapter 2 Test Route":
+                        text "Highguard Inn":
                             style "tb_chapter_location"
 
-                        text "A separate playable copy is ready for the next story pass.":
+                        text "A short placeholder route using the new Oren prep scenes.":
                             style "tb_chapter_summary"
 
             text "More chapters will unlock here as Trailblazers Trials expands.":
