@@ -2,6 +2,8 @@ label chapter_02:
 
     $ chapter_02_result = "preparing"
 
+    play music chapter_02_getting_ready fadeout 1.0 fadein 1.0
+
     scene cg chapter_02_oren_waking
     with fade
 
@@ -23,10 +25,14 @@ label chapter_02:
 
 label chapter_02_checkpoint_evening:
 
+    play music chapter_02_getting_ready fadeout 1.0 fadein 1.0
+
     jump chapter_02_armoring
 
 
 label chapter_02_checkpoint_mine:
+
+    play music chapter_02_hallway_walkout fadeout 1.0 fadein 1.0
 
     jump chapter_02_hallway
 
@@ -54,6 +60,8 @@ label chapter_02_armoring:
 
 
 label chapter_02_hallway:
+
+    play music chapter_02_hallway_walkout fadeout 1.0 fadein 1.0
 
     scene cg chapter_02_oren_hallway
     with fade
