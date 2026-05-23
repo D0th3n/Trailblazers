@@ -70,7 +70,7 @@ class ChapterTwoScaffoldTests(unittest.TestCase):
         audio_text = AUDIO_FILE.read_text()
         chapter_two_text = CHAPTER_TWO_FILE.read_text()
 
-        self.assertIn('define audio.chapter_02_getting_ready = "audio/chapter_02/tin_pan_spell.wav"', audio_text)
+        self.assertIn('define audio.chapter_02_getting_ready = "audio/chapter_02/trombone_skip.wav"', audio_text)
         self.assertIn('define audio.chapter_02_hallway_walkout = "audio/chapter_02/trombone_gasp.wav"', audio_text)
         self.assertIn("play music chapter_02_getting_ready fadeout 1.0 fadein 1.0", chapter_two_text)
         self.assertIn("play music chapter_02_hallway_walkout fadeout 1.0 fadein 1.0", chapter_two_text)
