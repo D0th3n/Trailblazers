@@ -80,6 +80,8 @@ label chapter_02_hallway:
 
     $ chapter_02_result = "ready"
 
+    stop music fadeout 1.0
+
     call screen chapter_complete_menu(
         chapter_number="Chapter II",
         chapter_title="Oren Gets Ready",

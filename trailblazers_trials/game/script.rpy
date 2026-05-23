@@ -11,6 +11,8 @@ default startup_destination = "main"
 
 label start:
 
+    play music title_menu_theme fadeout 1.0 fadein 1.0
+
     while True:
 
         if startup_destination == "history":

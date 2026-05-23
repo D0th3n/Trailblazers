@@ -12,6 +12,7 @@ define build.display_name = "Trailblazers Trials"
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = False
+define config.main_menu_music = "audio/menu/trombone_glitch.wav"
 
 define config.enter_transition = dissolve
 define config.exit_transition = dissolve

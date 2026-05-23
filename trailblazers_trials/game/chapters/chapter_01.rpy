@@ -783,6 +783,8 @@ label ruzen_mine_approach:
     story "Oren lowered his hand before it could tremble."
     story "For one morning, Anozira lived."
 
+    stop music fadeout 1.0
+
     call screen chapter_complete_menu(
         chapter_number="Chapter I",
         chapter_title="Heart of Fire",

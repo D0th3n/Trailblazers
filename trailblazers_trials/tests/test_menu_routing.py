@@ -5,6 +5,7 @@ import unittest
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT_FILE = PROJECT_ROOT / "game" / "script.rpy"
 SCREENS_FILE = PROJECT_ROOT / "game" / "screens.rpy"
+AUDIO_FILE = PROJECT_ROOT / "game" / "audio.rpy"
 
 
 class MenuRoutingTests(unittest.TestCase):
@@ -15,6 +16,7 @@ class MenuRoutingTests(unittest.TestCase):
         self.assertIn("label start:", script_text)
         self.assertIn("import chapter_registry", script_text)
         self.assertIn('default startup_destination = "main"', script_text)
+        self.assertIn("play music title_menu_theme fadeout 1.0 fadein 1.0", script_text)
         self.assertIn("call screen startup_main_menu", script_text)
         self.assertIn('startup_destination == "history"', script_text)
         self.assertIn("call screen history_menu", script_text)
@@ -71,6 +73,11 @@ class MenuRoutingTests(unittest.TestCase):
         self.assertNotIn("chapter_01_action=Start(", screens_text)
         self.assertNotIn("chapter_01_evening_action=Start(", screens_text)
         self.assertNotIn("chapter_01_mine_action=Start(", screens_text)
+
+    def test_title_menu_music_is_registered(self):
+        audio_text = AUDIO_FILE.read_text()
+
+        self.assertIn('define audio.title_menu_theme = "audio/menu/trombone_glitch.wav"', audio_text)
 
 
 if __name__ == "__main__":
