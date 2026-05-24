@@ -2,6 +2,7 @@ import {
   formatInstalledVersion,
   formatLatestVersion,
   isUpdateAvailable,
+  normalizeNewsItems,
   platformLabel,
 } from "./launcher-state.js";
 
@@ -9,6 +10,26 @@ export const DEFAULT_MANIFEST_URL =
   "https://github.com/D0th3n/Trailblazers/releases/latest/download/release-manifest.json";
 
 const tauriInvoke = window.__TAURI__?.core?.invoke;
+const DEFAULT_NEWS_FEED = {
+  news: [
+    {
+      title: "Quality of life update out now!",
+      body: "Launcher and early gameplay polish are being refreshed as Trailblazers Trials grows.",
+    },
+  ],
+  lore: [
+    {
+      title: "Lore updates coming soon",
+      body: "Future notes will preview qana, races, locations, and chapter context.",
+    },
+  ],
+  media: [
+    {
+      title: "Media updates coming soon",
+      body: "Art, music, screenshots, and other creation updates will appear here.",
+    },
+  ],
+};
 
 const elements = {
   platformLabel: document.querySelector("#platformLabel"),
@@ -18,11 +39,14 @@ const elements = {
   checkButton: document.querySelector("#checkButton"),
   repairButton: document.querySelector("#repairButton"),
   statusText: document.querySelector("#statusText"),
-  patchNotes: document.querySelector("#patchNotes"),
+  newsItems: document.querySelector("#newsItems"),
+  newsTabs: document.querySelectorAll("[data-news-tab]"),
 };
 
 let installState = null;
 let latestManifest = null;
+let newsFeed = DEFAULT_NEWS_FEED;
+let activeNewsTab = "news";
 
 function setStatus(message) {
   elements.statusText.textContent = message;
@@ -34,14 +58,60 @@ function setButtonsDisabled(disabled) {
   elements.repairButton.disabled = disabled;
 }
 
-function renderPatchNotes(notes) {
-  elements.patchNotes.innerHTML = "";
-  const releaseNotes = Array.isArray(notes) && notes.length ? notes : ["No release notes loaded."];
+function patchNotesFeedItems(notes) {
+  const releaseNotes =
+    Array.isArray(notes) && notes.length
+      ? notes
+      : ["Check for updates to load the latest release notes."];
 
-  for (const note of releaseNotes) {
+  return releaseNotes.map((note) => ({
+    title: "",
+    body: note,
+  }));
+}
+
+function currentNewsItems() {
+  if (activeNewsTab === "patch") {
+    return patchNotesFeedItems(latestManifest?.releaseNotes);
+  }
+
+  const items = normalizeNewsItems(newsFeed, activeNewsTab);
+  if (items.length) {
+    return items;
+  }
+
+  return [
+    {
+      title: "More updates coming soon",
+      body: "New launcher posts will appear here as Trailblazers Trials expands.",
+    },
+  ];
+}
+
+function renderNewsItems() {
+  elements.newsItems.innerHTML = "";
+
+  for (const newsItem of currentNewsItems()) {
     const item = document.createElement("li");
-    item.textContent = note;
-    elements.patchNotes.append(item);
+    if (newsItem.title) {
+      const title = document.createElement("strong");
+      title.textContent = newsItem.title;
+      item.append(title);
+    }
+    if (newsItem.body) {
+      const body = document.createElement("span");
+      body.textContent = newsItem.body;
+      item.append(body);
+    }
+    elements.newsItems.append(item);
+  }
+}
+
+function renderNewsTabs() {
+  for (const tab of elements.newsTabs) {
+    const selected = tab.dataset.newsTab === activeNewsTab;
+    tab.classList.toggle("is-active", selected);
+    tab.setAttribute("aria-pressed", String(selected));
   }
 }
 
@@ -49,7 +119,8 @@ function render() {
   elements.platformLabel.textContent = `Platform: ${platformLabel(installState?.platform)}`;
   elements.installedVersion.textContent = formatInstalledVersion(installState);
   elements.latestVersion.textContent = formatLatestVersion(latestManifest);
-  renderPatchNotes(latestManifest?.releaseNotes);
+  renderNewsTabs();
+  renderNewsItems();
 }
 
 async function invoke(command, args = {}) {
@@ -62,6 +133,19 @@ async function invoke(command, args = {}) {
 
 async function loadInstallState() {
   installState = await invoke("read_install_state");
+  render();
+}
+
+async function loadNewsFeed() {
+  try {
+    const response = await fetch("./news-feed.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    newsFeed = await response.json();
+  } catch (error) {
+    newsFeed = DEFAULT_NEWS_FEED;
+  }
   render();
 }
 
@@ -121,8 +205,15 @@ async function playGame() {
 elements.checkButton.addEventListener("click", checkForUpdates);
 elements.repairButton.addEventListener("click", repairOrReinstall);
 elements.playButton.addEventListener("click", playGame);
+for (const tab of elements.newsTabs) {
+  tab.addEventListener("click", () => {
+    activeNewsTab = tab.dataset.newsTab;
+    render();
+  });
+}
 
 render();
+loadNewsFeed();
 loadInstallState().catch((error) => {
   setStatus(`Could not read install state: ${error}`);
 });

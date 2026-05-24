@@ -274,10 +274,11 @@ h2 {
 
 .notes-area ul {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
   color: #d4eaf5;
   font-size: clamp(12px, 1.18vw, 15px);
   font-weight: 600;
+  list-style: none;
   text-shadow: 0 2px 5px rgba(0, 5, 16, 0.70);
 }
 
@@ -285,13 +286,78 @@ h2 {
   margin-top: 8px;
 }
 
+.notes-area li {
+  display: grid;
+  gap: 1px;
+  line-height: 1.18;
+}
+
+.notes-area strong {
+  color: #ffffff;
+  font-size: clamp(12px, 1.12vw, 14px);
+}
+
+.notes-area span {
+  color: #d6edf8;
+  font-size: clamp(11px, 1.04vw, 13px);
+}
+
 .notes-area {
   position: absolute;
   left: 13.4%;
   right: 12.8%;
-  top: 74.7%;
+  top: 73.4%;
   min-height: 14%;
-  padding: 1.4% 2.4%;
+  padding: 1.2% 2.4%;
+}
+
+.news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+
+.news-header h2 {
+  margin-bottom: 0;
+}
+
+.news-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+button.news-tab {
+  width: auto;
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid rgba(116, 211, 255, 0.54);
+  border-radius: 999px;
+  padding: 4px 9px;
+  clip-path: none;
+  color: #bdefff;
+  background: rgba(4, 25, 54, 0.58);
+  box-shadow: none;
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 800;
+  text-shadow: none;
+}
+
+button.news-tab::after {
+  display: none;
+}
+
+button.news-tab:hover,
+button.news-tab:focus-visible,
+button.news-tab.is-active {
+  color: #ffffff;
+  background: rgba(39, 147, 234, 0.62);
+  border-color: rgba(197, 244, 255, 0.88);
+  box-shadow: 0 0 12px rgba(83, 194, 255, 0.28);
+  transform: none;
 }
 
 @media (max-width: 820px) {

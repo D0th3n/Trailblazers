@@ -56,3 +56,17 @@ export function platformLabel(platform) {
 
   return "Unknown platform";
 }
+
+export function normalizeNewsItems(feed, category) {
+  const items = feed?.[category];
+  if (!Array.isArray(items)) {
+    return [];
+  }
+
+  return items
+    .map((item) => ({
+      title: String(item?.title ?? "").trim(),
+      body: String(item?.body ?? "").trim(),
+    }))
+    .filter((item) => item.title || item.body);
+}

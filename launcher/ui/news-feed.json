@@ -1,0 +1,20 @@
+{
+  "news": [
+    {
+      "title": "Quality of life update out now!",
+      "body": "Launcher and early gameplay polish are being refreshed as Trailblazers Trials grows."
+    }
+  ],
+  "lore": [
+    {
+      "title": "Lore updates coming soon",
+      "body": "Future notes will preview qana, races, locations, and chapter context."
+    }
+  ],
+  "media": [
+    {
+      "title": "Media updates coming soon",
+      "body": "Art, music, screenshots, and other creation updates will appear here."
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import {
   formatInstalledVersion,
   formatLatestVersion,
   isUpdateAvailable,
+  normalizeNewsItems,
   platformLabel,
   versionParts,
 } from "./launcher-state.js";
@@ -41,4 +42,21 @@ test("platformLabel normalizes backend platform identifiers", () => {
   assert.equal(platformLabel("windows"), "Windows");
   assert.equal(platformLabel("macos"), "macOS");
   assert.equal(platformLabel("linux"), "Linux");
+});
+
+test("normalizeNewsItems returns clean title and body pairs for a category", () => {
+  assert.deepEqual(
+    normalizeNewsItems(
+      {
+        news: [
+          { title: " Quality of life update out now! ", body: " Launcher polish. " },
+          { title: "", body: "" },
+          null,
+        ],
+      },
+      "news",
+    ),
+    [{ title: "Quality of life update out now!", body: "Launcher polish." }],
+  );
+  assert.deepEqual(normalizeNewsItems({}, "media"), []);
 });
