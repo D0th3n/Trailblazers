@@ -8,36 +8,41 @@
   </head>
   <body>
     <main class="launcher-shell">
-      <section class="hero">
-        <div>
-          <p class="eyebrow">Trailblazers Trials</p>
-          <h1>Trailblazers Launcher</h1>
-          <p class="subtitle">Install, update, and play the current test build.</p>
-        </div>
+      <section class="launcher-card">
+        <section class="hero">
+          <div class="brand-lockup">
+            <img class="brand-mark" src="./assets/tb-logo.png" alt="" aria-hidden="true" />
+            <div>
+              <p class="eyebrow">Trailblazers Trials</p>
+              <h1>Trailblazers Launcher</h1>
+              <p class="subtitle">Install, update, and play the current test build.</p>
+            </div>
+          </div>
 
-        <div class="version-panel" aria-label="Version information">
-          <p id="platformLabel">Platform: detecting...</p>
-          <p id="installedVersion">Not installed</p>
-          <p id="latestVersion">Latest: not checked</p>
-        </div>
-      </section>
+          <div class="version-panel" aria-label="Version information">
+            <p id="platformLabel">Platform: detecting...</p>
+            <p id="installedVersion">Not installed</p>
+            <p id="latestVersion">Latest: not checked</p>
+          </div>
+        </section>
 
-      <section class="actions" aria-label="Launcher actions">
-        <button id="playButton" type="button">Play</button>
-        <button id="checkButton" type="button">Check for Updates</button>
-        <button id="repairButton" type="button">Repair / Reinstall</button>
-      </section>
+        <section class="actions" aria-label="Launcher actions">
+          <button id="playButton" class="primary-action" type="button">Play</button>
+          <button id="checkButton" type="button">Check for Updates</button>
+          <button id="repairButton" type="button">Repair / Reinstall</button>
+        </section>
 
-      <section class="status-area" aria-live="polite">
-        <h2>Status</h2>
-        <p id="statusText">Ready.</p>
-      </section>
+        <section class="status-area" aria-live="polite">
+          <h2>Status</h2>
+          <p id="statusText">Ready.</p>
+        </section>
 
-      <section class="notes-area">
-        <h2>Patch Notes</h2>
-        <ul id="patchNotes">
-          <li>Check for updates to load the latest release notes.</li>
-        </ul>
+        <section class="notes-area">
+          <h2>Patch Notes</h2>
+          <ul id="patchNotes">
+            <li>Check for updates to load the latest release notes.</li>
+          </ul>
+        </section>
       </section>
     </main>
 
