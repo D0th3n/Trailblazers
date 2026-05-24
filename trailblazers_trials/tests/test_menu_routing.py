@@ -49,7 +49,7 @@ class MenuRoutingTests(unittest.TestCase):
         self.assertIn('textbutton _("History")', screens_text)
         self.assertIn('textbutton _("Chapters")', screens_text)
         self.assertIn('textbutton _("Load")', screens_text)
-        self.assertIn('textbutton _("Preferences")', screens_text)
+        self.assertIn('textbutton _("Options")', screens_text)
         self.assertIn('textbutton _("About")', screens_text)
         self.assertIn('textbutton _("Help")', screens_text)
         self.assertIn('textbutton _("Quit")', screens_text)

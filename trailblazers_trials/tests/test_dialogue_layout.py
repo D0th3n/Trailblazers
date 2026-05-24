@@ -53,7 +53,7 @@ class DialogueLayoutTests(unittest.TestCase):
             'textbutton _("Save")': 'ShowMenu("save")',
             'textbutton _("Q.Save")': "QuickSave()",
             'textbutton _("Q.Load")': "QuickLoad()",
-            'textbutton _("Prefs")': 'ShowMenu("preferences")',
+            'textbutton _("Options")': 'ShowMenu("preferences")',
         }
 
         for label, action in expected_controls.items():

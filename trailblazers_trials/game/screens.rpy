@@ -81,7 +81,7 @@ screen navigation(
                 if load_action is not None:
                     textbutton _("Load") action load_action
                 if preferences_action is not None:
-                    textbutton _("Preferences") action preferences_action
+                    textbutton _("Options") action preferences_action
                 if about_action is not None:
                     textbutton _("About") action about_action
                 if help_action is not None:
@@ -95,7 +95,7 @@ screen navigation(
                 textbutton _("History") action ShowMenu("history")
                 textbutton _("Save") action ShowMenu("save")
                 textbutton _("Load") action ShowMenu("load")
-                textbutton _("Preferences") action ShowMenu("preferences")
+                textbutton _("Options") action ShowMenu("preferences")
 
                 if _in_replay:
                     textbutton _("End Replay") action EndReplay(confirm=True)
@@ -442,7 +442,7 @@ screen title_preferences_menu(
         vbox:
             spacing 18
 
-            text "Preferences":
+            text "Options":
                 style "tb_content_title"
 
             text "Control the display mode and the most important reading and audio settings.":
@@ -815,7 +815,7 @@ screen dialogue_controls():
             style "dialogue_control_button"
             action QuickLoad()
 
-        textbutton _("Prefs"):
+        textbutton _("Options"):
             style "dialogue_control_button"
             action ShowMenu("preferences")
 
