@@ -3,7 +3,7 @@ INTERACTIVE_SCENES = {
         "title": "Oren's Room",
         "objective": "Get dressed before leaving the room.",
         "required_actions": ["get_dressed"],
-        "hotspot_order": ["dresser", "meditation", "door"],
+        "hotspot_order": ["dresser", "supplies", "meditation", "team_training", "door"],
         "hotspots": {
             "dresser": {
                 "label": "Armor Stand",
@@ -14,12 +14,28 @@ INTERACTIVE_SCENES = {
                 "hide_when_complete": True,
                 "description": "Put on Oren's armor.",
             },
+            "supplies": {
+                "label": "Supply Pouch",
+                "icon": "+",
+                "xpos": 0.28,
+                "ypos": 0.60,
+                "completes": "take_supplies",
+                "hide_when_complete": True,
+                "description": "Take elixirs before training.",
+            },
             "meditation": {
                 "label": "Meditation",
                 "icon": "*",
                 "xpos": 0.45,
                 "ypos": 0.68,
                 "description": "Train inside Oren's mind.",
+            },
+            "team_training": {
+                "label": "Team Drill",
+                "icon": "**",
+                "xpos": 0.58,
+                "ypos": 0.70,
+                "description": "Test ally and enemy team battle flow.",
             },
             "door": {
                 "label": "Door",

@@ -52,6 +52,12 @@ init python:
             store.scene_objective_completed_actions,
         )
 
+    def scene_objective_inventory_summary():
+        if hasattr(store, "tb_inventory_summary"):
+            return store.tb_inventory_summary()
+
+        return "Inventory: Empty"
+
 
 screen scene_objective_hotspots():
     modal True
@@ -96,6 +102,17 @@ screen scene_objective_hotspots():
             text scene_data["objective"]:
                 style "scene_objective_prompt"
 
+    frame:
+        xalign 0.02
+        yalign 0.92
+        xmaximum 520
+        xpadding 18
+        ypadding 12
+        background Solid("#04101fd8")
+
+        text scene_objective_inventory_summary():
+            style "scene_objective_inventory_text"
+
 
 style scene_objective_hotspot_icon is default:
     color "#f4fbff"
@@ -115,3 +132,8 @@ style scene_objective_title is default:
 style scene_objective_prompt is default:
     color "#edf6ff"
     size 17
+
+style scene_objective_inventory_text is default:
+    color "#dce7ff"
+    size 16
+    bold True

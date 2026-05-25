@@ -35,7 +35,26 @@ image oren action = "images/references/combat/oren_action_spear.png"
 image oren dragon_spear = "images/references/combat/oren_dragon_spear_spell.png"
 image embrum phoenix_slash = "images/references/combat/embrum_phoenix_flame_slash.png"
 image combat oren temp idle = "images/combat/oren_temp_idle.png"
+image combat oren idle:
+    "images/combat/oren/idle_00.png"
+    pause 0.28
+    "images/combat/oren/idle_01.png"
+    pause 0.20
+    "images/combat/oren/idle_02.png"
+    pause 0.20
+    "images/combat/oren/idle_03.png"
+    pause 0.36
+    "images/combat/oren/idle_04.png"
+    pause 0.24
+    "images/combat/oren/idle_05.png"
+    pause 0.18
+    "images/combat/oren/idle_06.png"
+    pause 0.18
+    "images/combat/oren/idle_07.png"
+    pause 0.34
+    repeat
 image combat training dummy temp idle = "images/combat/training_dummy_temp_idle.png"
+image combat ally dummy temp idle = "images/combat/ally_dummy_temp_idle.png"
 image embrum neutral = "images/characters/embrum_mentor.png"
 image guard neutral = "images/characters/village_guard.png"
 image villager neutral = "images/characters/villager.png"

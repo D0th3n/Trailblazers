@@ -41,6 +41,7 @@ default exploration_path = []
 default exploration_pending_event = None
 default scene_objective_scene_id = None
 default scene_objective_completed_actions = []
+default tb_inventory = {}
 default turn_battle_state = None
 default turn_battle_encounter_id = None
 default visited_village_exploration = False

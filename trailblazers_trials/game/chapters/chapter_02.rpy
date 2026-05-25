@@ -46,8 +46,18 @@ label chapter_02_room_loop:
     if chapter_02_room_choice == "dresser":
         jump chapter_02_armoring
 
+    if chapter_02_room_choice == "supplies":
+        $ tb_inventory_take_room_supplies()
+        $ scene_objective_complete_action("take_supplies")
+        story "Oren tucked a Health Elixir and a Qana Elixir into his travel pouch."
+        jump chapter_02_room_loop
+
     if chapter_02_room_choice == "meditation":
         call chapter_02_meditation_training
+        jump chapter_02_room_loop
+
+    if chapter_02_room_choice == "team_training":
+        call chapter_02_team_training
         jump chapter_02_room_loop
 
     jump chapter_02_room_loop
@@ -105,8 +115,18 @@ label chapter_02_room_ready_objective:
     if chapter_02_room_choice == "door":
         jump chapter_02_hallway
 
+    if chapter_02_room_choice == "supplies":
+        $ tb_inventory_take_room_supplies()
+        $ scene_objective_complete_action("take_supplies")
+        story "Oren tucked a Health Elixir and a Qana Elixir into his travel pouch."
+        jump chapter_02_room_ready_objective
+
     if chapter_02_room_choice == "meditation":
         call chapter_02_meditation_training
+        jump chapter_02_room_ready_objective
+
+    if chapter_02_room_choice == "team_training":
+        call chapter_02_team_training
         jump chapter_02_room_ready_objective
 
     jump chapter_02_room_ready_objective
@@ -126,6 +146,24 @@ label chapter_02_meditation_training:
     with fade
 
     oren focused "Again later. Not enough to trust, but enough to remember."
+
+    return
+
+
+label chapter_02_team_training:
+
+    scene bg severance dark
+    with fade
+
+    story "Oren let the exercise widen until a second training shape stood at his shoulder."
+    story "Across the dark, the practice dummy split into a pair of opponents."
+
+    call turn_battle("team_dummy")
+
+    scene cg chapter_02_oren_waking
+    with fade
+
+    oren focused "A line fight. That changes the rhythm."
 
     return
 
