@@ -20,12 +20,44 @@ label chapter_02:
     story "The room smelled like candle smoke, cold water, and iron polish. On the chair waited the red cloth Embrum insisted he wear beneath the armor."
     story "Oren looked toward the door. No footsteps yet. No summons. Just the bell, the light, and the promise that waiting would not make him readier."
 
-    jump chapter_02_armoring
+    jump chapter_02_room_objective
+
+
+label chapter_02_room_objective:
+
+    $ scene_objective_begin("chapter_02_room")
+
+    jump chapter_02_room_loop
+
+
+label chapter_02_room_loop:
+
+    scene cg chapter_02_oren_waking
+    with dissolve
+
+    call screen scene_objective_hotspots
+
+    $ chapter_02_room_choice = _return
+
+    if chapter_02_room_choice == "door":
+        oren annoyed "I should get dressed before I leave."
+        jump chapter_02_room_loop
+
+    if chapter_02_room_choice == "dresser":
+        jump chapter_02_armoring
+
+    if chapter_02_room_choice == "meditation":
+        call chapter_02_meditation_training
+        jump chapter_02_room_loop
+
+    jump chapter_02_room_loop
 
 
 label chapter_02_checkpoint_evening:
 
     play music chapter_02_getting_ready fadeout 1.0 fadein 1.0
+
+    $ scene_objective_begin("chapter_02_room")
 
     jump chapter_02_armoring
 
@@ -56,7 +88,46 @@ label chapter_02_armoring:
 
     story "The last clasp snapped shut. Oren flexed his fingers and watched the gauntlet answer as if it had always belonged there."
 
-    jump chapter_02_hallway
+    $ scene_objective_complete_action("get_dressed")
+
+    jump chapter_02_room_ready_objective
+
+
+label chapter_02_room_ready_objective:
+
+    scene cg chapter_02_oren_armoring
+    with dissolve
+
+    call screen scene_objective_hotspots
+
+    $ chapter_02_room_choice = _return
+
+    if chapter_02_room_choice == "door":
+        jump chapter_02_hallway
+
+    if chapter_02_room_choice == "meditation":
+        call chapter_02_meditation_training
+        jump chapter_02_room_ready_objective
+
+    jump chapter_02_room_ready_objective
+
+
+label chapter_02_meditation_training:
+
+    scene bg severance dark
+    with fade
+
+    story "Oren shut his eyes and let the room fall away one sound at a time."
+    story "In the dark behind his thoughts, a rough shape lifted a practice blade and waited."
+
+    call turn_battle("meditation_dummy")
+
+    scene cg chapter_02_oren_waking
+    with fade
+
+    oren focused "Again later. Not enough to trust, but enough to remember."
+
+    return
 
 
 label chapter_02_hallway:
